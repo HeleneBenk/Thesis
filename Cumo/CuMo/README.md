@@ -3,6 +3,10 @@
 This repository presents a **finetuned version of CuMo**, optimized for **household waste classification**.  
 The model is based on the original **CuMo-mistral-7b** architecture from the CuMo paper.
 
+The model was fine-tuned on HPC infrastructure using Slurm.  
+The corresponding Slurm scripts used for training and evaluation can be found at:  
+`Thesis/Cumo/CuMo/scripts/cumo/mistral_7b/`
+
 ---
 
 ## Finetuned Model
