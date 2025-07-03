@@ -1,4 +1,4 @@
-# Masters Thesis – Multimodal Waste Classification with YOLO, ViLT, CuMo, and ViT
+# Master Thesis – Waste Classification with YOLO, ViLT, CuMo, and ViT
 
 This repository contains the code, evaluation results and dataset for my Master's Thesis:
 
