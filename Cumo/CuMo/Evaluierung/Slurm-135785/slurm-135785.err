@@ -1,0 +1,252 @@
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+You are using a model of type llava_mistral to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:28,  9.63s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:19<00:19,  9.61s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:30<00:10, 10.23s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:34<00:00,  8.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:34<00:00,  8.75s/it]
+  0%|          | 0/599 [00:00<?, ?it/s]  0%|          | 0/599 [00:10<?, ?it/s]
+Traceback (most recent call last):
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 166, in <module>
+    eval_model(args)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 124, in eval_model
+    output_ids = model.generate(
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/language_model/llava_llama.py", line 118, in generate
+    (
+ValueError: too many values to unpack (expected 6)
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+You are using a model of type llava_mistral to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:06<00:20,  6.80s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:14<00:14,  7.46s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:23<00:08,  8.12s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  6.49s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  6.91s/it]
+  0%|          | 0/599 [00:00<?, ?it/s]  0%|          | 0/599 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 166, in <module>
+    eval_model(args)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 124, in eval_model
+    output_ids = model.generate(
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/language_model/llava_llama.py", line 118, in generate
+    (
+ValueError: too many values to unpack (expected 6)
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+You are using a model of type llava_mistral to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:07<00:21,  7.04s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:14<00:14,  7.14s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:22<00:07,  7.64s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:25<00:00,  5.90s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:25<00:00,  6.43s/it]
+  0%|          | 0/599 [00:00<?, ?it/s]  0%|          | 0/599 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 166, in <module>
+    eval_model(args)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 124, in eval_model
+    output_ids = model.generate(
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/language_model/llava_llama.py", line 118, in generate
+    (
+ValueError: too many values to unpack (expected 6)
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+You are using a model of type llava_mistral to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:08<00:24,  8.32s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:15<00:15,  7.86s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:24<00:07,  8.00s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  6.32s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  6.94s/it]
+  0%|          | 0/599 [00:00<?, ?it/s]  0%|          | 0/599 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 166, in <module>
+    eval_model(args)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 124, in eval_model
+    output_ids = model.generate(
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/language_model/llava_llama.py", line 118, in generate
+    (
+ValueError: too many values to unpack (expected 6)
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+You are using a model of type llava_mistral to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:07<00:23,  7.94s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:15<00:15,  7.89s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:23<00:07,  7.88s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  6.24s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  6.85s/it]
+  0%|          | 0/599 [00:00<?, ?it/s]  0%|          | 0/599 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 166, in <module>
+    eval_model(args)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 124, in eval_model
+    output_ids = model.generate(
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/language_model/llava_llama.py", line 118, in generate
+    (
+ValueError: too many values to unpack (expected 6)
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+You are using a model of type llava_mistral to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:07<00:21,  7.14s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:14<00:14,  7.06s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:21<00:07,  7.36s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:25<00:00,  5.78s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:25<00:00,  6.30s/it]
+  0%|          | 0/599 [00:00<?, ?it/s]  0%|          | 0/599 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 166, in <module>
+    eval_model(args)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 124, in eval_model
+    output_ids = model.generate(
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/language_model/llava_llama.py", line 118, in generate
+    (
+ValueError: too many values to unpack (expected 6)
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 166, in <module>
+    eval_model(args)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 103, in eval_model
+    tokenizer, model, image_processor, context_len = load_pretrained_model(model_path, args.model_base, model_name, args.load_8bit, args.load_4bit, use_flash_attn=args.use_flash_attn)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/builder.py", line 134, in load_pretrained_model
+    tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py", line 758, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py", line 610, in get_tokenizer_config
+    with open(resolved_config_file, encoding="utf-8") as reader:
+FileNotFoundError: [Errno 2] No such file or directory: '/cfs/earth/scratch/benkehel/CuMo/checkpoints/cumo-mistral-7b-sft/V1/checkpoint-1800/tokenizer_config.json'
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+You are using a model of type llava_mistral to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:07<00:21,  7.02s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:14<00:14,  7.39s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:21<00:07,  7.30s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:25<00:00,  5.92s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:25<00:00,  6.42s/it]
+  0%|          | 0/599 [00:00<?, ?it/s]  0%|          | 0/599 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 166, in <module>
+    eval_model(args)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 124, in eval_model
+    output_ids = model.generate(
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/language_model/llava_llama.py", line 118, in generate
+    (
+ValueError: too many values to unpack (expected 6)
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+You are using a model of type llava_mistral to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:07<00:21,  7.30s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:14<00:14,  7.18s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:21<00:07,  7.37s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:25<00:00,  6.01s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:25<00:00,  6.48s/it]
+  0%|          | 0/599 [00:00<?, ?it/s]  0%|          | 0/599 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 166, in <module>
+    eval_model(args)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 124, in eval_model
+    output_ids = model.generate(
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/language_model/llava_llama.py", line 118, in generate
+    (
+ValueError: too many values to unpack (expected 6)
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+You are using a model of type llava_mistral to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:07<00:22,  7.43s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:14<00:14,  7.50s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:23<00:07,  7.88s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  6.24s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  6.76s/it]
+  0%|          | 0/599 [00:00<?, ?it/s]  0%|          | 0/599 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 166, in <module>
+    eval_model(args)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 124, in eval_model
+    output_ids = model.generate(
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/language_model/llava_llama.py", line 118, in generate
+    (
+ValueError: too many values to unpack (expected 6)
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+You are using a model of type llava_mistral to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:07<00:21,  7.15s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:14<00:13,  7.00s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:22<00:07,  7.62s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:25<00:00,  5.87s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:25<00:00,  6.40s/it]
+  0%|          | 0/599 [00:00<?, ?it/s]  0%|          | 0/599 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 166, in <module>
+    eval_model(args)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 124, in eval_model
+    output_ids = model.generate(
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/language_model/llava_llama.py", line 118, in generate
+    (
+ValueError: too many values to unpack (expected 6)
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+You are using a model of type llava_mistral to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:07<00:23,  7.99s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:17<00:18,  9.11s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:28<00:09,  9.71s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:33<00:00,  7.78s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:33<00:00,  8.28s/it]
+  0%|          | 0/599 [00:00<?, ?it/s]  0%|          | 0/599 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 166, in <module>
+    eval_model(args)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 124, in eval_model
+    output_ids = model.generate(
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/language_model/llava_llama.py", line 118, in generate
+    (
+ValueError: too many values to unpack (expected 6)
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+You are using a model of type llava_mistral to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:10<00:30, 10.22s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:19<00:19,  9.68s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:28<00:09,  9.59s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:33<00:00,  7.71s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:33<00:00,  8.46s/it]
+  0%|          | 0/599 [00:00<?, ?it/s]  0%|          | 0/599 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 166, in <module>
+    eval_model(args)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 124, in eval_model
+    output_ids = model.generate(
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/language_model/llava_llama.py", line 118, in generate
+    (
+ValueError: too many values to unpack (expected 6)
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+You are using a model of type llava_mistral to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:27,  9.12s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:18<00:18,  9.43s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:30<00:10, 10.49s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:35<00:00,  8.36s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:35<00:00,  8.90s/it]
+  0%|          | 0/599 [00:00<?, ?it/s]  0%|          | 0/599 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 166, in <module>
+    eval_model(args)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 124, in eval_model
+    output_ids = model.generate(
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/language_model/llava_llama.py", line 118, in generate
+    (
+ValueError: too many values to unpack (expected 6)
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+You are using a model of type llava_mistral to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:10<00:31, 10.49s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:20<00:20, 10.39s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:32<00:10, 10.92s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:38<00:00,  8.88s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:38<00:00,  9.53s/it]
+  0%|          | 0/599 [00:00<?, ?it/s]  0%|          | 0/599 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 166, in <module>
+    eval_model(args)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/eval/model_vqa_loader.py", line 124, in eval_model
+    output_ids = model.generate(
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoEval/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/language_model/llava_llama.py", line 118, in generate
+    (
+ValueError: too many values to unpack (expected 6)

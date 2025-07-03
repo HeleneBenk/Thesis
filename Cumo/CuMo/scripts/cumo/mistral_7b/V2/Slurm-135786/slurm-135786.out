@@ -1,0 +1,433 @@
+[2025-06-22 10:24:11,374] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-06-22 10:24:51,239] [WARNING] [runner.py:202:fetch_hostfile] Unable to find hostfile, will proceed with training with local resources only.
+Detected CUDA_VISIBLE_DEVICES=0: setting --include=localhost:0
+[2025-06-22 10:24:51,264] [INFO] [runner.py:568:main] cmd = /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/bin/python3.9 -u -m deepspeed.launcher.launch --world_info=eyJsb2NhbGhvc3QiOiBbMF19 --master_addr=127.0.0.1 --master_port=29500 --enable_each_rank_log=None /cfs/earth/scratch/benkehel/CuMo/cumo/train/train_mem.py --deepspeed /cfs/earth/scratch/benkehel/CuMo/scripts/zero3_offload.json --model_name_or_path /cfs/earth/scratch/benkehel/CuMo/checkpoints/CuMo-mistral-7b --version mistral_instruct_system --data_path /cfs/earth/scratch/benkehel/CuMo/data/jsons/trainV2.json --image_folder /cfs/earth/scratch/benkehel/CuMo/data/Fertignummeriert --vision_tower openai/clip-vit-large-patch14-336 --vision_tower_dir /cfs/earth/scratch/benkehel/CuMo/checkpoints/CuMo-mistral-7b/clip.bin --scales 1,3 --pretrain_mm_mlp_adapter /cfs/earth/scratch/benkehel/CuMo/checkpoints/CuMo-mistral-7b/mm_projector.bin --mm_projector_type smoe_mlp --mlp_smoe True --clip_smoe True --num_experts 4 --num_selected 2 --balance_loss_coef 0.1 --router_z_loss_coef 0.01 --mm_vision_select_layer -2 --mm_use_im_start_end False --mm_use_im_patch_token False --image_aspect_ratio pad --group_by_modality_length True --lr_scheduler_type cosine --bf16 True --fp16 False --output_dir /cfs/earth/scratch/benkehel/CuMo/checkpoints/cumo-mistral-7b-sft --num_train_epochs 2 --per_device_train_batch_size 2 --per_device_eval_batch_size 1 --gradient_accumulation_steps 2 --save_strategy steps --save_steps 100 --save_total_limit 10 --learning_rate 4e-6 --weight_decay 0. --logging_steps 10 --tf32 True --model_max_length 4096 --gradient_checkpointing True --dataloader_num_workers 4 --lazy_preprocess True --report_to none
+[2025-06-22 10:24:54,165] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-06-22 10:24:55,698] [INFO] [launch.py:145:main] WORLD INFO DICT: {'localhost': [0]}
+[2025-06-22 10:24:55,698] [INFO] [launch.py:151:main] nnodes=1, num_local_procs=1, node_rank=0
+[2025-06-22 10:24:55,698] [INFO] [launch.py:162:main] global_rank_mapping=defaultdict(<class 'list'>, {'localhost': [0]})
+[2025-06-22 10:24:55,699] [INFO] [launch.py:163:main] dist_world_size=1
+[2025-06-22 10:24:55,699] [INFO] [launch.py:165:main] Setting CUDA_VISIBLE_DEVICES=0
+[2025-06-22 10:25:00,086] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-06-22 10:25:02,619] [INFO] [comm.py:637:init_distributed] cdb=None
+[2025-06-22 10:25:02,620] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2025-06-22 10:25:13,026] [INFO] [partition_parameters.py:349:__exit__] finished initializing model - num_params = 684, num_elems = 7.57B
+Formatting inputs...Skip in lazy mode
+[2025-06-22 10:25:31,963] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed info: version=0.13.1, git-hash=unknown, git-branch=unknown
+[2025-06-22 10:25:32,002] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Flops Profiler Enabled: False
+[1/4] /cfs/earth/scratch/benkehel/cuda12.1/toolkit/bin/nvcc  -DTORCH_EXTENSION_NAME=cpu_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -I/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/deepspeed/ops/csrc/includes -I/cfs/earth/scratch/benkehel/cuda12.1/toolkit/include -isystem /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/include -isystem /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/include/torch/csrc/api/include -isystem /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/include/TH -isystem /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/include/THC -isystem /cfs/earth/scratch/benkehel/cuda12.1/toolkit/include -isystem /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/include/python3.9 -D_GLIBCXX_USE_CXX11_ABI=0 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -gencode=arch=compute_80,code=compute_80 -gencode=arch=compute_80,code=sm_80 --compiler-options '-fPIC' -O3 --use_fast_math -std=c++17 -U__CUDA_NO_HALF_OPERATORS__ -U__CUDA_NO_HALF_CONVERSIONS__ -U__CUDA_NO_HALF2_OPERATORS__ -gencode=arch=compute_80,code=sm_80 -gencode=arch=compute_80,code=compute_80 -DBF16_AVAILABLE -U__CUDA_NO_BFLOAT16_OPERATORS__ -U__CUDA_NO_BFLOAT162_OPERATORS__ -c /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/deepspeed/ops/csrc/common/custom_cuda_kernel.cu -o custom_cuda_kernel.cuda.o 
+[2/4] c++ -MMD -MF cpu_adam.o.d -DTORCH_EXTENSION_NAME=cpu_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -I/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/deepspeed/ops/csrc/includes -I/cfs/earth/scratch/benkehel/cuda12.1/toolkit/include -isystem /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/include -isystem /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/include/torch/csrc/api/include -isystem /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/include/TH -isystem /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/include/THC -isystem /cfs/earth/scratch/benkehel/cuda12.1/toolkit/include -isystem /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/include/python3.9 -D_GLIBCXX_USE_CXX11_ABI=0 -fPIC -std=c++17 -O3 -std=c++17 -g -Wno-reorder -L/cfs/earth/scratch/benkehel/cuda12.1/toolkit/lib64 -lcudart -lcublas -g -march=native -fopenmp -D__AVX512__ -D__ENABLE_CUDA__ -DBF16_AVAILABLE -c /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/deepspeed/ops/csrc/adam/cpu_adam.cpp -o cpu_adam.o 
+[3/4] c++ -MMD -MF cpu_adam_impl.o.d -DTORCH_EXTENSION_NAME=cpu_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -I/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/deepspeed/ops/csrc/includes -I/cfs/earth/scratch/benkehel/cuda12.1/toolkit/include -isystem /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/include -isystem /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/include/torch/csrc/api/include -isystem /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/include/TH -isystem /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/include/THC -isystem /cfs/earth/scratch/benkehel/cuda12.1/toolkit/include -isystem /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/include/python3.9 -D_GLIBCXX_USE_CXX11_ABI=0 -fPIC -std=c++17 -O3 -std=c++17 -g -Wno-reorder -L/cfs/earth/scratch/benkehel/cuda12.1/toolkit/lib64 -lcudart -lcublas -g -march=native -fopenmp -D__AVX512__ -D__ENABLE_CUDA__ -DBF16_AVAILABLE -c /cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/deepspeed/ops/csrc/adam/cpu_adam_impl.cpp -o cpu_adam_impl.o 
+[4/4] c++ cpu_adam.o cpu_adam_impl.o custom_cuda_kernel.cuda.o -shared -lcurand -L/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/lib -lc10 -lc10_cuda -ltorch_cpu -ltorch_cuda -ltorch -ltorch_python -L/cfs/earth/scratch/benkehel/cuda12.1/toolkit/lib64 -lcudart -o cpu_adam.so
+Time to load cpu_adam op: 87.51193308830261 seconds
+Adam Optimizer #0 is created with AVX512 arithmetic capability.
+Config: alpha=0.000004, betas=(0.900000, 0.999000), weight_decay=0.000000, adam_w=1
+[2025-06-22 10:27:02,690] [INFO] [logging.py:96:log_dist] [Rank 0] Using DeepSpeed Optimizer param name adamw as basic optimizer
+[2025-06-22 10:27:02,690] [INFO] [logging.py:96:log_dist] [Rank 0] Removing param_group that has no 'params' in the basic Optimizer
+[2025-06-22 10:27:02,794] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Basic Optimizer = DeepSpeedCPUAdam
+[2025-06-22 10:27:02,795] [INFO] [utils.py:56:is_zero_supported_optimizer] Checking ZeRO support for optimizer=DeepSpeedCPUAdam type=<class 'deepspeed.ops.adam.cpu_adam.DeepSpeedCPUAdam'>
+[2025-06-22 10:27:02,796] [INFO] [logging.py:96:log_dist] [Rank 0] Creating fp16 ZeRO stage 3 optimizer, MiCS is enabled False, Hierarchical params gather False
+[2025-06-22 10:27:02,796] [INFO] [logging.py:96:log_dist] [Rank 0] Creating torch.bfloat16 ZeRO stage 3 optimizer
+[2025-06-22 10:27:02,877] [INFO] [utils.py:791:see_memory_usage] Stage 3 initialize beginning
+[2025-06-22 10:27:02,880] [INFO] [utils.py:792:see_memory_usage] MA 2.19 GB         Max_MA 2.19 GB         CA 2.32 GB         Max_CA 2 GB 
+[2025-06-22 10:27:02,880] [INFO] [utils.py:799:see_memory_usage] CPU Virtual Memory:  used = 29.56 GB, percent = 5.9%
+[2025-06-22 10:27:02,883] [INFO] [stage3.py:128:__init__] Reduce bucket size 16777216
+[2025-06-22 10:27:02,883] [INFO] [stage3.py:129:__init__] Prefetch bucket size 15099494
+[2025-06-22 10:27:02,950] [INFO] [utils.py:791:see_memory_usage] DeepSpeedZeRoOffload initialize [begin]
+[2025-06-22 10:27:02,952] [INFO] [utils.py:792:see_memory_usage] MA 2.19 GB         Max_MA 2.19 GB         CA 2.32 GB         Max_CA 2 GB 
+[2025-06-22 10:27:02,952] [INFO] [utils.py:799:see_memory_usage] CPU Virtual Memory:  used = 29.56 GB, percent = 5.9%
+Parameter Offload: Total persistent parameters: 1096704 in 485 params
+[2025-06-22 10:27:03,834] [INFO] [utils.py:791:see_memory_usage] DeepSpeedZeRoOffload initialize [end]
+[2025-06-22 10:27:03,836] [INFO] [utils.py:792:see_memory_usage] MA 0.5 GB         Max_MA 2.19 GB         CA 2.32 GB         Max_CA 2 GB 
+[2025-06-22 10:27:03,836] [INFO] [utils.py:799:see_memory_usage] CPU Virtual Memory:  used = 30.86 GB, percent = 6.1%
+[2025-06-22 10:27:03,916] [INFO] [utils.py:791:see_memory_usage] Before creating fp16 partitions
+[2025-06-22 10:27:03,917] [INFO] [utils.py:792:see_memory_usage] MA 0.5 GB         Max_MA 0.5 GB         CA 2.32 GB         Max_CA 2 GB 
+[2025-06-22 10:27:03,918] [INFO] [utils.py:799:see_memory_usage] CPU Virtual Memory:  used = 30.86 GB, percent = 6.1%
+[2025-06-22 10:27:09,785] [INFO] [utils.py:791:see_memory_usage] After creating fp16 partitions: 8
+[2025-06-22 10:27:09,788] [INFO] [utils.py:792:see_memory_usage] MA 0.5 GB         Max_MA 0.5 GB         CA 2.32 GB         Max_CA 2 GB 
+[2025-06-22 10:27:09,788] [INFO] [utils.py:799:see_memory_usage] CPU Virtual Memory:  used = 47.12 GB, percent = 9.4%
+[2025-06-22 10:27:09,868] [INFO] [utils.py:791:see_memory_usage] Before creating fp32 partitions
+[2025-06-22 10:27:09,869] [INFO] [utils.py:792:see_memory_usage] MA 0.5 GB         Max_MA 0.5 GB         CA 2.32 GB         Max_CA 2 GB 
+[2025-06-22 10:27:09,869] [INFO] [utils.py:799:see_memory_usage] CPU Virtual Memory:  used = 47.12 GB, percent = 9.4%
+[2025-06-22 10:27:12,495] [INFO] [utils.py:791:see_memory_usage] After creating fp32 partitions
+[2025-06-22 10:27:12,497] [INFO] [utils.py:792:see_memory_usage] MA 0.5 GB         Max_MA 0.5 GB         CA 2.32 GB         Max_CA 2 GB 
+[2025-06-22 10:27:12,497] [INFO] [utils.py:799:see_memory_usage] CPU Virtual Memory:  used = 77.92 GB, percent = 15.5%
+[2025-06-22 10:27:12,574] [INFO] [utils.py:791:see_memory_usage] Before initializing optimizer states
+[2025-06-22 10:27:12,576] [INFO] [utils.py:792:see_memory_usage] MA 0.5 GB         Max_MA 0.5 GB         CA 2.32 GB         Max_CA 2 GB 
+[2025-06-22 10:27:12,576] [INFO] [utils.py:799:see_memory_usage] CPU Virtual Memory:  used = 77.92 GB, percent = 15.5%
+[2025-06-22 10:27:33,896] [INFO] [utils.py:791:see_memory_usage] After initializing optimizer states
+[2025-06-22 10:27:33,898] [INFO] [utils.py:792:see_memory_usage] MA 0.5 GB         Max_MA 0.5 GB         CA 2.32 GB         Max_CA 2 GB 
+[2025-06-22 10:27:33,898] [INFO] [utils.py:799:see_memory_usage] CPU Virtual Memory:  used = 176.26 GB, percent = 35.0%
+[2025-06-22 10:27:33,899] [INFO] [stage3.py:482:_setup_for_real_optimizer] optimizer state initialized
+[2025-06-22 10:27:41,859] [INFO] [utils.py:791:see_memory_usage] After initializing ZeRO optimizer
+[2025-06-22 10:27:41,861] [INFO] [utils.py:792:see_memory_usage] MA 0.53 GB         Max_MA 1.02 GB         CA 2.32 GB         Max_CA 2 GB 
+[2025-06-22 10:27:41,861] [INFO] [utils.py:799:see_memory_usage] CPU Virtual Memory:  used = 192.59 GB, percent = 38.3%
+[2025-06-22 10:27:41,862] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Final Optimizer = adamw
+[2025-06-22 10:27:41,862] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed using configured LR scheduler = WarmupCosineLR
+[2025-06-22 10:27:41,862] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed LR Scheduler = <deepspeed.runtime.lr_schedules.WarmupCosineLR object at 0x1553f63a1cd0>
+[2025-06-22 10:27:41,862] [INFO] [logging.py:96:log_dist] [Rank 0] step=0, skipped=0, lr=[4e-06], mom=[[0.9, 0.999]]
+[2025-06-22 10:27:41,864] [INFO] [config.py:984:print] DeepSpeedEngine configuration:
+[2025-06-22 10:27:41,865] [INFO] [config.py:988:print]   activation_checkpointing_config  {
+    "partition_activations": false, 
+    "contiguous_memory_optimization": false, 
+    "cpu_checkpointing": false, 
+    "number_checkpoints": null, 
+    "synchronize_checkpoint_boundary": false, 
+    "profile": false
+}
+[2025-06-22 10:27:41,865] [INFO] [config.py:988:print]   aio_config ................... {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 1, 'single_submit': False, 'overlap_events': True}
+[2025-06-22 10:27:41,865] [INFO] [config.py:988:print]   amp_enabled .................. False
+[2025-06-22 10:27:41,865] [INFO] [config.py:988:print]   amp_params ................... False
+[2025-06-22 10:27:41,866] [INFO] [config.py:988:print]   autotuning_config ............ {
+    "enabled": false, 
+    "start_step": null, 
+    "end_step": null, 
+    "metric_path": null, 
+    "arg_mappings": null, 
+    "metric": "throughput", 
+    "model_info": null, 
+    "results_dir": "autotuning_results", 
+    "exps_dir": "autotuning_exps", 
+    "overwrite": true, 
+    "fast": true, 
+    "start_profile_step": 3, 
+    "end_profile_step": 5, 
+    "tuner_type": "gridsearch", 
+    "tuner_early_stopping": 5, 
+    "tuner_num_trials": 50, 
+    "model_info_path": null, 
+    "mp_size": 1, 
+    "max_train_batch_size": null, 
+    "min_train_batch_size": 1, 
+    "max_train_micro_batch_size_per_gpu": 1.024000e+03, 
+    "min_train_micro_batch_size_per_gpu": 1, 
+    "num_tuning_micro_batch_sizes": 3
+}
+[2025-06-22 10:27:41,866] [INFO] [config.py:988:print]   bfloat16_enabled ............. True
+[2025-06-22 10:27:41,866] [INFO] [config.py:988:print]   checkpoint_parallel_write_pipeline  False
+[2025-06-22 10:27:41,866] [INFO] [config.py:988:print]   checkpoint_tag_validation_enabled  True
+[2025-06-22 10:27:41,866] [INFO] [config.py:988:print]   checkpoint_tag_validation_fail  False
+[2025-06-22 10:27:41,866] [INFO] [config.py:988:print]   comms_config ................. <deepspeed.comm.config.DeepSpeedCommsConfig object at 0x1554005cefa0>
+[2025-06-22 10:27:41,867] [INFO] [config.py:988:print]   communication_data_type ...... None
+[2025-06-22 10:27:41,867] [INFO] [config.py:988:print]   compression_config ........... {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': False, 'schedule_offset': 0, 'quantize_groups': 1, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': False, 'quantize_change_ratio': 0.001}, 'different_groups': {}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 1000}, 'different_groups': {}}, 'sparse_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'row_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'head_pruning': {'shared_parameters': {'enabled': False, 'method': 'topk', 'schedule_offset': 1000}, 'different_groups': {}}, 'channel_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'layer_reduction': {'enabled': False}}
+[2025-06-22 10:27:41,867] [INFO] [config.py:988:print]   curriculum_enabled_legacy .... False
+[2025-06-22 10:27:41,867] [INFO] [config.py:988:print]   curriculum_params_legacy ..... False
+[2025-06-22 10:27:41,867] [INFO] [config.py:988:print]   data_efficiency_config ....... {'enabled': False, 'seed': 1234, 'data_sampling': {'enabled': False, 'num_epochs': 1000, 'num_workers': 0, 'curriculum_learning': {'enabled': False}}, 'data_routing': {'enabled': False, 'random_ltd': {'enabled': False, 'layer_token_lr_schedule': {'enabled': False}}}}
+[2025-06-22 10:27:41,867] [INFO] [config.py:988:print]   data_efficiency_enabled ...... False
+[2025-06-22 10:27:41,867] [INFO] [config.py:988:print]   dataloader_drop_last ......... False
+[2025-06-22 10:27:41,868] [INFO] [config.py:988:print]   disable_allgather ............ False
+[2025-06-22 10:27:41,868] [INFO] [config.py:988:print]   dump_state ................... False
+[2025-06-22 10:27:41,868] [INFO] [config.py:988:print]   dynamic_loss_scale_args ...... None
+[2025-06-22 10:27:41,868] [INFO] [config.py:988:print]   eigenvalue_enabled ........... False
+[2025-06-22 10:27:41,868] [INFO] [config.py:988:print]   eigenvalue_gas_boundary_resolution  1
+[2025-06-22 10:27:41,868] [INFO] [config.py:988:print]   eigenvalue_layer_name ........ bert.encoder.layer
+[2025-06-22 10:27:41,869] [INFO] [config.py:988:print]   eigenvalue_layer_num ......... 0
+[2025-06-22 10:27:41,869] [INFO] [config.py:988:print]   eigenvalue_max_iter .......... 100
+[2025-06-22 10:27:41,869] [INFO] [config.py:988:print]   eigenvalue_stability ......... 1e-06
+[2025-06-22 10:27:41,869] [INFO] [config.py:988:print]   eigenvalue_tol ............... 0.01
+[2025-06-22 10:27:41,869] [INFO] [config.py:988:print]   eigenvalue_verbose ........... False
+[2025-06-22 10:27:41,869] [INFO] [config.py:988:print]   elasticity_enabled ........... False
+[2025-06-22 10:27:41,869] [INFO] [config.py:988:print]   flops_profiler_config ........ {
+    "enabled": false, 
+    "recompute_fwd_factor": 0.0, 
+    "profile_step": 1, 
+    "module_depth": -1, 
+    "top_modules": 1, 
+    "detailed": true, 
+    "output_file": null
+}
+[2025-06-22 10:27:41,870] [INFO] [config.py:988:print]   fp16_auto_cast ............... None
+[2025-06-22 10:27:41,870] [INFO] [config.py:988:print]   fp16_enabled ................. False
+[2025-06-22 10:27:41,870] [INFO] [config.py:988:print]   fp16_master_weights_and_gradients  False
+[2025-06-22 10:27:41,870] [INFO] [config.py:988:print]   global_rank .................. 0
+[2025-06-22 10:27:41,870] [INFO] [config.py:988:print]   grad_accum_dtype ............. None
+[2025-06-22 10:27:41,870] [INFO] [config.py:988:print]   gradient_accumulation_steps .. 2
+[2025-06-22 10:27:41,870] [INFO] [config.py:988:print]   gradient_clipping ............ 1.0
+[2025-06-22 10:27:41,871] [INFO] [config.py:988:print]   gradient_predivide_factor .... 1.0
+[2025-06-22 10:27:41,871] [INFO] [config.py:988:print]   graph_harvesting ............. False
+[2025-06-22 10:27:41,871] [INFO] [config.py:988:print]   hybrid_engine ................ enabled=False max_out_tokens=512 inference_tp_size=1 release_inference_cache=False pin_parameters=True tp_gather_partition_size=8
+[2025-06-22 10:27:41,871] [INFO] [config.py:988:print]   initial_dynamic_scale ........ 1
+[2025-06-22 10:27:41,871] [INFO] [config.py:988:print]   load_universal_checkpoint .... False
+[2025-06-22 10:27:41,871] [INFO] [config.py:988:print]   loss_scale ................... 1.0
+[2025-06-22 10:27:41,871] [INFO] [config.py:988:print]   memory_breakdown ............. False
+[2025-06-22 10:27:41,872] [INFO] [config.py:988:print]   mics_hierarchial_params_gather  False
+[2025-06-22 10:27:41,872] [INFO] [config.py:988:print]   mics_shard_size .............. -1
+[2025-06-22 10:27:41,872] [INFO] [config.py:988:print]   monitor_config ............... tensorboard=TensorBoardConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') wandb=WandbConfig(enabled=False, group=None, team=None, project='deepspeed') csv_monitor=CSVConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') enabled=False
+[2025-06-22 10:27:41,872] [INFO] [config.py:988:print]   nebula_config ................ {
+    "enabled": false, 
+    "persistent_storage_path": null, 
+    "persistent_time_interval": 100, 
+    "num_of_version_in_retention": 2, 
+    "enable_nebula_load": true, 
+    "load_path": null
+}
+[2025-06-22 10:27:41,872] [INFO] [config.py:988:print]   optimizer_legacy_fusion ...... False
+[2025-06-22 10:27:41,872] [INFO] [config.py:988:print]   optimizer_name ............... adamw
+[2025-06-22 10:27:41,872] [INFO] [config.py:988:print]   optimizer_params ............. {'lr': 4e-06, 'betas': [0.9, 0.999], 'eps': 1e-08, 'weight_decay': 0.0}
+[2025-06-22 10:27:41,873] [INFO] [config.py:988:print]   pipeline ..................... {'stages': 'auto', 'partition': 'best', 'seed_layers': False, 'activation_checkpoint_interval': 0, 'pipe_partitioned': True, 'grad_partitioned': True}
+[2025-06-22 10:27:41,873] [INFO] [config.py:988:print]   pld_enabled .................. False
+[2025-06-22 10:27:41,873] [INFO] [config.py:988:print]   pld_params ................... False
+[2025-06-22 10:27:41,873] [INFO] [config.py:988:print]   prescale_gradients ........... False
+[2025-06-22 10:27:41,873] [INFO] [config.py:988:print]   scheduler_name ............... WarmupCosineLR
+[2025-06-22 10:27:41,873] [INFO] [config.py:988:print]   scheduler_params ............. {'cos_min_ratio': 0.0, 'warmup_num_steps': 0, 'total_num_steps': 2394}
+[2025-06-22 10:27:41,873] [INFO] [config.py:988:print]   seq_parallel_communication_data_type  torch.float32
+[2025-06-22 10:27:41,874] [INFO] [config.py:988:print]   sparse_attention ............. None
+[2025-06-22 10:27:41,874] [INFO] [config.py:988:print]   sparse_gradients_enabled ..... False
+[2025-06-22 10:27:41,874] [INFO] [config.py:988:print]   steps_per_print .............. inf
+[2025-06-22 10:27:41,874] [INFO] [config.py:988:print]   train_batch_size ............. 4
+[2025-06-22 10:27:41,874] [INFO] [config.py:988:print]   train_micro_batch_size_per_gpu  2
+[2025-06-22 10:27:41,874] [INFO] [config.py:988:print]   use_data_before_expert_parallel_  False
+[2025-06-22 10:27:41,875] [INFO] [config.py:988:print]   use_node_local_storage ....... False
+[2025-06-22 10:27:41,875] [INFO] [config.py:988:print]   wall_clock_breakdown ......... False
+[2025-06-22 10:27:41,875] [INFO] [config.py:988:print]   weight_quantization_config ... None
+[2025-06-22 10:27:41,875] [INFO] [config.py:988:print]   world_size ................... 1
+[2025-06-22 10:27:41,875] [INFO] [config.py:988:print]   zero_allow_untested_optimizer  False
+[2025-06-22 10:27:41,875] [INFO] [config.py:988:print]   zero_config .................. stage=3 contiguous_gradients=True reduce_scatter=True reduce_bucket_size=16777216 use_multi_rank_bucket_allreduce=True allgather_partitions=True allgather_bucket_size=500,000,000 overlap_comm=True load_from_fp32_weights=True elastic_checkpoint=False offload_param=DeepSpeedZeroOffloadParamConfig(device='cpu', nvme_path=None, buffer_count=5, buffer_size=100,000,000, max_in_cpu=1,000,000,000, pin_memory=True) offload_optimizer=DeepSpeedZeroOffloadOptimizerConfig(device='cpu', nvme_path=None, buffer_count=4, pin_memory=True, pipeline=False, pipeline_read=False, pipeline_write=False, fast_init=False, ratio=1.0) sub_group_size=1000000000 cpu_offload_param=None cpu_offload_use_pin_memory=None cpu_offload=None prefetch_bucket_size=15099494 param_persistence_threshold=40960 model_persistence_threshold=sys.maxsize max_live_parameters=1000000000 max_reuse_distance=1000000000 gather_16bit_weights_on_model_save=True stage3_gather_fp16_weights_on_model_save=False ignore_unused_parameters=True legacy_stage1=False round_robin_gradients=False zero_hpz_partition_size=1 zero_quantized_weights=False zero_quantized_nontrainable_weights=False zero_quantized_gradients=False mics_shard_size=-1 mics_hierarchical_params_gather=False memory_efficient_linear=True pipeline_loading_checkpoint=False override_module_apply=True
+[2025-06-22 10:27:41,876] [INFO] [config.py:988:print]   zero_enabled ................. True
+[2025-06-22 10:27:41,876] [INFO] [config.py:988:print]   zero_force_ds_cpu_optimizer .. True
+[2025-06-22 10:27:41,876] [INFO] [config.py:988:print]   zero_optimization_stage ...... 3
+[2025-06-22 10:27:41,876] [INFO] [config.py:974:print_user_config]   json = {
+    "fp16": {
+        "enabled": false, 
+        "loss_scale": 0, 
+        "loss_scale_window": 1000, 
+        "initial_scale_power": 16, 
+        "hysteresis": 2, 
+        "min_loss_scale": 1
+    }, 
+    "bf16": {
+        "enabled": true
+    }, 
+    "optimizer": {
+        "type": "AdamW", 
+        "params": {
+            "lr": 4e-06, 
+            "betas": [0.9, 0.999], 
+            "eps": 1e-08, 
+            "weight_decay": 0.0
+        }
+    }, 
+    "scheduler": {
+        "type": "WarmupCosineLR", 
+        "params": {
+            "cos_min_ratio": 0.0, 
+            "warmup_num_steps": 0, 
+            "total_num_steps": 2.394000e+03
+        }
+    }, 
+    "zero_optimization": {
+        "stage": 3, 
+        "offload_optimizer": {
+            "device": "cpu", 
+            "pin_memory": true
+        }, 
+        "offload_param": {
+            "device": "cpu", 
+            "pin_memory": true
+        }, 
+        "overlap_comm": true, 
+        "contiguous_gradients": true, 
+        "sub_group_size": 1.000000e+09, 
+        "reduce_bucket_size": 1.677722e+07, 
+        "stage3_prefetch_bucket_size": 1.509949e+07, 
+        "stage3_param_persistence_threshold": 4.096000e+04, 
+        "stage3_max_live_parameters": 1.000000e+09, 
+        "stage3_max_reuse_distance": 1.000000e+09, 
+        "gather_16bit_weights_on_model_save": true
+    }, 
+    "gradient_accumulation_steps": 2, 
+    "gradient_clipping": 1.0, 
+    "train_batch_size": 4, 
+    "train_micro_batch_size_per_gpu": 2, 
+    "steps_per_print": inf, 
+    "wall_clock_breakdown": false
+}
+language loss:  4.731293201446533
+mlp balance loss:  0.10250888019800186 mlp router z loss:  0.0159912109375
+clip balance loss:  0.14015917479991913 clip router z loss:  0.03369140625
+language loss:  4.765730857849121
+mlp balance loss:  0.10089655220508575 mlp router z loss:  0.0162353515625
+clip balance loss:  0.1363976150751114 clip router z loss:  0.033203125
+language loss:  0.8330991268157959
+mlp balance loss:  0.1008673831820488 mlp router z loss:  0.0157470703125
+clip balance loss:  0.14523176848888397 clip router z loss:  0.033203125
+language loss:  0.7658983469009399
+mlp balance loss:  0.10131769627332687 mlp router z loss:  0.0159912109375
+clip balance loss:  0.13678677380084991 clip router z loss:  0.03369140625
+language loss:  0.9631217122077942
+mlp balance loss:  0.10106811672449112 mlp router z loss:  0.015625
+clip balance loss:  0.13880234956741333 clip router z loss:  0.031982421875
+language loss:  0.8153033256530762
+mlp balance loss:  0.10219760984182358 mlp router z loss:  0.01708984375
+clip balance loss:  0.13804377615451813 clip router z loss:  0.03271484375
+language loss:  1.2747316360473633
+mlp balance loss:  0.10089688748121262 mlp router z loss:  0.0162353515625
+clip balance loss:  0.13809089362621307 clip router z loss:  0.0322265625
+language loss:  0.8374640941619873
+mlp balance loss:  0.10160861164331436 mlp router z loss:  0.01708984375
+clip balance loss:  0.14386923611164093 clip router z loss:  0.0322265625
+language loss:  0.7987173199653625
+mlp balance loss:  0.1020796075463295 mlp router z loss:  0.015625
+clip balance loss:  0.13431288301944733 clip router z loss:  0.03271484375
+language loss:  0.5576638579368591
+mlp balance loss:  0.10100605338811874 mlp router z loss:  0.01611328125
+clip balance loss:  0.14328700304031372 clip router z loss:  0.03271484375
+language loss:  0.40279147028923035
+mlp balance loss:  0.10040724277496338 mlp router z loss:  0.015380859375
+clip balance loss:  0.13963846862316132 clip router z loss:  0.032958984375
+language loss:  0.38823044300079346
+mlp balance loss:  0.10124173015356064 mlp router z loss:  0.015380859375
+clip balance loss:  0.14014099538326263 clip router z loss:  0.032470703125
+language loss:  0.18563038110733032
+mlp balance loss:  0.10189242660999298 mlp router z loss:  0.015625
+clip balance loss:  0.13608196377754211 clip router z loss:  0.0322265625
+language loss:  0.01635236293077469
+mlp balance loss:  0.103434257209301 mlp router z loss:  0.01544189453125
+clip balance loss:  0.14489999413490295 clip router z loss:  0.032958984375
+language loss:  0.013212181627750397
+mlp balance loss:  0.10187887400388718 mlp router z loss:  0.01544189453125
+clip balance loss:  0.1349245309829712 clip router z loss:  0.031494140625
+language loss:  0.01779646798968315
+mlp balance loss:  0.10160590708255768 mlp router z loss:  0.0157470703125
+clip balance loss:  0.13235367834568024 clip router z loss:  0.031982421875
+language loss:  1.862753987312317
+mlp balance loss:  0.101518414914608 mlp router z loss:  0.016357421875
+clip balance loss:  0.13640855252742767 clip router z loss:  0.031494140625
+language loss:  1.9079720973968506
+mlp balance loss:  0.10051608085632324 mlp router z loss:  0.0152587890625
+clip balance loss:  0.1349402517080307 clip router z loss:  0.03125
+language loss:  2.3607771396636963
+mlp balance loss:  0.10091280937194824 mlp router z loss:  0.01513671875
+clip balance loss:  0.13606300950050354 clip router z loss:  0.0308837890625
+language loss:  1.1879316568374634
+mlp balance loss:  0.10034145414829254 mlp router z loss:  0.0150146484375
+clip balance loss:  0.13813960552215576 clip router z loss:  0.031494140625
+{'loss': 1.5224, 'learning_rate': 3.999889603990968e-06, 'epoch': 0.01}
+language loss:  0.7927030324935913
+mlp balance loss:  0.10167982429265976 mlp router z loss:  0.0152587890625
+clip balance loss:  0.12912386655807495 clip router z loss:  0.0308837890625
+language loss:  0.4629228115081787
+mlp balance loss:  0.10076429694890976 mlp router z loss:  0.0157470703125
+clip balance loss:  0.13625280559062958 clip router z loss:  0.0308837890625
+language loss:  0.5596834421157837
+mlp balance loss:  0.1000874862074852 mlp router z loss:  0.01507568359375
+clip balance loss:  0.13041391968727112 clip router z loss:  0.0306396484375
+language loss:  0.5037676095962524
+mlp balance loss:  0.10147738456726074 mlp router z loss:  0.014892578125
+clip balance loss:  0.13182558119297028 clip router z loss:  0.0306396484375
+language loss:  0.2636617422103882
+mlp balance loss:  0.1003926545381546 mlp router z loss:  0.01458740234375
+clip balance loss:  0.13137446343898773 clip router z loss:  0.030029296875
+language loss:  1.4323488473892212
+mlp balance loss:  0.10040724277496338 mlp router z loss:  0.0147705078125
+clip balance loss:  0.13449358940124512 clip router z loss:  0.0296630859375
+language loss:  0.19589659571647644
+mlp balance loss:  0.1001790389418602 mlp router z loss:  0.01446533203125
+clip balance loss:  0.13033078610897064 clip router z loss:  0.0296630859375
+language loss:  0.39423325657844543
+mlp balance loss:  0.10044725239276886 mlp router z loss:  0.01470947265625
+clip balance loss:  0.12806211411952972 clip router z loss:  0.0296630859375
+language loss:  0.5733620524406433
+mlp balance loss:  0.10087213665246964 mlp router z loss:  0.014404296875
+clip balance loss:  0.12635183334350586 clip router z loss:  0.0294189453125
+language loss:  0.36514338850975037
+mlp balance loss:  0.1015947088599205 mlp router z loss:  0.01507568359375
+clip balance loss:  0.12835143506526947 clip router z loss:  0.0294189453125
+language loss:  0.2396867424249649
+mlp balance loss:  0.10199349373579025 mlp router z loss:  0.01446533203125
+clip balance loss:  0.1271185725927353 clip router z loss:  0.0296630859375
+language loss:  0.12699496746063232
+mlp balance loss:  0.10260925441980362 mlp router z loss:  0.013916015625
+clip balance loss:  0.12427689880132675 clip router z loss:  0.0291748046875
+language loss:  0.45034489035606384
+mlp balance loss:  0.10056593269109726 mlp router z loss:  0.01416015625
+clip balance loss:  0.1272430419921875 clip router z loss:  0.0306396484375
+language loss:  0.19291047751903534
+mlp balance loss:  0.10095858573913574 mlp router z loss:  0.01422119140625
+clip balance loss:  0.1273701936006546 clip router z loss:  0.02880859375
+language loss:  0.061288706958293915
+mlp balance loss:  0.10147129744291306 mlp router z loss:  0.0140380859375
+clip balance loss:  0.12242495268583298 clip router z loss:  0.02880859375
+language loss:  0.17030136287212372
+mlp balance loss:  0.10133735090494156 mlp router z loss:  0.01397705078125
+clip balance loss:  0.12753479182720184 clip router z loss:  0.029052734375
+language loss:  0.07019466161727905
+mlp balance loss:  0.10072699934244156 mlp router z loss:  0.013671875
+clip balance loss:  0.12629380822181702 clip router z loss:  0.02880859375
+language loss:  0.24432314932346344
+mlp balance loss:  0.10023736208677292 mlp router z loss:  0.01361083984375
+clip balance loss:  0.12596742808818817 clip router z loss:  0.028076171875
+language loss:  0.22014303505420685
+mlp balance loss:  0.10152621567249298 mlp router z loss:  0.01348876953125
+clip balance loss:  0.12187697738409042 clip router z loss:  0.0296630859375
+language loss:  0.1560535877943039
+mlp balance loss:  0.1003977581858635 mlp router z loss:  0.013427734375
+clip balance loss:  0.1226559653878212 clip router z loss:  0.028076171875
+{'loss': 0.6467, 'learning_rate': 3.999441141091569e-06, 'epoch': 0.02}
+language loss:  0.3006272614002228
+mlp balance loss:  0.10100877285003662 mlp router z loss:  0.01385498046875
+clip balance loss:  0.12073679268360138 clip router z loss:  0.0289306640625
+language loss:  0.1941407322883606
+mlp balance loss:  0.1007876917719841 mlp router z loss:  0.01318359375
+clip balance loss:  0.12576423585414886 clip router z loss:  0.0274658203125
+language loss:  0.17505939304828644
+mlp balance loss:  0.10154452174901962 mlp router z loss:  0.01361083984375
+clip balance loss:  0.12207558006048203 clip router z loss:  0.02783203125
+language loss:  0.5630051493644714
+mlp balance loss:  0.10137566179037094 mlp router z loss:  0.01397705078125
+clip balance loss:  0.12171938270330429 clip router z loss:  0.0279541015625
+language loss:  0.23284080624580383
+mlp balance loss:  0.10076632350683212 mlp router z loss:  0.01385498046875
+clip balance loss:  0.12064798921346664 clip router z loss:  0.0274658203125
+language loss:  0.0654435083270073
+mlp balance loss:  0.101498082280159 mlp router z loss:  0.013427734375
+clip balance loss:  0.12053986638784409 clip router z loss:  0.0283203125
+language loss:  0.0389532744884491
+mlp balance loss:  0.10144280642271042 mlp router z loss:  0.012939453125
+clip balance loss:  0.11882086098194122 clip router z loss:  0.028564453125
+language loss:  0.26976221799850464
+mlp balance loss:  0.10071378201246262 mlp router z loss:  0.0130615234375
+clip balance loss:  0.12004858255386353 clip router z loss:  0.02685546875
+language loss:  0.15677109360694885
+mlp balance loss:  0.101070836186409 mlp router z loss:  0.01385498046875
+clip balance loss:  0.11680660396814346 clip router z loss:  0.0272216796875
+language loss:  0.5551544427871704
+mlp balance loss:  0.1004045233130455 mlp router z loss:  0.01336669921875
+clip balance loss:  0.11998088657855988 clip router z loss:  0.02685546875
+language loss:  0.03636251762509346
+mlp balance loss:  0.10074090957641602 mlp router z loss:  0.0128173828125
+clip balance loss:  0.11938061565160751 clip router z loss:  0.02685546875
+language loss:  0.016016000881791115
+mlp balance loss:  0.1007029190659523 mlp router z loss:  0.0130615234375
+clip balance loss:  0.11964444071054459 clip router z loss:  0.026611328125
+language loss:  0.1226361021399498
+mlp balance loss:  0.10253296047449112 mlp router z loss:  0.01318359375
+clip balance loss:  0.11783462017774582 clip router z loss:  0.02734375
+language loss:  0.022514455020427704
+mlp balance loss:  0.10198500007390976 mlp router z loss:  0.011962890625
+clip balance loss:  0.1200653687119484 clip router z loss:  0.026611328125
+language loss:  0.2239256203174591
+mlp balance loss:  0.10090027004480362 mlp router z loss:  0.01251220703125
+clip balance loss:  0.11935148388147354 clip router z loss:  0.0255126953125
+language loss:  0.07768359035253525
+mlp balance loss:  0.10138380527496338 mlp router z loss:  0.0123291015625
+clip balance loss:  0.1182115226984024 clip router z loss:  0.0262451171875
+language loss:  0.17628300189971924
+mlp balance loss:  0.10097553580999374 mlp router z loss:  0.0123291015625
+clip balance loss:  0.11656124889850616 clip router z loss:  0.0255126953125
+language loss:  0.18855224549770355
+mlp balance loss:  0.10110507160425186 mlp router z loss:  0.012451171875
+clip balance loss:  0.1157388910651207 clip router z loss:  0.026123046875
+language loss:  0.21792621910572052
+mlp balance loss:  0.10096877068281174 mlp router z loss:  0.011962890625
+clip balance loss:  0.11677998304367065 clip router z loss:  0.025634765625
+language loss:  0.026426995173096657
+mlp balance loss:  0.10126852244138718 mlp router z loss:  0.01171875
+clip balance loss:  0.11869611591100693 clip router z loss:  0.024658203125
+{'loss': 0.4435, 'learning_rate': 3.998647788848383e-06, 'epoch': 0.03}
+language loss:  0.23653683066368103
+mlp balance loss:  0.10313653200864792 mlp router z loss:  0.01177978515625
+clip balance loss:  0.11566629260778427 clip router z loss:  0.025634765625
+language loss:  0.4010095000267029
+mlp balance loss:  0.10118577629327774 mlp router z loss:  0.01171875
+clip balance loss:  0.11674608290195465 clip router z loss:  0.0255126953125

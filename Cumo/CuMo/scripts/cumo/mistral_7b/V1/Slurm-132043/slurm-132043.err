@@ -1,0 +1,479 @@
+/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+PyTorch: setting up devices
+loading configuration file /cfs/earth/scratch/benkehel/CuMo/checkpoints/CuMo-mistral-7b/config.json
+Model config LlavaMistralConfig {
+  "_name_or_path": "mistralai/Mistral-7B-Instruct-v0.2",
+  "architectures": [
+    "LlavaMistralForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "balance_loss_coef": 0.0,
+  "bos_token_id": 1,
+  "clip_smoe": false,
+  "dropout": false,
+  "eos_token_id": 2,
+  "freeze_mm_mlp_adapter": false,
+  "hidden_act": "silu",
+  "hidden_size": 4096,
+  "image_aspect_ratio": "pad",
+  "initializer_range": 0.02,
+  "intermediate_size": 14336,
+  "local_rank": 0,
+  "max_position_embeddings": 32768,
+  "mlp_smoe": false,
+  "mm_hidden_size": 1024,
+  "mm_patch_merge_type": "flat",
+  "mm_projector_lr": null,
+  "mm_projector_type": "mlp2x_gelu",
+  "mm_use_im_patch_token": false,
+  "mm_use_im_start_end": false,
+  "mm_vision_select_feature": "patch",
+  "mm_vision_select_layer": -2,
+  "mm_vision_tower": "openai/clip-vit-large-patch14-336",
+  "model_type": "llava_mistral",
+  "num_attention_heads": 32,
+  "num_experts": 4,
+  "num_hidden_layers": 32,
+  "num_key_value_heads": 8,
+  "num_layers": 3,
+  "num_selected": 2,
+  "rms_norm_eps": 1e-05,
+  "rope_theta": 1000000.0,
+  "router_z_loss_coef": 0.0,
+  "scales": [
+    1,
+    3
+  ],
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "tokenizer_model_max_length": 4096,
+  "tokenizer_padding_side": "right",
+  "torch_dtype": "bfloat16",
+  "training": true,
+  "transformers_version": "4.37.2",
+  "tune_mm_mlp_adapter": false,
+  "use_cache": true,
+  "use_mm_proj": true,
+  "vocab_size": 32000
+}
+
+loading weights file /cfs/earth/scratch/benkehel/CuMo/checkpoints/CuMo-mistral-7b/model.safetensors.index.json
+Instantiating LlavaMistralForCausalLM model under default dtype torch.bfloat16.
+Detected DeepSpeed ZeRO-3: activating zero.init() for this model
+Detected flash_attn version 2.4.2
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+Detected flash_attn version 2.4.2
+Generate config GenerationConfig {
+  "bos_token_id": 1,
+  "eos_token_id": 2
+}
+
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+Detected flash_attn version 2.4.2
+/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14-336/resolve/main/config.json HTTP/1.1" 200 0
+loading configuration file config.json from cache at /cfs/earth/scratch/benkehel/huggingface/models--openai--clip-vit-large-patch14-336/snapshots/ce19dc912ca5cd21c8a653c79e251e808ccabcd1/config.json
+Model config CLIPVisionConfig {
+  "attention_dropout": 0.0,
+  "dropout": 0.0,
+  "hidden_act": "quick_gelu",
+  "hidden_size": 1024,
+  "image_size": 336,
+  "initializer_factor": 1.0,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "layer_norm_eps": 1e-05,
+  "model_type": "clip_vision_model",
+  "num_attention_heads": 16,
+  "num_channels": 3,
+  "num_hidden_layers": 24,
+  "patch_size": 14,
+  "projection_dim": 768,
+  "transformers_version": "4.37.2"
+}
+
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14-336/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+loading configuration file preprocessor_config.json from cache at /cfs/earth/scratch/benkehel/huggingface/models--openai--clip-vit-large-patch14-336/snapshots/ce19dc912ca5cd21c8a653c79e251e808ccabcd1/preprocessor_config.json
+size should be a dictionary on of the following set of keys: ({'height', 'width'}, {'shortest_edge'}, {'shortest_edge', 'longest_edge'}, {'longest_edge'}), got 336. Converted to {'shortest_edge': 336}.
+crop_size should be a dictionary on of the following set of keys: ({'height', 'width'}, {'shortest_edge'}, {'shortest_edge', 'longest_edge'}, {'longest_edge'}), got 336. Converted to {'height': 336, 'width': 336}.
+Image processor CLIPImageProcessor {
+  "crop_size": {
+    "height": 336,
+    "width": 336
+  },
+  "do_center_crop": true,
+  "do_convert_rgb": true,
+  "do_normalize": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "image_mean": [
+    0.48145466,
+    0.4578275,
+    0.40821073
+  ],
+  "image_processor_type": "CLIPImageProcessor",
+  "image_std": [
+    0.26862954,
+    0.26130258,
+    0.27577711
+  ],
+  "resample": 3,
+  "rescale_factor": 0.00392156862745098,
+  "size": {
+    "shortest_edge": 336
+  }
+}
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.21s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.20s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.25s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.25it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.04it/s]
+All model checkpoint weights were used when initializing LlavaMistralForCausalLM.
+
+All the weights of LlavaMistralForCausalLM were initialized from the model checkpoint at /cfs/earth/scratch/benkehel/CuMo/checkpoints/CuMo-mistral-7b.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use LlavaMistralForCausalLM for predictions without further training.
+loading configuration file /cfs/earth/scratch/benkehel/CuMo/checkpoints/CuMo-mistral-7b/generation_config.json
+Generate config GenerationConfig {
+  "bos_token_id": 1,
+  "do_sample": true,
+  "eos_token_id": 2
+}
+
+loading file tokenizer.model
+loading file added_tokens.json
+loading file special_tokens_map.json
+loading file tokenizer_config.json
+loading file tokenizer.json
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14-336/resolve/main/config.json HTTP/1.1" 200 0
+loading configuration file config.json from cache at /cfs/earth/scratch/benkehel/huggingface/models--openai--clip-vit-large-patch14-336/snapshots/ce19dc912ca5cd21c8a653c79e251e808ccabcd1/config.json
+Model config CLIPVisionConfig {
+  "attention_dropout": 0.0,
+  "dropout": 0.0,
+  "hidden_act": "quick_gelu",
+  "hidden_size": 1024,
+  "image_size": 336,
+  "initializer_factor": 1.0,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "layer_norm_eps": 1e-05,
+  "model_type": "clip_vision_model",
+  "num_attention_heads": 16,
+  "num_channels": 3,
+  "num_hidden_layers": 24,
+  "patch_size": 14,
+  "projection_dim": 768,
+  "transformers_version": "4.37.2"
+}
+
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-large-patch14-336/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+loading configuration file preprocessor_config.json from cache at /cfs/earth/scratch/benkehel/huggingface/models--openai--clip-vit-large-patch14-336/snapshots/ce19dc912ca5cd21c8a653c79e251e808ccabcd1/preprocessor_config.json
+size should be a dictionary on of the following set of keys: ({'height', 'width'}, {'shortest_edge'}, {'shortest_edge', 'longest_edge'}, {'longest_edge'}), got 336. Converted to {'shortest_edge': 336}.
+crop_size should be a dictionary on of the following set of keys: ({'height', 'width'}, {'shortest_edge'}, {'shortest_edge', 'longest_edge'}, {'longest_edge'}), got 336. Converted to {'height': 336, 'width': 336}.
+Image processor CLIPImageProcessor {
+  "crop_size": {
+    "height": 336,
+    "width": 336
+  },
+  "do_center_crop": true,
+  "do_convert_rgb": true,
+  "do_normalize": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "image_mean": [
+    0.48145466,
+    0.4578275,
+    0.40821073
+  ],
+  "image_processor_type": "CLIPImageProcessor",
+  "image_std": [
+    0.26862954,
+    0.26130258,
+    0.27577711
+  ],
+  "resample": 3,
+  "rescale_factor": 0.00392156862745098,
+  "size": {
+    "shortest_edge": 336
+  }
+}
+
+/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+Using auto half precision backend
+Currently training with a batch size of: 4
+/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/utils/cpp_extension.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined]
+Using /cfs/earth/scratch/benkehel/torch_extensions as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /cfs/earth/scratch/benkehel/torch_extensions/cpu_adam/build.ninja...
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+Loading extension module cpu_adam...
+***** Running training *****
+  Num examples = 22
+  Num Epochs = 2
+  Instantaneous batch size per device = 4
+  Total train batch size (w. parallel, distributed & accumulation) = 8
+  Gradient Accumulation steps = 2
+  Total optimization steps = 6
+  Number of trainable parameters = 8,250,388,480
+  0%|          | 0/6 [00:00<?, ?it/s]Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Detected PIL version 11.2.1
+Traceback (most recent call last):
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/train/train_mem.py", line 4, in <module>
+    train(attn_implementation="flash_attention_2")
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/train/train.py", line 1067, in train
+    trainer.train()
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/transformers/trainer.py", line 1869, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/transformers/trainer.py", line 2772, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/transformers/trainer.py", line 2795, in compute_loss
+    outputs = model(**inputs)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 1842, in forward
+    loss = self.module(*inputs, **kwargs)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1568, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/language_model/llava_mistral.py", line 87, in forward
+    ) = self.prepare_inputs_labels_for_multimodal(
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/llava_arch.py", line 215, in prepare_inputs_labels_for_multimodal
+    image_features, clip_balanced_loss, clip_router_z_loss = self.get_model().get_vision_tower()(images)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1568, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/multimodal_encoder/clip_encoder.py", line 105, in forward
+    out_x, balance_loss, router_z_loss = self.vision_model(x)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1568, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/multimodal_encoder/clip_smoe.py", line 237, in forward
+    encoder_outputs, balance_losses, router_z_losses = self.encoder(hidden_states)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1568, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/multimodal_encoder/clip_smoe.py", line 180, in forward
+    layer_outputs = encoder_layer(hidden_states)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1568, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/multimodal_encoder/clip_smoe.py", line 129, in forward
+    hidden_states = self.self_attn(hidden_states)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1568, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/cfs/earth/scratch/benkehel/CuMo/cumo/model/multimodal_encoder/clip_smoe.py", line 76, in forward
+    attn_weights = nn.functional.softmax(attn_weights, dim=-1)
+  File "/cfs/earth/scratch/benkehel/.conda/envs/cumoTorch21clone/lib/python3.9/site-packages/torch/nn/functional.py", line 1856, in softmax
+    ret = input.softmax(dim)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 366.00 MiB. GPU 0 has a total capacty of 39.39 GiB of which 226.38 MiB is free. Including non-PyTorch memory, this process has 39.00 GiB memory in use. Of the allocated memory 38.30 GiB is allocated by PyTorch, and 35.07 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+DEBUG:filelock:Attempting to acquire lock 23452690017248 on /cfs/earth/scratch/benkehel/.triton_cache/Fp16Matmul_2d_kernel.pickle.lock
+DEBUG:filelock:Lock 23452690017248 acquired on /cfs/earth/scratch/benkehel/.triton_cache/Fp16Matmul_2d_kernel.pickle.lock
+DEBUG:filelock:Attempting to release lock 23452690017248 on /cfs/earth/scratch/benkehel/.triton_cache/Fp16Matmul_2d_kernel.pickle.lock
+DEBUG:filelock:Lock 23452690017248 released on /cfs/earth/scratch/benkehel/.triton_cache/Fp16Matmul_2d_kernel.pickle.lock
+DEBUG:filelock:Attempting to acquire lock 23452690017152 on /cfs/earth/scratch/benkehel/.triton_cache/Fp16Matmul_4d_kernel.pickle.lock
+DEBUG:filelock:Lock 23452690017152 acquired on /cfs/earth/scratch/benkehel/.triton_cache/Fp16Matmul_4d_kernel.pickle.lock
+DEBUG:filelock:Attempting to release lock 23452690017152 on /cfs/earth/scratch/benkehel/.triton_cache/Fp16Matmul_4d_kernel.pickle.lock
+DEBUG:filelock:Lock 23452690017152 released on /cfs/earth/scratch/benkehel/.triton_cache/Fp16Matmul_4d_kernel.pickle.lock
+  0%|          | 0/6 [00:14<?, ?it/s]
