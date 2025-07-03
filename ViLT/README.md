@@ -1,9 +1,22 @@
 # ViLT Models
 
-This directory contains the three ViLT model versions developed and evaluated as part of the master thesis.  
-Each folder corresponds to a specific ViLT variant and includes:
+This directory contains the full workflow related to ViLT models developed for the masters thesis, including data, model training, evaluation, and inference.
 
-- The two best model checkpoints (`.pt`)
-- The evaluation output on the Evaldataset as CSV file with predicted and true labels
-- The evaluation metrics of the two best models in plain text (`.txt`), including F1-score, Hamming Loss, and confusion matrix
-- The training code used for training
+## Contents
+
+- **V1/**, **V2/**, **V3/**  
+  Each folder contains a different version of the ViLT model.  
+  Each version includes:
+  - Two best model checkpoints (`.pt`)
+  - Evaluation output for the two best models as `.csv`
+  - Evaluation metrics as `.txt`
+  - Training code
+
+- **Data/**  
+  Pictures and jsons/csvs used for training and eval.
+
+- **Scrum Input HPC/**  
+  Prepared SLURM and training scripts used for high-performance computing environments.
+
+- **InferenceOnEvalsetViLT.py**  
+  Script to run inference on the evaluation set using the trained ViLT models.
