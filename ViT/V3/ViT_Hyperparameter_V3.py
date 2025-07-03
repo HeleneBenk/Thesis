@@ -20,7 +20,7 @@ import csv
 
 
 
-IMAGE_DIR = "/cfs/earth/scratch/benkehel/ViLT/Data/Fertignummeriert"
+IMAGE_DIR = "/cfs/earth/scratch/benkehel/ViLT/Data/Pictures"
 TRAIN_JSON = "/cfs/earth/scratch/benkehel/ViLT/Data/trainV3_ViLT.json"
 VAL_JSON = "/cfs/earth/scratch/benkehel/ViLT/Data/valV3_ViLT.json"
 LOG_DIR = "/cfs/earth/scratch/benkehel/ViT/V3/optuna_logsV3"
