@@ -10,10 +10,10 @@ from sklearn.preprocessing import MultiLabelBinarizer
 import csv
 
 
-MODEL_PATH = r"C:/Users/Helene/Desktop/Uni/Masterarbeit/ViT/Version 2/trial_9_model.pth"
-CSV_PATH = r"C:\Users\Helene\Desktop\Uni\Masterarbeit\Dataset\Label\Version 2\evalV2.csv"
-IMAGE_DIR = r"C:\Users\Helene\Desktop\Uni\Masterarbeit\Dataset\Gesplitteter Datensatz"
-OUTPUT_CSV = r"C:\Users\Helene\Desktop\Uni\Masterarbeit\ViT\Version 2\EvalOutput_trial9.csv"
+MODEL_PATH = "ViT/V1/trial_1_model.pth"
+CSV_PATH = "ViT/Data/evalV2.csv"
+IMAGE_DIR = "ViT/Data/Pictures"
+OUTPUT_CSV = "ViT/Output/EvalOutput_trial1.csv"
 THRESHOLD = 0.429194029
  
 
