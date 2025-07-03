@@ -16,7 +16,6 @@ module load gcc/9.4.0-pe5.34
 module load miniconda3/4.12.0
 module load lsfm-init-miniconda/1.0.0
 module load cuda/11.6.2
-module load USS/2022
 conda activate myenv
 
 python /cfs/earth/scratch/benkehel/ViLT/V1/ViLT_V1_Train.py
