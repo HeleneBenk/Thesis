@@ -8,10 +8,10 @@ from transformers import ViltProcessor, ViltModel
 import csv
 
 
-MODEL_PATH = r"C:/Users/Helene/Desktop/Uni/Masterarbeit/ViT/Version 2/trial_1_model.pth"
-CSV_PATH = r"C:\Users\Helene\Desktop\Uni\Masterarbeit\Dataset\Label\Version 2\evalV2.csv"
-IMAGE_DIR = r"C:\Users\Helene\Desktop\Uni\Masterarbeit\Dataset\Pictures"
-OUTPUT_CSV = r"C:\Users\Helene\Desktop\Uni\Masterarbeit\ViT\Version 2\EvalOutput_trial1.csv"
+MODEL_PATH = "ViLT/V1/trial_1_model.pth"
+CSV_PATH = "ViLT/Data/evalV2.csv"
+IMAGE_DIR = "ViLT/Data/Pictures"
+OUTPUT_CSV = "ViLT/Output/EvalOutput_trial1.csv"
 THRESHOLD = 0.429194029
 
 
