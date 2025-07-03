@@ -1,0 +1,286 @@
+--- Trial 20 ---
+Hamming Loss: 0.013846153846153847
+
+Classification Report:
+
+                              precision    recall  f1-score   support
+
+                   aluminium       0.81      0.89      0.85        75
+    battery collection point       1.00      0.39      0.57        38
+                    blue bin       0.90      0.95      0.92       168
+                 brown glass       0.97      1.00      0.99        38
+brown glass collection point       0.97      1.00      0.99        38
+                   cardboard       0.88      0.99      0.93        81
+        cardboard collection       0.88      0.99      0.93        81
+            composite carton       0.61      0.50      0.55        38
+     general household waste       1.00      1.00      1.00        38
+                 green glass       1.00      0.97      0.99        38
+green glass collection point       1.00      0.97      0.99        38
+             hazardous waste       1.00      0.42      0.59        38
+                       metal       0.97      0.97      0.97        93
+               organic waste       1.00      1.00      1.00        50
+           organic waste bin       1.00      1.00      1.00        50
+                       paper       0.93      0.99      0.96        84
+            paper collection       0.93      0.99      0.96        84
+                         pet       0.98      1.00      0.99        43
+        pet collection point       0.98      1.00      0.99        43
+                     plastic       0.86      0.86      0.86        98
+              residual waste       1.00      1.00      1.00        38
+     rigid plastic container       1.00      0.79      0.88        38
+                 white glass       0.96      1.00      0.98        77
+white glass collection point       0.96      1.00      0.98        77
+                  yellow bin       0.88      0.87      0.88       174
+
+                   micro avg       0.92      0.92      0.92      1658
+                   macro avg       0.94      0.90      0.91      1658
+                weighted avg       0.93      0.92      0.92      1658
+                 samples avg       0.92      0.92      0.92      1658
+
+[[[663  16]
+  [  8  67]]
+
+ [[716   0]
+  [ 23  15]]
+
+ [[568  18]
+  [  9 159]]
+
+ [[715   1]
+  [  0  38]]
+
+ [[715   1]
+  [  0  38]]
+
+ [[662  11]
+  [  1  80]]
+
+ [[662  11]
+  [  1  80]]
+
+ [[704  12]
+  [ 19  19]]
+
+ [[716   0]
+  [  0  38]]
+
+ [[716   0]
+  [  1  37]]
+
+ [[716   0]
+  [  1  37]]
+
+ [[716   0]
+  [ 22  16]]
+
+ [[658   3]
+  [  3  90]]
+
+ [[704   0]
+  [  0  50]]
+
+ [[704   0]
+  [  0  50]]
+
+ [[664   6]
+  [  1  83]]
+
+ [[664   6]
+  [  1  83]]
+
+ [[710   1]
+  [  0  43]]
+
+ [[710   1]
+  [  0  43]]
+
+ [[642  14]
+  [ 14  84]]
+
+ [[716   0]
+  [  0  38]]
+
+ [[716   0]
+  [  8  30]]
+
+ [[674   3]
+  [  0  77]]
+
+ [[674   3]
+  [  0  77]]
+
+ [[560  20]
+  [ 22 152]]]
+
+Missed Predictions incl. NaNs:
+                       Label  Missed Predictions (False Negatives) (incl. NaNs):  NaNs
+    battery collection point                                                  23     2
+                  yellow bin                                                  22     4
+             hazardous waste                                                  22     2
+            composite carton                                                  19     2
+                     plastic                                                  14     0
+                    blue bin                                                   9     0
+     rigid plastic container                                                   8     2
+                   aluminium                                                   8     0
+                       metal                                                   3     0
+                   cardboard                                                   1     0
+                 green glass                                                   1     0
+                       paper                                                   1     0
+            paper collection                                                   1     0
+        cardboard collection                                                   1     0
+green glass collection point                                                   1     0
+               organic waste                                                   0     0
+           organic waste bin                                                   0     0
+                         pet                                                   0     0
+        pet collection point                                                   0     0
+brown glass collection point                                                   0     0
+              residual waste                                                   0     0
+                 brown glass                                                   0     0
+                 white glass                                                   0     0
+white glass collection point                                                   0     0
+     general household waste                                                   0     0
+
+Total NaNs (pred == []): 6
+
+
+--- Trial 3 ---
+Hamming Loss: 0.012891246684350132
+
+Classification Report:
+
+                              precision    recall  f1-score   support
+
+                   aluminium       0.90      0.92      0.91        75
+    battery collection point       0.94      0.42      0.58        38
+                    blue bin       0.90      0.96      0.93       168
+                 brown glass       1.00      0.97      0.99        38
+brown glass collection point       1.00      0.97      0.99        38
+                   cardboard       0.88      0.96      0.92        81
+        cardboard collection       0.88      0.96      0.92        81
+            composite carton       0.79      0.50      0.61        38
+     general household waste       1.00      0.97      0.99        38
+                 green glass       1.00      0.97      0.99        38
+green glass collection point       1.00      0.97      0.99        38
+             hazardous waste       0.94      0.42      0.58        38
+                       metal       0.95      0.97      0.96        93
+               organic waste       1.00      1.00      1.00        50
+           organic waste bin       1.00      1.00      1.00        50
+                       paper       0.98      0.99      0.98        84
+            paper collection       0.98      0.99      0.98        84
+                         pet       0.98      0.95      0.96        43
+        pet collection point       0.98      0.95      0.96        43
+                     plastic       0.92      0.93      0.92        98
+              residual waste       1.00      0.97      0.99        38
+     rigid plastic container       0.94      0.79      0.86        38
+                 white glass       0.96      0.97      0.97        77
+white glass collection point       0.96      0.97      0.97        77
+                  yellow bin       0.86      0.87      0.87       174
+
+                   micro avg       0.94      0.92      0.93      1658
+                   macro avg       0.95      0.90      0.91      1658
+                weighted avg       0.94      0.92      0.92      1658
+                 samples avg       0.92      0.91      0.91      1658
+
+[[[671   8]
+  [  6  69]]
+
+ [[715   1]
+  [ 22  16]]
+
+ [[569  17]
+  [  7 161]]
+
+ [[716   0]
+  [  1  37]]
+
+ [[716   0]
+  [  1  37]]
+
+ [[662  11]
+  [  3  78]]
+
+ [[662  11]
+  [  3  78]]
+
+ [[711   5]
+  [ 19  19]]
+
+ [[716   0]
+  [  1  37]]
+
+ [[716   0]
+  [  1  37]]
+
+ [[716   0]
+  [  1  37]]
+
+ [[715   1]
+  [ 22  16]]
+
+ [[656   5]
+  [  3  90]]
+
+ [[704   0]
+  [  0  50]]
+
+ [[704   0]
+  [  0  50]]
+
+ [[668   2]
+  [  1  83]]
+
+ [[668   2]
+  [  1  83]]
+
+ [[710   1]
+  [  2  41]]
+
+ [[710   1]
+  [  2  41]]
+
+ [[648   8]
+  [  7  91]]
+
+ [[716   0]
+  [  1  37]]
+
+ [[714   2]
+  [  8  30]]
+
+ [[674   3]
+  [  2  75]]
+
+ [[674   3]
+  [  2  75]]
+
+ [[556  24]
+  [ 22 152]]]
+
+Missed Predictions incl. NaNs:
+                       Label  Missed Predictions (False Negatives) (incl. NaNs):  NaNs
+                  yellow bin                                                  22     5
+    battery collection point                                                  22     4
+             hazardous waste                                                  22     4
+            composite carton                                                  19     4
+     rigid plastic container                                                   8     1
+                    blue bin                                                   7     1
+                     plastic                                                   7     0
+                   aluminium                                                   6     0
+                       metal                                                   3     1
+        cardboard collection                                                   3     2
+                   cardboard                                                   3     2
+        pet collection point                                                   2     0
+white glass collection point                                                   2     1
+                 white glass                                                   2     1
+                         pet                                                   2     0
+                 brown glass                                                   1     1
+              residual waste                                                   1     1
+brown glass collection point                                                   1     1
+     general household waste                                                   1     1
+                 green glass                                                   1     0
+                       paper                                                   1     0
+green glass collection point                                                   1     0
+            paper collection                                                   1     0
+           organic waste bin                                                   0     0
+               organic waste                                                   0     0
+
+Total NaNs (pred == []): 14

@@ -1,0 +1,927 @@
+Ultralytics 8.3.159 🚀 Python-3.10.18 torch-2.7.1+cu126 CPU (Intel Xeon Gold 6142 2.60GHz)
+Model summary (fused): 92 layers, 25,847,866 parameters, 0 gradients, 78.7 GFLOPs
+
+image 1/898 /cfs/earth/scratch/benkehel/YOLO/test/0002.jpg: 640x640 1 Aluminium, 1 Plastic, 252.7ms
+image 2/898 /cfs/earth/scratch/benkehel/YOLO/test/0007.jpg: 640x640 1 Aluminium, 1 Plastic, 140.0ms
+image 3/898 /cfs/earth/scratch/benkehel/YOLO/test/0016.jpg: 640x640 1 Residual waste, 144.1ms
+image 4/898 /cfs/earth/scratch/benkehel/YOLO/test/0021.jpg: 640x640 2 Plastics, 134.4ms
+image 5/898 /cfs/earth/scratch/benkehel/YOLO/test/0035.jpg: 640x640 1 Cardboard, 155.7ms
+image 6/898 /cfs/earth/scratch/benkehel/YOLO/test/0042.jpg: 640x640 1 Aluminium, 2 Plastics, 144.0ms
+image 7/898 /cfs/earth/scratch/benkehel/YOLO/test/0045.jpg: 640x640 1 Aluminium, 1 Plastic, 160.4ms
+image 8/898 /cfs/earth/scratch/benkehel/YOLO/test/0047.jpg: 640x640 1 Cardboard, 134.9ms
+image 9/898 /cfs/earth/scratch/benkehel/YOLO/test/0050.jpg: 640x640 1 Aluminium, 1 Plastic, 139.2ms
+image 10/898 /cfs/earth/scratch/benkehel/YOLO/test/0052.jpg: 640x640 3 Aluminiums, 1 Plastic, 126.8ms
+image 11/898 /cfs/earth/scratch/benkehel/YOLO/test/0054.jpg: 640x640 1 Aluminium, 1 Plastic, 157.3ms
+image 12/898 /cfs/earth/scratch/benkehel/YOLO/test/0059.jpg: 640x640 4 Aluminiums, 1 Cardboard, 3 Plastics, 158.3ms
+image 13/898 /cfs/earth/scratch/benkehel/YOLO/test/0063.jpg: 640x640 1 Composite Carton, 134.9ms
+image 14/898 /cfs/earth/scratch/benkehel/YOLO/test/0070.jpg: 640x640 1 Cardboard, 129.7ms
+image 15/898 /cfs/earth/scratch/benkehel/YOLO/test/0074.jpg: 640x640 1 Cardboard, 132.2ms
+image 16/898 /cfs/earth/scratch/benkehel/YOLO/test/0081.jpg: 640x640 1 Aluminium, 1 Plastic, 132.8ms
+image 17/898 /cfs/earth/scratch/benkehel/YOLO/test/0085.jpg: 640x640 2 Aluminiums, 1 Plastic, 131.0ms
+image 18/898 /cfs/earth/scratch/benkehel/YOLO/test/0088.jpg: 640x640 2 Aluminiums, 144.7ms
+image 19/898 /cfs/earth/scratch/benkehel/YOLO/test/0094.jpg: 640x640 1 Aluminium, 1 Plastic, 136.3ms
+image 20/898 /cfs/earth/scratch/benkehel/YOLO/test/0104.jpg: 640x640 2 Aluminiums, 1 Plastic, 130.7ms
+image 21/898 /cfs/earth/scratch/benkehel/YOLO/test/0107.jpg: 640x640 1 Aluminium, 1 Plastic, 137.9ms
+image 22/898 /cfs/earth/scratch/benkehel/YOLO/test/0126.jpg: 640x640 1 Cardboard, 132.3ms
+image 23/898 /cfs/earth/scratch/benkehel/YOLO/test/0129.jpg: 640x640 1 Cardboard, 141.8ms
+image 24/898 /cfs/earth/scratch/benkehel/YOLO/test/0130.jpg: 640x640 1 Cardboard, 132.6ms
+image 25/898 /cfs/earth/scratch/benkehel/YOLO/test/0131.jpg: 640x640 1 Cardboard, 129.1ms
+image 26/898 /cfs/earth/scratch/benkehel/YOLO/test/0138.jpg: 640x640 1 Cardboard, 129.7ms
+image 27/898 /cfs/earth/scratch/benkehel/YOLO/test/0142.jpg: 640x640 1 Cardboard, 130.7ms
+image 28/898 /cfs/earth/scratch/benkehel/YOLO/test/0146.jpg: 640x640 1 Plastic, 130.6ms
+image 29/898 /cfs/earth/scratch/benkehel/YOLO/test/0149.jpg: 640x640 1 Cardboard, 126.5ms
+image 30/898 /cfs/earth/scratch/benkehel/YOLO/test/0150.jpg: 640x640 2 Aluminiums, 1 Plastic, 125.7ms
+image 31/898 /cfs/earth/scratch/benkehel/YOLO/test/0154.jpg: 640x640 1 Cardboard, 132.7ms
+image 32/898 /cfs/earth/scratch/benkehel/YOLO/test/0165.jpg: 640x640 1 Cardboard, 129.7ms
+image 33/898 /cfs/earth/scratch/benkehel/YOLO/test/0167.jpg: 640x640 1 Plastic, 132.7ms
+image 34/898 /cfs/earth/scratch/benkehel/YOLO/test/0187.jpg: 640x640 1 Aluminium, 1 Plastic, 129.4ms
+image 35/898 /cfs/earth/scratch/benkehel/YOLO/test/0200.jpg: 640x640 1 Cardboard, 132.6ms
+image 36/898 /cfs/earth/scratch/benkehel/YOLO/test/0201.jpg: 640x640 1 Aluminium, 2 Plastics, 129.9ms
+image 37/898 /cfs/earth/scratch/benkehel/YOLO/test/0202.jpg: 640x640 1 Residual waste, 131.7ms
+image 38/898 /cfs/earth/scratch/benkehel/YOLO/test/0213.jpg: 640x640 2 Aluminiums, 1 Plastic, 134.3ms
+image 39/898 /cfs/earth/scratch/benkehel/YOLO/test/0223.jpg: 640x640 1 Aluminium, 1 Plastic, 127.9ms
+image 40/898 /cfs/earth/scratch/benkehel/YOLO/test/0228.jpg: 640x640 1 Aluminium, 2 Plastics, 130.9ms
+image 41/898 /cfs/earth/scratch/benkehel/YOLO/test/0230.jpg: 640x640 1 Aluminium, 1 Plastic, 131.5ms
+image 42/898 /cfs/earth/scratch/benkehel/YOLO/test/0241.jpg: 640x640 2 Aluminiums, 1 Paper, 1 Plastic, 131.2ms
+image 43/898 /cfs/earth/scratch/benkehel/YOLO/test/0246.jpg: 640x640 1 Cardboard, 1 Plastic, 131.5ms
+image 44/898 /cfs/earth/scratch/benkehel/YOLO/test/0248.jpg: 640x640 1 Cardboard, 129.9ms
+image 45/898 /cfs/earth/scratch/benkehel/YOLO/test/0265.jpg: 640x640 1 Aluminium, 1 Plastic, 1 Hazardous Waste, 129.3ms
+image 46/898 /cfs/earth/scratch/benkehel/YOLO/test/0271.jpg: 640x640 2 Aluminiums, 1 Plastic, 130.1ms
+image 47/898 /cfs/earth/scratch/benkehel/YOLO/test/0279.jpg: 640x640 1 Aluminium, 1 Plastic, 125.5ms
+image 48/898 /cfs/earth/scratch/benkehel/YOLO/test/0281.jpg: 640x640 1 Green Glass, 1 Aluminium, 1 Plastic, 131.2ms
+image 49/898 /cfs/earth/scratch/benkehel/YOLO/test/0284.jpg: 640x640 2 Cardboards, 132.6ms
+image 50/898 /cfs/earth/scratch/benkehel/YOLO/test/0287.jpg: 640x640 2 Plastics, 145.4ms
+image 51/898 /cfs/earth/scratch/benkehel/YOLO/test/0288.jpg: 640x640 2 Plastics, 137.0ms
+image 52/898 /cfs/earth/scratch/benkehel/YOLO/test/0298.jpg: 640x640 1 Aluminium, 1 Plastic, 131.1ms
+image 53/898 /cfs/earth/scratch/benkehel/YOLO/test/0299.jpg: 640x640 1 Aluminium, 1 Plastic, 137.0ms
+image 54/898 /cfs/earth/scratch/benkehel/YOLO/test/0301.jpg: 640x640 1 Aluminium, 1 Plastic, 134.2ms
+image 55/898 /cfs/earth/scratch/benkehel/YOLO/test/0305.jpg: 640x640 1 Aluminium, 1 Plastic, 127.9ms
+image 56/898 /cfs/earth/scratch/benkehel/YOLO/test/0306.jpg: 640x640 2 Aluminiums, 1 Plastic, 128.7ms
+image 57/898 /cfs/earth/scratch/benkehel/YOLO/test/0314.jpg: 640x640 1 Cardboard, 132.5ms
+image 58/898 /cfs/earth/scratch/benkehel/YOLO/test/0319.jpg: 640x640 1 Cardboard, 130.8ms
+image 59/898 /cfs/earth/scratch/benkehel/YOLO/test/0323.jpg: 640x640 2 Cardboards, 129.6ms
+image 60/898 /cfs/earth/scratch/benkehel/YOLO/test/0325.jpg: 640x640 1 Cardboard, 130.9ms
+image 61/898 /cfs/earth/scratch/benkehel/YOLO/test/0327.jpg: 640x640 2 Cardboards, 123.1ms
+image 62/898 /cfs/earth/scratch/benkehel/YOLO/test/0342.jpg: 640x640 1 Cardboard, 1 Paper, 130.0ms
+image 63/898 /cfs/earth/scratch/benkehel/YOLO/test/0343.jpg: 640x640 1 Cardboard, 124.0ms
+image 64/898 /cfs/earth/scratch/benkehel/YOLO/test/0363.jpg: 640x640 1 Cardboard, 129.7ms
+image 65/898 /cfs/earth/scratch/benkehel/YOLO/test/0368.jpg: 640x640 1 Cardboard, 128.7ms
+image 66/898 /cfs/earth/scratch/benkehel/YOLO/test/0371.jpg: 640x640 1 Cardboard, 130.3ms
+image 67/898 /cfs/earth/scratch/benkehel/YOLO/test/0373.jpg: 640x640 1 Cardboard, 127.7ms
+image 68/898 /cfs/earth/scratch/benkehel/YOLO/test/0374.jpg: 640x640 1 Cardboard, 129.0ms
+image 69/898 /cfs/earth/scratch/benkehel/YOLO/test/0382.jpg: 640x640 1 Cardboard, 129.6ms
+image 70/898 /cfs/earth/scratch/benkehel/YOLO/test/0386.jpg: 640x640 1 Cardboard, 131.0ms
+image 71/898 /cfs/earth/scratch/benkehel/YOLO/test/0402.jpg: 640x640 1 Cardboard, 126.9ms
+image 72/898 /cfs/earth/scratch/benkehel/YOLO/test/0407.jpg: 640x640 1 Cardboard, 125.8ms
+image 73/898 /cfs/earth/scratch/benkehel/YOLO/test/0414.jpg: 640x640 1 Cardboard, 133.4ms
+image 74/898 /cfs/earth/scratch/benkehel/YOLO/test/0417.jpg: 640x640 1 Cardboard, 127.9ms
+image 75/898 /cfs/earth/scratch/benkehel/YOLO/test/0418.jpg: 640x640 1 Cardboard, 123.4ms
+image 76/898 /cfs/earth/scratch/benkehel/YOLO/test/0424.jpg: 640x640 1 Cardboard, 129.0ms
+image 77/898 /cfs/earth/scratch/benkehel/YOLO/test/0426.jpg: 640x640 1 Cardboard, 1 Paper, 124.7ms
+image 78/898 /cfs/earth/scratch/benkehel/YOLO/test/0428.jpg: 640x640 1 Cardboard, 127.9ms
+image 79/898 /cfs/earth/scratch/benkehel/YOLO/test/0440.jpg: 640x640 1 Cardboard, 129.1ms
+image 80/898 /cfs/earth/scratch/benkehel/YOLO/test/0446.jpg: 640x640 1 Cardboard, 129.9ms
+image 81/898 /cfs/earth/scratch/benkehel/YOLO/test/0454.jpg: 640x640 1 Cardboard, 1 Plastic, 129.3ms
+image 82/898 /cfs/earth/scratch/benkehel/YOLO/test/0458.jpg: 640x640 1 Cardboard, 128.4ms
+image 83/898 /cfs/earth/scratch/benkehel/YOLO/test/0465.jpg: 640x640 1 Cardboard, 127.0ms
+image 84/898 /cfs/earth/scratch/benkehel/YOLO/test/0472.jpg: 640x640 1 Cardboard, 1 Plastic, 127.6ms
+image 85/898 /cfs/earth/scratch/benkehel/YOLO/test/0479.jpg: 640x640 1 Paper, 121.9ms
+image 86/898 /cfs/earth/scratch/benkehel/YOLO/test/0481.jpg: 640x640 1 Cardboard, 128.1ms
+image 87/898 /cfs/earth/scratch/benkehel/YOLO/test/0501.jpg: 640x640 2 Cardboards, 127.9ms
+image 88/898 /cfs/earth/scratch/benkehel/YOLO/test/0512.jpg: 640x640 1 Cardboard, 131.7ms
+image 89/898 /cfs/earth/scratch/benkehel/YOLO/test/0514.jpg: 640x640 1 Paper, 129.5ms
+image 90/898 /cfs/earth/scratch/benkehel/YOLO/test/0516.jpg: 640x640 1 Cardboard, 129.8ms
+image 91/898 /cfs/earth/scratch/benkehel/YOLO/test/0524.jpg: 640x640 1 Cardboard, 130.2ms
+image 92/898 /cfs/earth/scratch/benkehel/YOLO/test/0528.jpg: 640x640 1 Cardboard, 130.4ms
+image 93/898 /cfs/earth/scratch/benkehel/YOLO/test/0531.jpg: 640x640 1 Cardboard, 126.1ms
+image 94/898 /cfs/earth/scratch/benkehel/YOLO/test/0532.jpg: 640x640 1 Cardboard, 129.3ms
+image 95/898 /cfs/earth/scratch/benkehel/YOLO/test/0545.jpg: 640x640 1 Cardboard, 133.0ms
+image 96/898 /cfs/earth/scratch/benkehel/YOLO/test/0554.jpg: 640x640 1 Cardboard, 131.0ms
+image 97/898 /cfs/earth/scratch/benkehel/YOLO/test/0576.jpg: 640x640 1 Cardboard, 128.2ms
+image 98/898 /cfs/earth/scratch/benkehel/YOLO/test/0596.jpg: 640x640 1 Cardboard, 129.9ms
+image 99/898 /cfs/earth/scratch/benkehel/YOLO/test/0610.jpg: 640x640 1 Cardboard, 135.1ms
+image 100/898 /cfs/earth/scratch/benkehel/YOLO/test/0612.jpg: 640x640 1 Cardboard, 130.8ms
+image 101/898 /cfs/earth/scratch/benkehel/YOLO/test/0624.jpg: 640x640 1 Cardboard, 1 Paper, 128.9ms
+image 102/898 /cfs/earth/scratch/benkehel/YOLO/test/0630.jpg: 640x640 1 Cardboard, 129.3ms
+image 103/898 /cfs/earth/scratch/benkehel/YOLO/test/0642.jpg: 640x640 1 Cardboard, 127.3ms
+image 104/898 /cfs/earth/scratch/benkehel/YOLO/test/0645.jpg: 640x640 1 Cardboard, 130.5ms
+image 105/898 /cfs/earth/scratch/benkehel/YOLO/test/0647.jpg: 640x640 1 Cardboard, 133.5ms
+image 106/898 /cfs/earth/scratch/benkehel/YOLO/test/0657.jpg: 640x640 1 Cardboard, 130.3ms
+image 107/898 /cfs/earth/scratch/benkehel/YOLO/test/0671.jpg: 640x640 1 Cardboard, 128.4ms
+image 108/898 /cfs/earth/scratch/benkehel/YOLO/test/0673.jpg: 640x640 1 Cardboard, 122.7ms
+image 109/898 /cfs/earth/scratch/benkehel/YOLO/test/0678.jpg: 640x640 2 Aluminiums, 1 Cardboard, 143.3ms
+image 110/898 /cfs/earth/scratch/benkehel/YOLO/test/0684.jpg: 640x640 1 Cardboard, 134.9ms
+image 111/898 /cfs/earth/scratch/benkehel/YOLO/test/0686.jpg: 640x640 1 Cardboard, 130.8ms
+image 112/898 /cfs/earth/scratch/benkehel/YOLO/test/0689.jpg: 640x640 1 Cardboard, 2 Plastics, 130.7ms
+image 113/898 /cfs/earth/scratch/benkehel/YOLO/test/0691.jpg: 640x640 1 Cardboard, 140.7ms
+image 114/898 /cfs/earth/scratch/benkehel/YOLO/test/0700.jpg: 640x640 1 Cardboard, 132.9ms
+image 115/898 /cfs/earth/scratch/benkehel/YOLO/test/0713.jpg: 640x640 1 White Glass, 130.6ms
+image 116/898 /cfs/earth/scratch/benkehel/YOLO/test/0719.jpg: 640x640 1 Brown Glass, 130.9ms
+image 117/898 /cfs/earth/scratch/benkehel/YOLO/test/0733.jpg: 640x640 1 White Glass, 126.5ms
+image 118/898 /cfs/earth/scratch/benkehel/YOLO/test/0735.jpg: 640x640 1 Green Glass, 130.9ms
+image 119/898 /cfs/earth/scratch/benkehel/YOLO/test/0738.jpg: 640x640 1 White Glass, 130.9ms
+image 120/898 /cfs/earth/scratch/benkehel/YOLO/test/0739.jpg: 640x640 1 Green Glass, 131.5ms
+image 121/898 /cfs/earth/scratch/benkehel/YOLO/test/0742.jpg: 640x640 1 White Glass, 128.9ms
+image 122/898 /cfs/earth/scratch/benkehel/YOLO/test/0755.jpg: 640x640 1 White Glass, 131.6ms
+image 123/898 /cfs/earth/scratch/benkehel/YOLO/test/0765.jpg: 640x640 1 White Glass, 129.1ms
+image 124/898 /cfs/earth/scratch/benkehel/YOLO/test/0772.jpg: 640x640 1 PET, 131.1ms
+image 125/898 /cfs/earth/scratch/benkehel/YOLO/test/0777.jpg: 640x640 1 White Glass, 131.1ms
+image 126/898 /cfs/earth/scratch/benkehel/YOLO/test/0780.jpg: 640x640 1 Green Glass, 130.8ms
+image 127/898 /cfs/earth/scratch/benkehel/YOLO/test/0782.jpg: 640x640 1 Brown Glass, 131.9ms
+image 128/898 /cfs/earth/scratch/benkehel/YOLO/test/0787.jpg: 640x640 1 White Glass, 1 Metal, 129.8ms
+image 129/898 /cfs/earth/scratch/benkehel/YOLO/test/0794.jpg: 640x640 1 White Glass, 122.6ms
+image 130/898 /cfs/earth/scratch/benkehel/YOLO/test/0795.jpg: 640x640 1 PET, 1 White Glass, 128.4ms
+image 131/898 /cfs/earth/scratch/benkehel/YOLO/test/0801.jpg: 640x640 1 PET, 1 White Glass, 120.7ms
+image 132/898 /cfs/earth/scratch/benkehel/YOLO/test/0811.jpg: 640x640 1 White Glass, 2 Metals, 122.4ms
+image 133/898 /cfs/earth/scratch/benkehel/YOLO/test/0824.jpg: 640x640 1 White Glass, 130.9ms
+image 134/898 /cfs/earth/scratch/benkehel/YOLO/test/0831.jpg: 640x640 1 White Glass, 1 Metal, 129.8ms
+image 135/898 /cfs/earth/scratch/benkehel/YOLO/test/0838.jpg: 640x640 1 White Glass, 127.6ms
+image 136/898 /cfs/earth/scratch/benkehel/YOLO/test/0840.jpg: 640x640 1 Green Glass, 128.8ms
+image 137/898 /cfs/earth/scratch/benkehel/YOLO/test/0845.jpg: 640x640 1 White Glass, 127.3ms
+image 138/898 /cfs/earth/scratch/benkehel/YOLO/test/0851.jpg: 640x640 1 White Glass, 124.8ms
+image 139/898 /cfs/earth/scratch/benkehel/YOLO/test/0858.jpg: 640x640 1 White Glass, 124.1ms
+image 140/898 /cfs/earth/scratch/benkehel/YOLO/test/0865.jpg: 640x640 1 Brown Glass, 129.7ms
+image 141/898 /cfs/earth/scratch/benkehel/YOLO/test/0867.jpg: 640x640 1 Brown Glass, 131.2ms
+image 142/898 /cfs/earth/scratch/benkehel/YOLO/test/0872.jpg: 640x640 1 Green Glass, 130.2ms
+image 143/898 /cfs/earth/scratch/benkehel/YOLO/test/0898.jpg: 640x640 1 White Glass, 133.9ms
+image 144/898 /cfs/earth/scratch/benkehel/YOLO/test/0908.jpg: 640x640 10 Green Glasss, 132.3ms
+image 145/898 /cfs/earth/scratch/benkehel/YOLO/test/0920.jpg: 640x640 1 White Glass, 1 Metal, 131.5ms
+image 146/898 /cfs/earth/scratch/benkehel/YOLO/test/0930.jpg: 640x640 1 Brown Glass, 129.4ms
+image 147/898 /cfs/earth/scratch/benkehel/YOLO/test/0934.jpg: 640x640 1 Brown Glass, 131.1ms
+image 148/898 /cfs/earth/scratch/benkehel/YOLO/test/0938.jpg: 640x640 1 White Glass, 128.8ms
+image 149/898 /cfs/earth/scratch/benkehel/YOLO/test/0939.jpg: 640x640 1 White Glass, 131.6ms
+image 150/898 /cfs/earth/scratch/benkehel/YOLO/test/0940.jpg: 640x640 1 Brown Glass, 130.9ms
+image 151/898 /cfs/earth/scratch/benkehel/YOLO/test/0948.jpg: 640x640 1 Green Glass, 1 White Glass, 1 Metal, 129.9ms
+image 152/898 /cfs/earth/scratch/benkehel/YOLO/test/0949.jpg: 640x640 1 Brown Glass, 130.6ms
+image 153/898 /cfs/earth/scratch/benkehel/YOLO/test/0954.jpg: 640x640 1 Green Glass, 137.0ms
+image 154/898 /cfs/earth/scratch/benkehel/YOLO/test/0974.jpg: 640x640 1 White Glass, 131.7ms
+image 155/898 /cfs/earth/scratch/benkehel/YOLO/test/0980.jpg: 640x640 1 Green Glass, 130.8ms
+image 156/898 /cfs/earth/scratch/benkehel/YOLO/test/0985.jpg: 640x640 1 White Glass, 128.4ms
+image 157/898 /cfs/earth/scratch/benkehel/YOLO/test/0994.jpg: 640x640 1 Brown Glass, 128.6ms
+image 158/898 /cfs/earth/scratch/benkehel/YOLO/test/1005.jpg: 640x640 1 Brown Glass, 128.9ms
+image 159/898 /cfs/earth/scratch/benkehel/YOLO/test/1023.jpg: 640x640 1 Brown Glass, 130.4ms
+image 160/898 /cfs/earth/scratch/benkehel/YOLO/test/1031.jpg: 640x640 1 White Glass, 128.9ms
+image 161/898 /cfs/earth/scratch/benkehel/YOLO/test/1037.jpg: 640x640 1 Brown Glass, 130.8ms
+image 162/898 /cfs/earth/scratch/benkehel/YOLO/test/1049.jpg: 640x640 1 White Glass, 128.9ms
+image 163/898 /cfs/earth/scratch/benkehel/YOLO/test/1050.jpg: 640x640 1 Brown Glass, 131.9ms
+image 164/898 /cfs/earth/scratch/benkehel/YOLO/test/1058.jpg: 640x640 1 White Glass, 127.5ms
+image 165/898 /cfs/earth/scratch/benkehel/YOLO/test/1061.jpg: 640x640 1 Brown Glass, 128.9ms
+image 166/898 /cfs/earth/scratch/benkehel/YOLO/test/1074.jpg: 640x640 1 White Glass, 129.8ms
+image 167/898 /cfs/earth/scratch/benkehel/YOLO/test/1075.jpg: 640x640 1 White Glass, 127.1ms
+image 168/898 /cfs/earth/scratch/benkehel/YOLO/test/1083.jpg: 640x640 1 White Glass, 127.1ms
+image 169/898 /cfs/earth/scratch/benkehel/YOLO/test/1087.jpg: 640x640 1 White Glass, 130.3ms
+image 170/898 /cfs/earth/scratch/benkehel/YOLO/test/1088.jpg: 640x640 1 White Glass, 124.3ms
+image 171/898 /cfs/earth/scratch/benkehel/YOLO/test/1092.jpg: 640x640 1 Green Glass, 129.1ms
+image 172/898 /cfs/earth/scratch/benkehel/YOLO/test/1116.jpg: 640x640 1 White Glass, 123.0ms
+image 173/898 /cfs/earth/scratch/benkehel/YOLO/test/1120.jpg: 640x640 1 White Glass, 139.9ms
+image 174/898 /cfs/earth/scratch/benkehel/YOLO/test/1134.jpg: 640x640 1 White Glass, 145.6ms
+image 175/898 /cfs/earth/scratch/benkehel/YOLO/test/1136.jpg: 640x640 1 White Glass, 144.2ms
+image 176/898 /cfs/earth/scratch/benkehel/YOLO/test/1144.jpg: 640x640 1 White Glass, 151.1ms
+image 177/898 /cfs/earth/scratch/benkehel/YOLO/test/1145.jpg: 640x640 1 Green Glass, 142.3ms
+image 178/898 /cfs/earth/scratch/benkehel/YOLO/test/1151.jpg: 640x640 1 White Glass, 131.0ms
+image 179/898 /cfs/earth/scratch/benkehel/YOLO/test/1152.jpg: 640x640 1 White Glass, 133.8ms
+image 180/898 /cfs/earth/scratch/benkehel/YOLO/test/1164.jpg: 640x640 1 White Glass, 130.1ms
+image 181/898 /cfs/earth/scratch/benkehel/YOLO/test/1171.jpg: 640x640 1 White Glass, 130.3ms
+image 182/898 /cfs/earth/scratch/benkehel/YOLO/test/1178.jpg: 640x640 1 Green Glass, 124.1ms
+image 183/898 /cfs/earth/scratch/benkehel/YOLO/test/1179.jpg: 640x640 1 Brown Glass, 132.9ms
+image 184/898 /cfs/earth/scratch/benkehel/YOLO/test/1186.jpg: 640x640 1 Brown Glass, 1 Metal, 126.7ms
+image 185/898 /cfs/earth/scratch/benkehel/YOLO/test/1199.jpg: 640x640 1 White Glass, 133.3ms
+image 186/898 /cfs/earth/scratch/benkehel/YOLO/test/1200.jpg: 640x640 1 Brown Glass, 131.9ms
+image 187/898 /cfs/earth/scratch/benkehel/YOLO/test/1203.jpg: 640x640 1 White Glass, 131.1ms
+image 188/898 /cfs/earth/scratch/benkehel/YOLO/test/1235.jpg: 640x640 1 Aluminium, 129.4ms
+image 189/898 /cfs/earth/scratch/benkehel/YOLO/test/1239.jpg: 640x640 1 Metal, 132.8ms
+image 190/898 /cfs/earth/scratch/benkehel/YOLO/test/1249.jpg: 640x640 1 Metal, 128.8ms
+image 191/898 /cfs/earth/scratch/benkehel/YOLO/test/1256.jpg: 640x640 1 Metal, 131.7ms
+image 192/898 /cfs/earth/scratch/benkehel/YOLO/test/1267.jpg: 640x640 1 Aluminium, 129.8ms
+image 193/898 /cfs/earth/scratch/benkehel/YOLO/test/1271.jpg: 640x640 1 White Glass, 1 Rigid plastic container, 132.7ms
+image 194/898 /cfs/earth/scratch/benkehel/YOLO/test/1272.jpg: 640x640 1 Metal, 130.2ms
+image 195/898 /cfs/earth/scratch/benkehel/YOLO/test/1276.jpg: 640x640 1 Metal, 131.8ms
+image 196/898 /cfs/earth/scratch/benkehel/YOLO/test/1277.jpg: 640x640 1 Metal, 131.7ms
+image 197/898 /cfs/earth/scratch/benkehel/YOLO/test/1290.jpg: 640x640 1 Aluminium, 132.8ms
+image 198/898 /cfs/earth/scratch/benkehel/YOLO/test/1303.jpg: 640x640 1 Metal, 131.3ms
+image 199/898 /cfs/earth/scratch/benkehel/YOLO/test/1305.jpg: 640x640 1 Metal, 133.6ms
+image 200/898 /cfs/earth/scratch/benkehel/YOLO/test/1309.jpg: 640x640 1 Metal, 131.4ms
+image 201/898 /cfs/earth/scratch/benkehel/YOLO/test/1311.jpg: 640x640 1 Metal, 139.5ms
+image 202/898 /cfs/earth/scratch/benkehel/YOLO/test/1320.jpg: 640x640 1 Metal, 1 Paper, 136.8ms
+image 203/898 /cfs/earth/scratch/benkehel/YOLO/test/1326.jpg: 640x640 1 Metal, 135.5ms
+image 204/898 /cfs/earth/scratch/benkehel/YOLO/test/1332.jpg: 640x640 1 Metal, 132.0ms
+image 205/898 /cfs/earth/scratch/benkehel/YOLO/test/1334.jpg: 640x640 1 Metal, 125.4ms
+image 206/898 /cfs/earth/scratch/benkehel/YOLO/test/1349.jpg: 640x640 1 Metal, 132.2ms
+image 207/898 /cfs/earth/scratch/benkehel/YOLO/test/1355.jpg: 640x640 1 Metal, 130.1ms
+image 208/898 /cfs/earth/scratch/benkehel/YOLO/test/1357.jpg: 640x640 1 Metal, 133.8ms
+image 209/898 /cfs/earth/scratch/benkehel/YOLO/test/1370.jpg: 640x640 1 Metal, 131.4ms
+image 210/898 /cfs/earth/scratch/benkehel/YOLO/test/1372.jpg: 640x640 1 Metal, 131.2ms
+image 211/898 /cfs/earth/scratch/benkehel/YOLO/test/1373.jpg: 640x640 1 Aluminium, 132.5ms
+image 212/898 /cfs/earth/scratch/benkehel/YOLO/test/1377.jpg: 640x640 1 Metal, 132.6ms
+image 213/898 /cfs/earth/scratch/benkehel/YOLO/test/1378.jpg: 640x640 1 Aluminium, 131.4ms
+image 214/898 /cfs/earth/scratch/benkehel/YOLO/test/1379.jpg: 640x640 1 Aluminium, 132.4ms
+image 215/898 /cfs/earth/scratch/benkehel/YOLO/test/1394.jpg: 640x640 1 Brown Glass, 131.2ms
+image 216/898 /cfs/earth/scratch/benkehel/YOLO/test/1403.jpg: 640x640 1 Metal, 136.7ms
+image 217/898 /cfs/earth/scratch/benkehel/YOLO/test/1411.jpg: 640x640 1 Metal, 131.4ms
+image 218/898 /cfs/earth/scratch/benkehel/YOLO/test/1418.jpg: 640x640 1 Metal, 132.6ms
+image 219/898 /cfs/earth/scratch/benkehel/YOLO/test/1420.jpg: 640x640 1 Metal, 132.6ms
+image 220/898 /cfs/earth/scratch/benkehel/YOLO/test/1422.jpg: 640x640 1 Metal, 143.9ms
+image 221/898 /cfs/earth/scratch/benkehel/YOLO/test/1427.jpg: 640x640 1 Metal, 139.9ms
+image 222/898 /cfs/earth/scratch/benkehel/YOLO/test/1430.jpg: 640x640 1 Metal, 132.3ms
+image 223/898 /cfs/earth/scratch/benkehel/YOLO/test/1431.jpg: 640x640 1 Metal, 131.0ms
+image 224/898 /cfs/earth/scratch/benkehel/YOLO/test/1433.jpg: 640x640 1 Metal, 135.2ms
+image 225/898 /cfs/earth/scratch/benkehel/YOLO/test/1441.jpg: 640x640 1 Metal, 130.6ms
+image 226/898 /cfs/earth/scratch/benkehel/YOLO/test/1452.jpg: 640x640 1 Metal, 131.5ms
+image 227/898 /cfs/earth/scratch/benkehel/YOLO/test/1455.jpg: 640x640 1 Aluminium, 132.5ms
+image 228/898 /cfs/earth/scratch/benkehel/YOLO/test/1464.jpg: 640x640 1 Metal, 132.2ms
+image 229/898 /cfs/earth/scratch/benkehel/YOLO/test/1477.jpg: 640x640 1 Metal, 133.1ms
+image 230/898 /cfs/earth/scratch/benkehel/YOLO/test/1480.jpg: 640x640 1 Metal, 132.2ms
+image 231/898 /cfs/earth/scratch/benkehel/YOLO/test/1493.jpg: 640x640 1 Aluminium, 132.0ms
+image 232/898 /cfs/earth/scratch/benkehel/YOLO/test/1494.jpg: 640x640 1 Metal, 129.9ms
+image 233/898 /cfs/earth/scratch/benkehel/YOLO/test/1497.jpg: 640x640 1 Aluminium, 132.6ms
+image 234/898 /cfs/earth/scratch/benkehel/YOLO/test/1500.jpg: 640x640 1 Metal, 130.4ms
+image 235/898 /cfs/earth/scratch/benkehel/YOLO/test/1515.jpg: 640x640 1 Metal, 133.8ms
+image 236/898 /cfs/earth/scratch/benkehel/YOLO/test/1532.jpg: 640x640 1 Metal, 126.2ms
+image 237/898 /cfs/earth/scratch/benkehel/YOLO/test/1534.jpg: 640x640 1 Aluminium, 133.0ms
+image 238/898 /cfs/earth/scratch/benkehel/YOLO/test/1537.jpg: 640x640 1 Metal, 130.8ms
+image 239/898 /cfs/earth/scratch/benkehel/YOLO/test/1545.jpg: 640x640 1 Aluminium, 133.0ms
+image 240/898 /cfs/earth/scratch/benkehel/YOLO/test/1546.jpg: 640x640 1 Metal, 131.2ms
+image 241/898 /cfs/earth/scratch/benkehel/YOLO/test/1547.jpg: 640x640 1 Metal, 133.6ms
+image 242/898 /cfs/earth/scratch/benkehel/YOLO/test/1556.jpg: 640x640 1 Metal, 131.9ms
+image 243/898 /cfs/earth/scratch/benkehel/YOLO/test/1558.jpg: 640x640 1 Aluminium, 132.1ms
+image 244/898 /cfs/earth/scratch/benkehel/YOLO/test/1580.jpg: 640x640 1 Metal, 129.6ms
+image 245/898 /cfs/earth/scratch/benkehel/YOLO/test/1581.jpg: 640x640 1 Metal, 132.2ms
+image 246/898 /cfs/earth/scratch/benkehel/YOLO/test/1584.jpg: 640x640 1 Metal, 129.1ms
+image 247/898 /cfs/earth/scratch/benkehel/YOLO/test/1596.jpg: 640x640 1 Aluminium, 130.9ms
+image 248/898 /cfs/earth/scratch/benkehel/YOLO/test/1597.jpg: 640x640 1 Metal, 129.8ms
+image 249/898 /cfs/earth/scratch/benkehel/YOLO/test/1601.jpg: 640x640 1 Metal, 144.0ms
+image 250/898 /cfs/earth/scratch/benkehel/YOLO/test/1613.jpg: 640x640 1 Metal, 132.0ms
+image 251/898 /cfs/earth/scratch/benkehel/YOLO/test/1620.jpg: 640x640 1 Metal, 132.9ms
+image 252/898 /cfs/earth/scratch/benkehel/YOLO/test/1636.jpg: 640x640 1 Paper, 135.8ms
+image 253/898 /cfs/earth/scratch/benkehel/YOLO/test/1639.jpg: 640x640 1 Paper, 133.1ms
+image 254/898 /cfs/earth/scratch/benkehel/YOLO/test/1641.jpg: 640x640 1 Paper, 132.8ms
+image 255/898 /cfs/earth/scratch/benkehel/YOLO/test/1649.jpg: 640x640 1 Paper, 138.9ms
+image 256/898 /cfs/earth/scratch/benkehel/YOLO/test/1652.jpg: 640x640 1 Paper, 131.0ms
+image 257/898 /cfs/earth/scratch/benkehel/YOLO/test/1672.jpg: 640x640 1 Paper, 133.6ms
+image 258/898 /cfs/earth/scratch/benkehel/YOLO/test/1677.jpg: 640x640 1 Paper, 136.0ms
+image 259/898 /cfs/earth/scratch/benkehel/YOLO/test/1679.jpg: 640x640 1 Paper, 137.8ms
+image 260/898 /cfs/earth/scratch/benkehel/YOLO/test/1689.jpg: 640x640 1 Paper, 133.2ms
+image 261/898 /cfs/earth/scratch/benkehel/YOLO/test/1691.jpg: 640x640 1 Paper, 133.4ms
+image 262/898 /cfs/earth/scratch/benkehel/YOLO/test/1696.jpg: 640x640 1 Paper, 130.3ms
+image 263/898 /cfs/earth/scratch/benkehel/YOLO/test/1698.jpg: 640x640 1 Paper, 132.0ms
+image 264/898 /cfs/earth/scratch/benkehel/YOLO/test/1702.jpg: 640x640 1 Paper, 124.9ms
+image 265/898 /cfs/earth/scratch/benkehel/YOLO/test/1704.jpg: 640x640 1 Paper, 133.7ms
+image 266/898 /cfs/earth/scratch/benkehel/YOLO/test/1710.jpg: 640x640 1 Paper, 128.5ms
+image 267/898 /cfs/earth/scratch/benkehel/YOLO/test/1712.jpg: 640x640 1 Paper, 135.4ms
+image 268/898 /cfs/earth/scratch/benkehel/YOLO/test/1713.jpg: 640x640 1 Paper, 131.3ms
+image 269/898 /cfs/earth/scratch/benkehel/YOLO/test/1717.jpg: 640x640 1 Paper, 133.2ms
+image 270/898 /cfs/earth/scratch/benkehel/YOLO/test/1721.jpg: 640x640 1 Paper, 132.0ms
+image 271/898 /cfs/earth/scratch/benkehel/YOLO/test/1744.jpg: 640x640 1 Paper, 131.6ms
+image 272/898 /cfs/earth/scratch/benkehel/YOLO/test/1758.jpg: 640x640 1 Paper, 130.0ms
+image 273/898 /cfs/earth/scratch/benkehel/YOLO/test/1762.jpg: 640x640 1 Paper, 128.4ms
+image 274/898 /cfs/earth/scratch/benkehel/YOLO/test/1771.jpg: 640x640 1 Paper, 135.5ms
+image 275/898 /cfs/earth/scratch/benkehel/YOLO/test/1789.jpg: 640x640 1 Paper, 134.7ms
+image 276/898 /cfs/earth/scratch/benkehel/YOLO/test/1794.jpg: 640x640 1 Paper, 130.6ms
+image 277/898 /cfs/earth/scratch/benkehel/YOLO/test/1810.jpg: 640x640 1 Paper, 132.2ms
+image 278/898 /cfs/earth/scratch/benkehel/YOLO/test/1817.jpg: 640x640 1 Paper, 132.0ms
+image 279/898 /cfs/earth/scratch/benkehel/YOLO/test/1820.jpg: 640x640 1 Paper, 131.6ms
+image 280/898 /cfs/earth/scratch/benkehel/YOLO/test/1822.jpg: 640x640 1 Paper, 128.7ms
+image 281/898 /cfs/earth/scratch/benkehel/YOLO/test/1823.jpg: 640x640 1 Paper, 132.4ms
+image 282/898 /cfs/earth/scratch/benkehel/YOLO/test/1824.jpg: 640x640 1 Paper, 134.6ms
+image 283/898 /cfs/earth/scratch/benkehel/YOLO/test/1849.jpg: 640x640 1 Paper, 130.2ms
+image 284/898 /cfs/earth/scratch/benkehel/YOLO/test/1853.jpg: 640x640 1 Paper, 132.2ms
+image 285/898 /cfs/earth/scratch/benkehel/YOLO/test/1857.jpg: 640x640 1 Paper, 134.5ms
+image 286/898 /cfs/earth/scratch/benkehel/YOLO/test/1860.jpg: 640x640 1 Paper, 133.3ms
+image 287/898 /cfs/earth/scratch/benkehel/YOLO/test/1868.jpg: 640x640 1 Paper, 131.7ms
+image 288/898 /cfs/earth/scratch/benkehel/YOLO/test/1870.jpg: 640x640 1 Paper, 132.6ms
+image 289/898 /cfs/earth/scratch/benkehel/YOLO/test/1887.jpg: 640x640 1 Paper, 130.8ms
+image 290/898 /cfs/earth/scratch/benkehel/YOLO/test/1888.jpg: 640x640 1 Paper, 132.8ms
+image 291/898 /cfs/earth/scratch/benkehel/YOLO/test/1891.jpg: 640x640 1 Paper, 131.1ms
+image 292/898 /cfs/earth/scratch/benkehel/YOLO/test/1893.jpg: 640x640 1 Paper, 135.5ms
+image 293/898 /cfs/earth/scratch/benkehel/YOLO/test/1906.jpg: 640x640 1 Paper, 129.6ms
+image 294/898 /cfs/earth/scratch/benkehel/YOLO/test/1921.jpg: 640x640 1 Paper, 130.2ms
+image 295/898 /cfs/earth/scratch/benkehel/YOLO/test/1936.jpg: 640x640 1 Paper, 135.2ms
+image 296/898 /cfs/earth/scratch/benkehel/YOLO/test/1937.jpg: 640x640 1 Paper, 131.0ms
+image 297/898 /cfs/earth/scratch/benkehel/YOLO/test/1941.jpg: 640x640 1 Paper, 136.6ms
+image 298/898 /cfs/earth/scratch/benkehel/YOLO/test/1956.jpg: 640x640 1 Paper, 132.3ms
+image 299/898 /cfs/earth/scratch/benkehel/YOLO/test/1963.jpg: 640x640 1 Paper, 128.8ms
+image 300/898 /cfs/earth/scratch/benkehel/YOLO/test/1979.jpg: 640x640 1 Paper, 129.1ms
+image 301/898 /cfs/earth/scratch/benkehel/YOLO/test/1980.jpg: 640x640 1 Paper, 133.0ms
+image 302/898 /cfs/earth/scratch/benkehel/YOLO/test/2018.jpg: 640x640 1 Paper, 131.9ms
+image 303/898 /cfs/earth/scratch/benkehel/YOLO/test/2026.jpg: 640x640 1 Paper, 123.6ms
+image 304/898 /cfs/earth/scratch/benkehel/YOLO/test/2042.jpg: 640x640 1 Paper, 130.6ms
+image 305/898 /cfs/earth/scratch/benkehel/YOLO/test/2049.jpg: 640x640 1 Paper, 132.4ms
+image 306/898 /cfs/earth/scratch/benkehel/YOLO/test/2053.jpg: 640x640 1 Paper, 131.0ms
+image 307/898 /cfs/earth/scratch/benkehel/YOLO/test/2054.jpg: 640x640 1 Paper, 131.3ms
+image 308/898 /cfs/earth/scratch/benkehel/YOLO/test/2056.jpg: 640x640 1 Paper, 130.9ms
+image 309/898 /cfs/earth/scratch/benkehel/YOLO/test/2063.jpg: 640x640 1 Paper, 130.4ms
+image 310/898 /cfs/earth/scratch/benkehel/YOLO/test/2065.jpg: 640x640 1 Paper, 133.4ms
+image 311/898 /cfs/earth/scratch/benkehel/YOLO/test/2067.jpg: 640x640 1 Paper, 129.3ms
+image 312/898 /cfs/earth/scratch/benkehel/YOLO/test/2070.jpg: 640x640 1 Paper, 131.5ms
+image 313/898 /cfs/earth/scratch/benkehel/YOLO/test/2073.jpg: 640x640 1 Paper, 138.3ms
+image 314/898 /cfs/earth/scratch/benkehel/YOLO/test/2090.jpg: 640x640 1 White Glass, 1 Paper, 130.0ms
+image 315/898 /cfs/earth/scratch/benkehel/YOLO/test/2092.jpg: 640x640 1 Paper, 136.5ms
+image 316/898 /cfs/earth/scratch/benkehel/YOLO/test/2109.jpg: 640x640 1 Paper, 130.2ms
+image 317/898 /cfs/earth/scratch/benkehel/YOLO/test/2113.jpg: 640x640 1 Paper, 129.6ms
+image 318/898 /cfs/earth/scratch/benkehel/YOLO/test/2114.jpg: 640x640 1 Paper, 131.6ms
+image 319/898 /cfs/earth/scratch/benkehel/YOLO/test/2116.jpg: 640x640 1 Paper, 135.4ms
+image 320/898 /cfs/earth/scratch/benkehel/YOLO/test/2119.jpg: 640x640 1 Paper, 131.9ms
+image 321/898 /cfs/earth/scratch/benkehel/YOLO/test/2121.jpg: 640x640 1 Paper, 127.6ms
+image 322/898 /cfs/earth/scratch/benkehel/YOLO/test/2136.jpg: 640x640 1 Paper, 132.7ms
+image 323/898 /cfs/earth/scratch/benkehel/YOLO/test/2138.jpg: 640x640 1 Paper, 136.6ms
+image 324/898 /cfs/earth/scratch/benkehel/YOLO/test/2142.jpg: 640x640 1 Paper, 131.1ms
+image 325/898 /cfs/earth/scratch/benkehel/YOLO/test/2144.jpg: 640x640 1 Paper, 131.9ms
+image 326/898 /cfs/earth/scratch/benkehel/YOLO/test/2145.jpg: 640x640 1 Paper, 126.4ms
+image 327/898 /cfs/earth/scratch/benkehel/YOLO/test/2147.jpg: 640x640 1 Paper, 131.7ms
+image 328/898 /cfs/earth/scratch/benkehel/YOLO/test/2175.jpg: 640x640 1 Paper, 130.5ms
+image 329/898 /cfs/earth/scratch/benkehel/YOLO/test/2186.jpg: 640x640 1 Paper, 132.7ms
+image 330/898 /cfs/earth/scratch/benkehel/YOLO/test/2187.jpg: 640x640 1 Paper, 139.3ms
+image 331/898 /cfs/earth/scratch/benkehel/YOLO/test/2200.jpg: 640x640 1 Paper, 132.1ms
+image 332/898 /cfs/earth/scratch/benkehel/YOLO/test/2204.jpg: 640x640 1 Paper, 133.6ms
+image 333/898 /cfs/earth/scratch/benkehel/YOLO/test/2205.jpg: 640x640 1 Paper, 137.2ms
+image 334/898 /cfs/earth/scratch/benkehel/YOLO/test/2206.jpg: 640x640 1 Paper, 133.6ms
+image 335/898 /cfs/earth/scratch/benkehel/YOLO/test/2224.jpg: 640x640 1 Plastic, 132.8ms
+image 336/898 /cfs/earth/scratch/benkehel/YOLO/test/2234.jpg: 640x640 1 PET, 133.5ms
+image 337/898 /cfs/earth/scratch/benkehel/YOLO/test/2252.jpg: 640x640 1 PET, 131.9ms
+image 338/898 /cfs/earth/scratch/benkehel/YOLO/test/2253.jpg: 640x640 1 Rigid plastic container, 131.5ms
+image 339/898 /cfs/earth/scratch/benkehel/YOLO/test/2257.jpg: 640x640 1 Aluminium, 1 Rigid plastic container, 130.3ms
+image 340/898 /cfs/earth/scratch/benkehel/YOLO/test/2261.jpg: 640x640 1 Metal, 1 Rigid plastic container, 132.2ms
+image 341/898 /cfs/earth/scratch/benkehel/YOLO/test/2266.jpg: 640x640 1 Rigid plastic container, 130.5ms
+image 342/898 /cfs/earth/scratch/benkehel/YOLO/test/2269.jpg: 640x640 1 Rigid plastic container, 133.2ms
+image 343/898 /cfs/earth/scratch/benkehel/YOLO/test/2286.jpg: 640x640 1 Rigid plastic container, 134.3ms
+image 344/898 /cfs/earth/scratch/benkehel/YOLO/test/2292.jpg: 640x640 1 Rigid plastic container, 134.7ms
+image 345/898 /cfs/earth/scratch/benkehel/YOLO/test/2363.jpg: 640x640 1 Plastic, 126.2ms
+image 346/898 /cfs/earth/scratch/benkehel/YOLO/test/2369.jpg: 640x640 1 Plastic, 132.9ms
+image 347/898 /cfs/earth/scratch/benkehel/YOLO/test/2378.jpg: 640x640 1 Plastic, 130.2ms
+image 348/898 /cfs/earth/scratch/benkehel/YOLO/test/2393.jpg: 640x640 1 Plastic, 132.0ms
+image 349/898 /cfs/earth/scratch/benkehel/YOLO/test/2394.jpg: 640x640 1 PET, 136.6ms
+image 350/898 /cfs/earth/scratch/benkehel/YOLO/test/2397.jpg: 640x640 1 Rigid plastic container, 132.4ms
+image 351/898 /cfs/earth/scratch/benkehel/YOLO/test/2405.jpg: 640x640 1 Plastic, 130.6ms
+image 352/898 /cfs/earth/scratch/benkehel/YOLO/test/2411.jpg: 640x640 1 PET, 131.9ms
+image 353/898 /cfs/earth/scratch/benkehel/YOLO/test/2413.jpg: 640x640 1 PET, 132.8ms
+image 354/898 /cfs/earth/scratch/benkehel/YOLO/test/2423.jpg: 640x640 1 PET, 131.1ms
+image 355/898 /cfs/earth/scratch/benkehel/YOLO/test/2430.jpg: 640x640 1 PET, 131.0ms
+image 356/898 /cfs/earth/scratch/benkehel/YOLO/test/2431.jpg: 640x640 1 Plastic, 131.6ms
+image 357/898 /cfs/earth/scratch/benkehel/YOLO/test/2438.jpg: 640x640 1 Plastic, 130.8ms
+image 358/898 /cfs/earth/scratch/benkehel/YOLO/test/2452.jpg: 640x640 1 Plastic, 134.2ms
+image 359/898 /cfs/earth/scratch/benkehel/YOLO/test/2455.jpg: 640x640 1 Plastic, 135.6ms
+image 360/898 /cfs/earth/scratch/benkehel/YOLO/test/2456.jpg: 640x640 1 Plastic, 132.9ms
+image 361/898 /cfs/earth/scratch/benkehel/YOLO/test/2466.jpg: 640x640 1 PET, 132.6ms
+image 362/898 /cfs/earth/scratch/benkehel/YOLO/test/2467.jpg: 640x640 1 Plastic, 132.3ms
+image 363/898 /cfs/earth/scratch/benkehel/YOLO/test/2471.jpg: 640x640 1 Plastic, 126.7ms
+image 364/898 /cfs/earth/scratch/benkehel/YOLO/test/2478.jpg: 640x640 1 Plastic, 132.9ms
+image 365/898 /cfs/earth/scratch/benkehel/YOLO/test/2479.jpg: 640x640 1 Plastic, 135.1ms
+image 366/898 /cfs/earth/scratch/benkehel/YOLO/test/2486.jpg: 640x640 1 Plastic, 135.1ms
+image 367/898 /cfs/earth/scratch/benkehel/YOLO/test/2502.jpg: 640x640 1 PET, 133.4ms
+image 368/898 /cfs/earth/scratch/benkehel/YOLO/test/2515.jpg: 640x640 1 PET, 134.6ms
+image 369/898 /cfs/earth/scratch/benkehel/YOLO/test/2516.jpg: 640x640 1 PET, 130.0ms
+image 370/898 /cfs/earth/scratch/benkehel/YOLO/test/2522.jpg: 640x640 1 PET, 132.7ms
+image 371/898 /cfs/earth/scratch/benkehel/YOLO/test/2527.jpg: 640x640 1 PET, 147.8ms
+image 372/898 /cfs/earth/scratch/benkehel/YOLO/test/2540.jpg: 640x640 1 Plastic, 134.0ms
+image 373/898 /cfs/earth/scratch/benkehel/YOLO/test/2543.jpg: 640x640 1 PET, 130.2ms
+image 374/898 /cfs/earth/scratch/benkehel/YOLO/test/2550.jpg: 640x640 1 Plastic, 130.9ms
+image 375/898 /cfs/earth/scratch/benkehel/YOLO/test/2560.jpg: 640x640 1 PET, 134.4ms
+image 376/898 /cfs/earth/scratch/benkehel/YOLO/test/2568.jpg: 640x640 1 Plastic, 134.7ms
+image 377/898 /cfs/earth/scratch/benkehel/YOLO/test/2575.jpg: 640x640 1 Plastic, 127.9ms
+image 378/898 /cfs/earth/scratch/benkehel/YOLO/test/2576.jpg: 640x640 1 Plastic, 137.5ms
+image 379/898 /cfs/earth/scratch/benkehel/YOLO/test/2585.jpg: 640x640 1 PET, 131.4ms
+image 380/898 /cfs/earth/scratch/benkehel/YOLO/test/2597.jpg: 640x640 1 Plastic, 131.6ms
+image 381/898 /cfs/earth/scratch/benkehel/YOLO/test/2600.jpg: 640x640 1 Plastic, 131.1ms
+image 382/898 /cfs/earth/scratch/benkehel/YOLO/test/2606.jpg: 640x640 1 PET, 1 Plastic, 130.1ms
+image 383/898 /cfs/earth/scratch/benkehel/YOLO/test/2619.jpg: 640x640 1 Plastic, 126.8ms
+image 384/898 /cfs/earth/scratch/benkehel/YOLO/test/2625.jpg: 640x640 1 PET, 131.2ms
+image 385/898 /cfs/earth/scratch/benkehel/YOLO/test/2635.jpg: 640x640 1 Paper, 129.0ms
+image 386/898 /cfs/earth/scratch/benkehel/YOLO/test/2641.jpg: 640x640 1 PET, 131.4ms
+image 387/898 /cfs/earth/scratch/benkehel/YOLO/test/2644.jpg: 640x640 1 PET, 129.3ms
+image 388/898 /cfs/earth/scratch/benkehel/YOLO/test/2650.jpg: 640x640 1 PET, 130.8ms
+image 389/898 /cfs/earth/scratch/benkehel/YOLO/test/2652.jpg: 640x640 1 Rigid plastic container, 126.9ms
+image 390/898 /cfs/earth/scratch/benkehel/YOLO/test/2658.jpg: 640x640 1 PET, 130.4ms
+image 391/898 /cfs/earth/scratch/benkehel/YOLO/test/2663.jpg: 640x640 1 PET, 128.1ms
+image 392/898 /cfs/earth/scratch/benkehel/YOLO/test/2669.jpg: 640x640 1 PET, 128.6ms
+image 393/898 /cfs/earth/scratch/benkehel/YOLO/test/2670.jpg: 640x640 1 PET, 126.4ms
+image 394/898 /cfs/earth/scratch/benkehel/YOLO/test/2672.jpg: 640x640 1 Plastic, 127.8ms
+image 395/898 /cfs/earth/scratch/benkehel/YOLO/test/2719.jpg: 640x640 1 Organic waste, 127.1ms
+image 396/898 /cfs/earth/scratch/benkehel/YOLO/test/2725.jpg: 640x640 1 Organic waste, 129.4ms
+image 397/898 /cfs/earth/scratch/benkehel/YOLO/test/2734.jpg: 640x640 1 Organic waste, 125.5ms
+image 398/898 /cfs/earth/scratch/benkehel/YOLO/test/2736.jpg: 640x640 1 Organic waste, 138.5ms
+image 399/898 /cfs/earth/scratch/benkehel/YOLO/test/2749.jpg: 640x640 1 Organic waste, 128.8ms
+image 400/898 /cfs/earth/scratch/benkehel/YOLO/test/2754.jpg: 640x640 1 Organic waste, 130.4ms
+image 401/898 /cfs/earth/scratch/benkehel/YOLO/test/2762.jpg: 640x640 1 Organic waste, 128.2ms
+image 402/898 /cfs/earth/scratch/benkehel/YOLO/test/2771.jpg: 640x640 2 Organic wastes, 128.0ms
+image 403/898 /cfs/earth/scratch/benkehel/YOLO/test/2777.jpg: 640x640 1 Organic waste, 134.2ms
+image 404/898 /cfs/earth/scratch/benkehel/YOLO/test/2780.jpg: 640x640 1 Organic waste, 129.2ms
+image 405/898 /cfs/earth/scratch/benkehel/YOLO/test/2781.jpg: 640x640 1 Organic waste, 123.0ms
+image 406/898 /cfs/earth/scratch/benkehel/YOLO/test/2782.jpg: 640x640 1 Organic waste, 131.6ms
+image 407/898 /cfs/earth/scratch/benkehel/YOLO/test/2795.jpg: 640x640 1 Organic waste, 128.0ms
+image 408/898 /cfs/earth/scratch/benkehel/YOLO/test/2800.jpg: 640x640 1 Organic waste, 128.2ms
+image 409/898 /cfs/earth/scratch/benkehel/YOLO/test/2802.jpg: 640x640 1 Residual waste, 125.6ms
+image 410/898 /cfs/earth/scratch/benkehel/YOLO/test/2805.jpg: 640x640 1 Organic waste, 131.6ms
+image 411/898 /cfs/earth/scratch/benkehel/YOLO/test/2806.jpg: 640x640 1 Organic waste, 125.2ms
+image 412/898 /cfs/earth/scratch/benkehel/YOLO/test/2808.jpg: 640x640 1 Organic waste, 130.9ms
+image 413/898 /cfs/earth/scratch/benkehel/YOLO/test/2813.jpg: 640x640 2 Organic wastes, 127.0ms
+image 414/898 /cfs/earth/scratch/benkehel/YOLO/test/2827.jpg: 640x640 1 Organic waste, 130.2ms
+image 415/898 /cfs/earth/scratch/benkehel/YOLO/test/2836.jpg: 640x640 1 Organic waste, 129.0ms
+image 416/898 /cfs/earth/scratch/benkehel/YOLO/test/2838.jpg: 640x640 1 Organic waste, 128.6ms
+image 417/898 /cfs/earth/scratch/benkehel/YOLO/test/2844.jpg: 640x640 1 Organic waste, 131.4ms
+image 418/898 /cfs/earth/scratch/benkehel/YOLO/test/2848.jpg: 640x640 1 Organic waste, 128.1ms
+image 419/898 /cfs/earth/scratch/benkehel/YOLO/test/2866.jpg: 640x640 1 Organic waste, 127.3ms
+image 420/898 /cfs/earth/scratch/benkehel/YOLO/test/2868.jpg: 640x640 1 Organic waste, 129.5ms
+image 421/898 /cfs/earth/scratch/benkehel/YOLO/test/2872.jpg: 640x640 1 Organic waste, 127.0ms
+image 422/898 /cfs/earth/scratch/benkehel/YOLO/test/2877.jpg: 640x640 1 Organic waste, 130.7ms
+image 423/898 /cfs/earth/scratch/benkehel/YOLO/test/2880.jpg: 640x640 1 Organic waste, 127.9ms
+image 424/898 /cfs/earth/scratch/benkehel/YOLO/test/2881.jpg: 640x640 1 Organic waste, 128.2ms
+image 425/898 /cfs/earth/scratch/benkehel/YOLO/test/2900.jpg: 640x640 1 Organic waste, 125.9ms
+image 426/898 /cfs/earth/scratch/benkehel/YOLO/test/2902.jpg: 640x640 1 Organic waste, 130.4ms
+image 427/898 /cfs/earth/scratch/benkehel/YOLO/test/2920.jpg: 640x640 1 Organic waste, 124.9ms
+image 428/898 /cfs/earth/scratch/benkehel/YOLO/test/2923.jpg: 640x640 1 Organic waste, 128.9ms
+image 429/898 /cfs/earth/scratch/benkehel/YOLO/test/2937.jpg: 640x640 1 Organic waste, 124.9ms
+image 430/898 /cfs/earth/scratch/benkehel/YOLO/test/2950.jpg: 640x640 1 Organic waste, 128.2ms
+image 431/898 /cfs/earth/scratch/benkehel/YOLO/test/2961.jpg: 640x640 1 Organic waste, 128.9ms
+image 432/898 /cfs/earth/scratch/benkehel/YOLO/test/2975.jpg: 640x640 1 Organic waste, 127.5ms
+image 433/898 /cfs/earth/scratch/benkehel/YOLO/test/2977.jpg: 640x640 1 Organic waste, 133.1ms
+image 434/898 /cfs/earth/scratch/benkehel/YOLO/test/2978.jpg: 640x640 1 Organic waste, 129.3ms
+image 435/898 /cfs/earth/scratch/benkehel/YOLO/test/2984.jpg: 640x640 1 Organic waste, 131.2ms
+image 436/898 /cfs/earth/scratch/benkehel/YOLO/test/2994.jpg: 640x640 1 Organic waste, 130.3ms
+image 437/898 /cfs/earth/scratch/benkehel/YOLO/test/2996.jpg: 640x640 1 Organic waste, 128.1ms
+image 438/898 /cfs/earth/scratch/benkehel/YOLO/test/3058.jpg: 640x640 1 Green Glass, 126.4ms
+image 439/898 /cfs/earth/scratch/benkehel/YOLO/test/3059.jpg: 640x640 1 Brown Glass, 122.0ms
+image 440/898 /cfs/earth/scratch/benkehel/YOLO/test/3080.jpg: 640x640 1 White Glass, 1 Metal, 129.6ms
+image 441/898 /cfs/earth/scratch/benkehel/YOLO/test/3127.jpg: 640x640 1 White Glass, 1 Metal, 129.0ms
+image 442/898 /cfs/earth/scratch/benkehel/YOLO/test/3211.jpg: 640x640 1 Green Glass, 128.4ms
+image 443/898 /cfs/earth/scratch/benkehel/YOLO/test/3213.jpg: 640x640 1 White Glass, 131.1ms
+image 444/898 /cfs/earth/scratch/benkehel/YOLO/test/3301.jpg: 640x640 1 Brown Glass, 128.7ms
+image 445/898 /cfs/earth/scratch/benkehel/YOLO/test/3337.jpg: 640x640 1 White Glass, 1 Metal, 126.7ms
+image 446/898 /cfs/earth/scratch/benkehel/YOLO/test/3355.jpg: 640x640 1 Brown Glass, 129.9ms
+image 447/898 /cfs/earth/scratch/benkehel/YOLO/test/3374.jpg: 640x640 1 Green Glass, 125.0ms
+image 448/898 /cfs/earth/scratch/benkehel/YOLO/test/3401.jpg: 640x640 1 Residual waste, 132.3ms
+image 449/898 /cfs/earth/scratch/benkehel/YOLO/test/3421.jpg: 640x640 1 Brown Glass, 1 Green Glass, 127.4ms
+image 450/898 /cfs/earth/scratch/benkehel/YOLO/test/3422.jpg: 640x640 1 Brown Glass, 130.4ms
+image 451/898 /cfs/earth/scratch/benkehel/YOLO/test/3429.jpg: 640x640 1 Green Glass, 127.0ms
+image 452/898 /cfs/earth/scratch/benkehel/YOLO/test/3430.jpg: 640x640 1 White Glass, 1 Rigid plastic container, 127.5ms
+image 453/898 /cfs/earth/scratch/benkehel/YOLO/test/3437.jpg: 640x640 1 Brown Glass, 134.4ms
+image 454/898 /cfs/earth/scratch/benkehel/YOLO/test/3441.jpg: 640x640 1 Rigid plastic container, 129.0ms
+image 455/898 /cfs/earth/scratch/benkehel/YOLO/test/3450.jpg: 640x640 1 Plastic, 128.9ms
+image 456/898 /cfs/earth/scratch/benkehel/YOLO/test/3492.jpg: 640x640 1 Plastic, 130.0ms
+image 457/898 /cfs/earth/scratch/benkehel/YOLO/test/3496.jpg: 640x640 1 Rigid plastic container, 127.6ms
+image 458/898 /cfs/earth/scratch/benkehel/YOLO/test/3562.jpg: 640x640 1 Rigid plastic container, 128.1ms
+image 459/898 /cfs/earth/scratch/benkehel/YOLO/test/3563.jpg: 640x640 1 Organic waste, 127.4ms
+image 460/898 /cfs/earth/scratch/benkehel/YOLO/test/3594.jpg: 640x640 1 Rigid plastic container, 128.6ms
+image 461/898 /cfs/earth/scratch/benkehel/YOLO/test/3622.jpg: 640x640 1 Rigid plastic container, 123.2ms
+image 462/898 /cfs/earth/scratch/benkehel/YOLO/test/3624.jpg: 640x640 1 Rigid plastic container, 128.3ms
+image 463/898 /cfs/earth/scratch/benkehel/YOLO/test/3628.jpg: 640x640 1 Rigid plastic container, 127.2ms
+image 464/898 /cfs/earth/scratch/benkehel/YOLO/test/3630.jpg: 640x640 1 Rigid plastic container, 129.2ms
+image 465/898 /cfs/earth/scratch/benkehel/YOLO/test/3633.jpg: 640x640 1 Rigid plastic container, 132.3ms
+image 466/898 /cfs/earth/scratch/benkehel/YOLO/test/3640.jpg: 640x640 1 Rigid plastic container, 131.0ms
+image 467/898 /cfs/earth/scratch/benkehel/YOLO/test/3656.jpg: 640x640 1 Rigid plastic container, 128.2ms
+image 468/898 /cfs/earth/scratch/benkehel/YOLO/test/3675.jpg: 640x640 1 PET, 130.1ms
+image 469/898 /cfs/earth/scratch/benkehel/YOLO/test/3727.jpg: 640x640 1 Rigid plastic container, 126.4ms
+image 470/898 /cfs/earth/scratch/benkehel/YOLO/test/3744.jpg: 640x640 1 Plastic, 132.8ms
+image 471/898 /cfs/earth/scratch/benkehel/YOLO/test/3758.jpg: 640x640 1 Plastic, 1 Organic waste, 128.8ms
+image 472/898 /cfs/earth/scratch/benkehel/YOLO/test/3759.jpg: 640x640 1 Plastic, 1 Organic waste, 1 Residual waste, 129.2ms
+image 473/898 /cfs/earth/scratch/benkehel/YOLO/test/3760.jpg: 640x640 1 Plastic, 126.8ms
+image 474/898 /cfs/earth/scratch/benkehel/YOLO/test/3795.jpg: 640x640 1 Rigid plastic container, 129.6ms
+image 475/898 /cfs/earth/scratch/benkehel/YOLO/test/3803.jpg: 640x640 1 Plastic, 132.2ms
+image 476/898 /cfs/earth/scratch/benkehel/YOLO/test/3813.jpg: 640x640 1 PET, 1 White Glass, 132.0ms
+image 477/898 /cfs/earth/scratch/benkehel/YOLO/test/3814.jpg: 640x640 1 PET, 1 White Glass, 127.4ms
+image 478/898 /cfs/earth/scratch/benkehel/YOLO/test/3824.jpg: 640x640 1 Rigid plastic container, 129.5ms
+image 479/898 /cfs/earth/scratch/benkehel/YOLO/test/3844.jpg: 640x640 1 Plastic, 1 Residual waste, 130.7ms
+image 480/898 /cfs/earth/scratch/benkehel/YOLO/test/3860.jpg: 640x640 1 Plastic, 127.8ms
+image 481/898 /cfs/earth/scratch/benkehel/YOLO/test/3866.jpg: 640x640 1 Plastic, 128.4ms
+image 482/898 /cfs/earth/scratch/benkehel/YOLO/test/3892.jpg: 640x640 1 PET, 127.2ms
+image 483/898 /cfs/earth/scratch/benkehel/YOLO/test/3897.jpg: 640x640 1 PET, 123.2ms
+image 484/898 /cfs/earth/scratch/benkehel/YOLO/test/3906.jpg: 640x640 1 PET, 128.5ms
+image 485/898 /cfs/earth/scratch/benkehel/YOLO/test/3937.jpg: 640x640 1 PET, 127.1ms
+image 486/898 /cfs/earth/scratch/benkehel/YOLO/test/3938.jpg: 640x640 1 PET, 129.6ms
+image 487/898 /cfs/earth/scratch/benkehel/YOLO/test/3946.jpg: 640x640 1 PET, 1 Plastic, 126.8ms
+image 488/898 /cfs/earth/scratch/benkehel/YOLO/test/3957.jpg: 640x640 1 Plastic, 126.0ms
+image 489/898 /cfs/earth/scratch/benkehel/YOLO/test/4168.jpg: 640x640 1 Residual waste, 119.5ms
+image 490/898 /cfs/earth/scratch/benkehel/YOLO/test/4172.jpg: 640x640 1 PET, 1 Plastic, 128.6ms
+image 491/898 /cfs/earth/scratch/benkehel/YOLO/test/4187.jpg: 640x640 1 Rigid plastic container, 126.9ms
+image 492/898 /cfs/earth/scratch/benkehel/YOLO/test/4188.jpg: 640x640 1 Rigid plastic container, 132.5ms
+image 493/898 /cfs/earth/scratch/benkehel/YOLO/test/4232.jpg: 640x640 1 Rigid plastic container, 127.4ms
+image 494/898 /cfs/earth/scratch/benkehel/YOLO/test/4234.jpg: 640x640 1 PET, 128.6ms
+image 495/898 /cfs/earth/scratch/benkehel/YOLO/test/4238.jpg: 640x640 1 PET, 126.4ms
+image 496/898 /cfs/earth/scratch/benkehel/YOLO/test/4265.jpg: 640x640 1 Plastic, 127.9ms
+image 497/898 /cfs/earth/scratch/benkehel/YOLO/test/4283.jpg: 640x640 1 Plastic, 127.1ms
+image 498/898 /cfs/earth/scratch/benkehel/YOLO/test/4300.jpg: 640x640 1 Plastic, 129.6ms
+image 499/898 /cfs/earth/scratch/benkehel/YOLO/test/4316.jpg: 640x640 1 Rigid plastic container, 125.5ms
+image 500/898 /cfs/earth/scratch/benkehel/YOLO/test/4350.jpg: 640x640 1 Organic waste, 128.1ms
+image 501/898 /cfs/earth/scratch/benkehel/YOLO/test/4352.jpg: 640x640 1 PET, 1 Green Glass, 126.3ms
+image 502/898 /cfs/earth/scratch/benkehel/YOLO/test/4355.jpg: 640x640 1 Residual waste, 129.0ms
+image 503/898 /cfs/earth/scratch/benkehel/YOLO/test/4396.jpg: 640x640 1 Residual waste, 126.3ms
+image 504/898 /cfs/earth/scratch/benkehel/YOLO/test/4401.jpg: 640x640 1 Residual waste, 129.2ms
+image 505/898 /cfs/earth/scratch/benkehel/YOLO/test/4419.jpg: 640x640 1 Residual waste, 127.4ms
+image 506/898 /cfs/earth/scratch/benkehel/YOLO/test/4425.jpg: 640x640 1 Residual waste, 130.2ms
+image 507/898 /cfs/earth/scratch/benkehel/YOLO/test/4443.jpg: 640x640 1 Residual waste, 131.1ms
+image 508/898 /cfs/earth/scratch/benkehel/YOLO/test/4451.jpg: 640x640 1 Residual waste, 127.8ms
+image 509/898 /cfs/earth/scratch/benkehel/YOLO/test/4467.jpg: 640x640 1 Residual waste, 126.9ms
+image 510/898 /cfs/earth/scratch/benkehel/YOLO/test/4476.jpg: 640x640 1 Residual waste, 129.2ms
+image 511/898 /cfs/earth/scratch/benkehel/YOLO/test/4504.jpg: 640x640 1 Residual waste, 127.4ms
+image 512/898 /cfs/earth/scratch/benkehel/YOLO/test/4514.jpg: 640x640 1 Residual waste, 127.1ms
+image 513/898 /cfs/earth/scratch/benkehel/YOLO/test/4527.jpg: 640x640 1 Residual waste, 131.0ms
+image 514/898 /cfs/earth/scratch/benkehel/YOLO/test/4533.jpg: 640x640 1 Residual waste, 130.2ms
+image 515/898 /cfs/earth/scratch/benkehel/YOLO/test/4562.jpg: 640x640 1 Residual waste, 133.2ms
+image 516/898 /cfs/earth/scratch/benkehel/YOLO/test/4573.jpg: 640x640 1 Residual waste, 127.7ms
+image 517/898 /cfs/earth/scratch/benkehel/YOLO/test/4583.jpg: 640x640 1 Residual waste, 128.0ms
+image 518/898 /cfs/earth/scratch/benkehel/YOLO/test/4585.jpg: 640x640 1 Residual waste, 127.5ms
+image 519/898 /cfs/earth/scratch/benkehel/YOLO/test/4588.jpg: 640x640 1 Residual waste, 128.5ms
+image 520/898 /cfs/earth/scratch/benkehel/YOLO/test/4591.jpg: 640x640 1 Residual waste, 125.0ms
+image 521/898 /cfs/earth/scratch/benkehel/YOLO/test/4599.jpg: 640x640 1 Residual waste, 128.7ms
+image 522/898 /cfs/earth/scratch/benkehel/YOLO/test/4602.jpg: 640x640 1 Residual waste, 127.2ms
+image 523/898 /cfs/earth/scratch/benkehel/YOLO/test/4628.jpg: 640x640 1 Residual waste, 139.6ms
+image 524/898 /cfs/earth/scratch/benkehel/YOLO/test/4647.jpg: 640x640 1 Residual waste, 137.7ms
+image 525/898 /cfs/earth/scratch/benkehel/YOLO/test/4652.jpg: 640x640 1 Residual waste, 129.9ms
+image 526/898 /cfs/earth/scratch/benkehel/YOLO/test/4671.jpg: 640x640 1 Residual waste, 126.9ms
+image 527/898 /cfs/earth/scratch/benkehel/YOLO/test/4705.jpg: 640x640 1 Residual waste, 129.3ms
+image 528/898 /cfs/earth/scratch/benkehel/YOLO/test/4711.jpg: 640x640 1 Residual waste, 121.7ms
+image 529/898 /cfs/earth/scratch/benkehel/YOLO/test/4712.jpg: 640x640 1 Residual waste, 127.0ms
+image 530/898 /cfs/earth/scratch/benkehel/YOLO/test/4713.jpg: 640x640 1 Residual waste, 128.4ms
+image 531/898 /cfs/earth/scratch/benkehel/YOLO/test/4737.jpg: 640x640 1 Residual waste, 128.8ms
+image 532/898 /cfs/earth/scratch/benkehel/YOLO/test/4740.jpg: 640x640 1 Residual waste, 129.7ms
+image 533/898 /cfs/earth/scratch/benkehel/YOLO/test/4748.jpg: 640x640 1 Residual waste, 129.8ms
+image 534/898 /cfs/earth/scratch/benkehel/YOLO/test/4790.jpg: 640x640 1 Residual waste, 131.1ms
+image 535/898 /cfs/earth/scratch/benkehel/YOLO/test/4836.jpg: 640x640 1 Residual waste, 129.1ms
+image 536/898 /cfs/earth/scratch/benkehel/YOLO/test/4844.jpg: 640x640 2 Aluminiums, 132.9ms
+image 537/898 /cfs/earth/scratch/benkehel/YOLO/test/4847.jpg: 640x640 3 Aluminiums, 128.2ms
+image 538/898 /cfs/earth/scratch/benkehel/YOLO/test/4866.jpg: 640x640 2 Aluminiums, 129.0ms
+image 539/898 /cfs/earth/scratch/benkehel/YOLO/test/4872.jpg: 640x640 4 Aluminiums, 128.9ms
+image 540/898 /cfs/earth/scratch/benkehel/YOLO/test/4880.jpg: 640x640 3 Aluminiums, 129.3ms
+image 541/898 /cfs/earth/scratch/benkehel/YOLO/test/4886.jpg: 640x640 2 Aluminiums, 128.0ms
+image 542/898 /cfs/earth/scratch/benkehel/YOLO/test/4892.jpg: 640x640 1 Aluminium, 129.1ms
+image 543/898 /cfs/earth/scratch/benkehel/YOLO/test/4894.jpg: 640x640 4 Aluminiums, 128.1ms
+image 544/898 /cfs/earth/scratch/benkehel/YOLO/test/4898.jpg: 640x640 6 Aluminiums, 138.2ms
+image 545/898 /cfs/earth/scratch/benkehel/YOLO/test/4912.jpg: 640x640 2 Aluminiums, 129.9ms
+image 546/898 /cfs/earth/scratch/benkehel/YOLO/test/4932.jpg: 640x640 3 Aluminiums, 127.1ms
+image 547/898 /cfs/earth/scratch/benkehel/YOLO/test/4936.jpg: 640x640 1 Hazardous Waste, 127.3ms
+image 548/898 /cfs/earth/scratch/benkehel/YOLO/test/4946.jpg: 640x640 4 Hazardous Wastes, 122.7ms
+image 549/898 /cfs/earth/scratch/benkehel/YOLO/test/4953.jpg: 640x640 1 Hazardous Waste, 129.4ms
+image 550/898 /cfs/earth/scratch/benkehel/YOLO/test/4962.jpg: 640x640 1 Hazardous Waste, 131.7ms
+image 551/898 /cfs/earth/scratch/benkehel/YOLO/test/4967.jpg: 640x640 1 Hazardous Waste, 128.4ms
+image 552/898 /cfs/earth/scratch/benkehel/YOLO/test/4971.jpg: 640x640 1 Composite Carton, 129.9ms
+image 553/898 /cfs/earth/scratch/benkehel/YOLO/test/4977.jpg: 640x640 1 Composite Carton, 130.0ms
+image 554/898 /cfs/earth/scratch/benkehel/YOLO/test/4978.jpg: 640x640 1 Composite Carton, 141.4ms
+image 555/898 /cfs/earth/scratch/benkehel/YOLO/test/4987.jpg: 640x640 1 Composite Carton, 130.4ms
+image 556/898 /cfs/earth/scratch/benkehel/YOLO/test/4996.jpg: 640x640 1 Composite Carton, 127.3ms
+image 557/898 /cfs/earth/scratch/benkehel/YOLO/test/4999.jpg: 640x640 1 Composite Carton, 129.7ms
+image 558/898 /cfs/earth/scratch/benkehel/YOLO/test/5014.jpg: 640x640 1 Composite Carton, 130.5ms
+image 559/898 /cfs/earth/scratch/benkehel/YOLO/test/5016.jpg: 640x640 1 Composite Carton, 129.0ms
+image 560/898 /cfs/earth/scratch/benkehel/YOLO/test/5025.jpg: 640x640 1 Composite Carton, 127.7ms
+image 561/898 /cfs/earth/scratch/benkehel/YOLO/test/5027.jpg: 640x640 1 Composite Carton, 128.8ms
+image 562/898 /cfs/earth/scratch/benkehel/YOLO/test/5034.jpg: 640x640 1 Composite Carton, 129.6ms
+image 563/898 /cfs/earth/scratch/benkehel/YOLO/test/5043.jpg: 640x640 1 Composite Carton, 130.1ms
+image 564/898 /cfs/earth/scratch/benkehel/YOLO/test/5044.jpg: 640x640 1 Composite Carton, 132.3ms
+image 565/898 /cfs/earth/scratch/benkehel/YOLO/test/5062.jpg: 640x640 1 PET, 129.5ms
+image 566/898 /cfs/earth/scratch/benkehel/YOLO/test/5070.jpg: 640x640 1 PET, 126.1ms
+image 567/898 /cfs/earth/scratch/benkehel/YOLO/test/5071.jpg: 640x640 1 White Glass, 130.3ms
+image 568/898 /cfs/earth/scratch/benkehel/YOLO/test/5072.jpg: 640x640 1 White Glass, 128.5ms
+image 569/898 /cfs/earth/scratch/benkehel/YOLO/test/5075.jpg: 640x640 1 White Glass, 129.2ms
+image 570/898 /cfs/earth/scratch/benkehel/YOLO/test/5086.jpg: 640x640 1 White Glass, 126.4ms
+image 571/898 /cfs/earth/scratch/benkehel/YOLO/test/5089.jpg: 640x640 1 White Glass, 121.0ms
+image 572/898 /cfs/earth/scratch/benkehel/YOLO/test/5122.jpg: 640x640 1 Organic waste, 1 Residual waste, 122.5ms
+image 573/898 /cfs/earth/scratch/benkehel/YOLO/test/5131.jpg: 640x640 1 Residual waste, 129.4ms
+image 574/898 /cfs/earth/scratch/benkehel/YOLO/test/5140.jpg: 640x640 2 Residual wastes, 133.3ms
+image 575/898 /cfs/earth/scratch/benkehel/YOLO/test/5146.jpg: 640x640 1 Residual waste, 129.7ms
+image 576/898 /cfs/earth/scratch/benkehel/YOLO/test/5157.jpg: 640x640 1 Rigid plastic container, 128.1ms
+image 577/898 /cfs/earth/scratch/benkehel/YOLO/test/5160.jpg: 640x640 1 Rigid plastic container, 128.0ms
+image 578/898 /cfs/earth/scratch/benkehel/YOLO/test/5164.jpg: 640x640 1 Rigid plastic container, 127.8ms
+image 579/898 /cfs/earth/scratch/benkehel/YOLO/test/5194.jpg: 640x640 1 Rigid plastic container, 130.5ms
+image 580/898 /cfs/earth/scratch/benkehel/YOLO/test/5198.jpg: 640x640 1 Rigid plastic container, 127.1ms
+image 581/898 /cfs/earth/scratch/benkehel/YOLO/test/5200.jpg: 640x640 1 Rigid plastic container, 129.0ms
+image 582/898 /cfs/earth/scratch/benkehel/YOLO/test/5210.jpg: 640x640 1 Aluminium, 2 Plastics, 130.9ms
+image 583/898 /cfs/earth/scratch/benkehel/YOLO/test/5214.jpg: 640x640 1 Rigid plastic container, 134.6ms
+image 584/898 /cfs/earth/scratch/benkehel/YOLO/test/5238.jpg: 640x640 1 Rigid plastic container, 133.4ms
+image 585/898 /cfs/earth/scratch/benkehel/YOLO/test/5240.jpg: 640x640 1 Rigid plastic container, 127.1ms
+image 586/898 /cfs/earth/scratch/benkehel/YOLO/test/5245.jpg: 640x640 1 Organic waste, 122.9ms
+image 587/898 /cfs/earth/scratch/benkehel/YOLO/test/5247.jpg: 640x640 1 Rigid plastic container, 130.6ms
+image 588/898 /cfs/earth/scratch/benkehel/YOLO/test/5252.jpg: 640x640 1 Aluminium, 127.8ms
+image 589/898 /cfs/earth/scratch/benkehel/YOLO/test/5262.jpg: 640x640 3 Aluminiums, 126.5ms
+image 590/898 /cfs/earth/scratch/benkehel/YOLO/test/5268.jpg: 640x640 2 Aluminiums, 125.1ms
+image 591/898 /cfs/earth/scratch/benkehel/YOLO/test/5280.jpg: 640x640 1 Aluminium, 123.0ms
+image 592/898 /cfs/earth/scratch/benkehel/YOLO/test/5281.jpg: 640x640 1 Aluminium, 132.9ms
+image 593/898 /cfs/earth/scratch/benkehel/YOLO/test/5288.jpg: 640x640 1 Aluminium, 131.5ms
+image 594/898 /cfs/earth/scratch/benkehel/YOLO/test/5295.jpg: 640x640 4 Aluminiums, 126.3ms
+image 595/898 /cfs/earth/scratch/benkehel/YOLO/test/5299.jpg: 640x640 1 Aluminium, 129.4ms
+image 596/898 /cfs/earth/scratch/benkehel/YOLO/test/5301.jpg: 640x640 3 Aluminiums, 126.8ms
+image 597/898 /cfs/earth/scratch/benkehel/YOLO/test/5302.jpg: 640x640 6 Aluminiums, 129.7ms
+image 598/898 /cfs/earth/scratch/benkehel/YOLO/test/5308.jpg: 640x640 1 Aluminium, 131.0ms
+image 599/898 /cfs/earth/scratch/benkehel/YOLO/test/5310.jpg: 640x640 6 Aluminiums, 127.4ms
+image 600/898 /cfs/earth/scratch/benkehel/YOLO/test/5320.jpg: 640x640 1 Aluminium, 119.2ms
+image 601/898 /cfs/earth/scratch/benkehel/YOLO/test/5322.jpg: 640x640 2 Aluminiums, 128.3ms
+image 602/898 /cfs/earth/scratch/benkehel/YOLO/test/5326.jpg: 640x640 3 Aluminiums, 130.5ms
+image 603/898 /cfs/earth/scratch/benkehel/YOLO/test/5334.jpg: 640x640 1 Aluminium, 127.2ms
+image 604/898 /cfs/earth/scratch/benkehel/YOLO/test/5336.jpg: 640x640 1 Aluminium, 128.0ms
+image 605/898 /cfs/earth/scratch/benkehel/YOLO/test/5341.jpg: 640x640 1 Aluminium, 130.0ms
+image 606/898 /cfs/earth/scratch/benkehel/YOLO/test/5345.jpg: 640x640 2 Aluminiums, 126.2ms
+image 607/898 /cfs/earth/scratch/benkehel/YOLO/test/5352.jpg: 640x640 1 Aluminium, 130.0ms
+image 608/898 /cfs/earth/scratch/benkehel/YOLO/test/5364.jpg: 640x640 2 Aluminiums, 132.6ms
+image 609/898 /cfs/earth/scratch/benkehel/YOLO/test/5372.jpg: 640x640 1 Aluminium, 128.9ms
+image 610/898 /cfs/earth/scratch/benkehel/YOLO/test/5377.jpg: 640x640 2 Aluminiums, 127.6ms
+image 611/898 /cfs/earth/scratch/benkehel/YOLO/test/5381.jpg: 640x640 3 Aluminiums, 127.6ms
+image 612/898 /cfs/earth/scratch/benkehel/YOLO/test/5383.jpg: 640x640 1 Brown Glass, 126.1ms
+image 613/898 /cfs/earth/scratch/benkehel/YOLO/test/5396.jpg: 640x640 1 Brown Glass, 128.7ms
+image 614/898 /cfs/earth/scratch/benkehel/YOLO/test/5401.jpg: 640x640 1 Brown Glass, 133.2ms
+image 615/898 /cfs/earth/scratch/benkehel/YOLO/test/5433.jpg: 640x640 1 Brown Glass, 130.7ms
+image 616/898 /cfs/earth/scratch/benkehel/YOLO/test/5435.jpg: 640x640 1 Brown Glass, 131.0ms
+image 617/898 /cfs/earth/scratch/benkehel/YOLO/test/5439.jpg: 640x640 1 Brown Glass, 135.2ms
+image 618/898 /cfs/earth/scratch/benkehel/YOLO/test/5440.jpg: 640x640 1 Brown Glass, 127.5ms
+image 619/898 /cfs/earth/scratch/benkehel/YOLO/test/5441.jpg: 640x640 1 Brown Glass, 128.2ms
+image 620/898 /cfs/earth/scratch/benkehel/YOLO/test/5444.jpg: 640x640 1 Brown Glass, 127.2ms
+image 621/898 /cfs/earth/scratch/benkehel/YOLO/test/5448.jpg: 640x640 1 Brown Glass, 130.8ms
+image 622/898 /cfs/earth/scratch/benkehel/YOLO/test/5457.jpg: 640x640 1 Brown Glass, 127.5ms
+image 623/898 /cfs/earth/scratch/benkehel/YOLO/test/5468.jpg: 640x640 1 Brown Glass, 129.9ms
+image 624/898 /cfs/earth/scratch/benkehel/YOLO/test/5469.jpg: 640x640 1 Brown Glass, 128.2ms
+image 625/898 /cfs/earth/scratch/benkehel/YOLO/test/5473.jpg: 640x640 1 Brown Glass, 128.4ms
+image 626/898 /cfs/earth/scratch/benkehel/YOLO/test/5474.jpg: 640x640 1 Residual waste, 126.4ms
+image 627/898 /cfs/earth/scratch/benkehel/YOLO/test/5478.jpg: 640x640 1 Green Glass, 131.2ms
+image 628/898 /cfs/earth/scratch/benkehel/YOLO/test/5483.jpg: 640x640 1 Green Glass, 2 Residual wastes, 127.8ms
+image 629/898 /cfs/earth/scratch/benkehel/YOLO/test/5487.jpg: 640x640 1 Green Glass, 131.4ms
+image 630/898 /cfs/earth/scratch/benkehel/YOLO/test/5510.jpg: 640x640 1 Green Glass, 125.0ms
+image 631/898 /cfs/earth/scratch/benkehel/YOLO/test/5515.jpg: 640x640 1 Green Glass, 128.6ms
+image 632/898 /cfs/earth/scratch/benkehel/YOLO/test/5518.jpg: 640x640 1 Green Glass, 126.1ms
+image 633/898 /cfs/earth/scratch/benkehel/YOLO/test/5521.jpg: 640x640 1 Green Glass, 130.4ms
+image 634/898 /cfs/earth/scratch/benkehel/YOLO/test/5522.jpg: 640x640 1 Green Glass, 126.0ms
+image 635/898 /cfs/earth/scratch/benkehel/YOLO/test/5525.jpg: 640x640 1 Brown Glass, 1 Green Glass, 128.5ms
+image 636/898 /cfs/earth/scratch/benkehel/YOLO/test/5534.jpg: 640x640 1 Green Glass, 128.0ms
+image 637/898 /cfs/earth/scratch/benkehel/YOLO/test/5550.jpg: 640x640 1 Green Glass, 130.2ms
+image 638/898 /cfs/earth/scratch/benkehel/YOLO/test/5552.jpg: 640x640 1 Green Glass, 129.4ms
+image 639/898 /cfs/earth/scratch/benkehel/YOLO/test/5563.jpg: 640x640 1 Green Glass, 129.3ms
+image 640/898 /cfs/earth/scratch/benkehel/YOLO/test/5567.jpg: 640x640 2 Green Glasss, 127.7ms
+image 641/898 /cfs/earth/scratch/benkehel/YOLO/test/5577.jpg: 640x640 1 Composite Carton, 129.9ms
+image 642/898 /cfs/earth/scratch/benkehel/YOLO/test/5602.jpg: 640x640 1 Composite Carton, 126.8ms
+image 643/898 /cfs/earth/scratch/benkehel/YOLO/test/5603.jpg: 640x640 1 Composite Carton, 129.6ms
+image 644/898 /cfs/earth/scratch/benkehel/YOLO/test/5605.jpg: 640x640 1 Composite Carton, 128.9ms
+image 645/898 /cfs/earth/scratch/benkehel/YOLO/test/5609.jpg: 640x640 1 Composite Carton, 130.5ms
+image 646/898 /cfs/earth/scratch/benkehel/YOLO/test/5614.jpg: 640x640 1 Composite Carton, 127.8ms
+image 647/898 /cfs/earth/scratch/benkehel/YOLO/test/5616.jpg: 640x640 1 Composite Carton, 129.7ms
+image 648/898 /cfs/earth/scratch/benkehel/YOLO/test/5619.jpg: 640x640 1 Composite Carton, 132.8ms
+image 649/898 /cfs/earth/scratch/benkehel/YOLO/test/5621.jpg: 640x640 1 Composite Carton, 129.6ms
+image 650/898 /cfs/earth/scratch/benkehel/YOLO/test/5625.jpg: 640x640 1 Composite Carton, 127.8ms
+image 651/898 /cfs/earth/scratch/benkehel/YOLO/test/5633.jpg: 640x640 1 Composite Carton, 129.5ms
+image 652/898 /cfs/earth/scratch/benkehel/YOLO/test/5665.jpg: 640x640 1 Composite Carton, 133.6ms
+image 653/898 /cfs/earth/scratch/benkehel/YOLO/test/5671.jpg: 640x640 1 Composite Carton, 129.0ms
+image 654/898 /cfs/earth/scratch/benkehel/YOLO/test/5682.jpg: 640x640 1 Composite Carton, 128.3ms
+image 655/898 /cfs/earth/scratch/benkehel/YOLO/test/5691.jpg: 640x640 1 Composite Carton, 130.2ms
+image 656/898 /cfs/earth/scratch/benkehel/YOLO/test/5697.jpg: 640x640 2 Composite Cartons, 126.8ms
+image 657/898 /cfs/earth/scratch/benkehel/YOLO/test/5706.jpg: 640x640 1 Composite Carton, 130.1ms
+image 658/898 /cfs/earth/scratch/benkehel/YOLO/test/5708.jpg: 640x640 1 Composite Carton, 133.7ms
+image 659/898 /cfs/earth/scratch/benkehel/YOLO/test/5714.jpg: 640x640 1 Composite Carton, 131.6ms
+image 660/898 /cfs/earth/scratch/benkehel/YOLO/test/5720.jpg: 640x640 1 Composite Carton, 125.8ms
+image 661/898 /cfs/earth/scratch/benkehel/YOLO/test/5730.jpg: 640x640 1 Composite Carton, 129.2ms
+image 662/898 /cfs/earth/scratch/benkehel/YOLO/test/5733.jpg: 640x640 1 Composite Carton, 128.2ms
+image 663/898 /cfs/earth/scratch/benkehel/YOLO/test/5739.jpg: 640x640 1 Composite Carton, 131.3ms
+image 664/898 /cfs/earth/scratch/benkehel/YOLO/test/5740.jpg: 640x640 1 Composite Carton, 128.2ms
+image 665/898 /cfs/earth/scratch/benkehel/YOLO/test/5744.jpg: 640x640 1 Composite Carton, 128.1ms
+image 666/898 /cfs/earth/scratch/benkehel/YOLO/test/5747.jpg: 640x640 1 Composite Carton, 127.3ms
+image 667/898 /cfs/earth/scratch/benkehel/YOLO/test/5751.jpg: 640x640 1 Composite Carton, 129.3ms
+image 668/898 /cfs/earth/scratch/benkehel/YOLO/test/5787.jpg: 640x640 1 Composite Carton, 133.7ms
+image 669/898 /cfs/earth/scratch/benkehel/YOLO/test/5828.jpg: 640x640 1 White Glass, 1 Metal, 128.5ms
+image 670/898 /cfs/earth/scratch/benkehel/YOLO/test/5829.jpg: 640x640 1 White Glass, 1 Metal, 127.5ms
+image 671/898 /cfs/earth/scratch/benkehel/YOLO/test/5842.jpg: 640x640 1 White Glass, 1 Metal, 129.2ms
+image 672/898 /cfs/earth/scratch/benkehel/YOLO/test/5845.jpg: 640x640 1 White Glass, 1 Metal, 127.4ms
+image 673/898 /cfs/earth/scratch/benkehel/YOLO/test/5854.jpg: 640x640 1 White Glass, 1 Metal, 128.5ms
+image 674/898 /cfs/earth/scratch/benkehel/YOLO/test/5860.jpg: 640x640 1 White Glass, 1 Metal, 127.5ms
+image 675/898 /cfs/earth/scratch/benkehel/YOLO/test/5863.jpg: 640x640 1 White Glass, 1 Metal, 129.9ms
+image 676/898 /cfs/earth/scratch/benkehel/YOLO/test/5864.jpg: 640x640 1 White Glass, 1 Metal, 131.8ms
+image 677/898 /cfs/earth/scratch/benkehel/YOLO/test/5873.jpg: 640x640 1 White Glass, 1 Metal, 130.8ms
+image 678/898 /cfs/earth/scratch/benkehel/YOLO/test/5875.jpg: 640x640 1 White Glass, 1 Metal, 132.6ms
+image 679/898 /cfs/earth/scratch/benkehel/YOLO/test/5878.jpg: 640x640 1 White Glass, 1 Metal, 129.9ms
+image 680/898 /cfs/earth/scratch/benkehel/YOLO/test/5888.jpg: 640x640 1 White Glass, 1 Metal, 127.8ms
+image 681/898 /cfs/earth/scratch/benkehel/YOLO/test/5889.jpg: 640x640 1 White Glass, 1 Metal, 130.5ms
+image 682/898 /cfs/earth/scratch/benkehel/YOLO/test/5892.jpg: 640x640 1 White Glass, 1 Metal, 126.8ms
+image 683/898 /cfs/earth/scratch/benkehel/YOLO/test/5897.jpg: 640x640 1 White Glass, 2 Metals, 130.0ms
+image 684/898 /cfs/earth/scratch/benkehel/YOLO/test/5904.jpg: 640x640 1 White Glass, 1 Metal, 127.8ms
+image 685/898 /cfs/earth/scratch/benkehel/YOLO/test/5908.jpg: 640x640 1 White Glass, 1 Metal, 130.7ms
+image 686/898 /cfs/earth/scratch/benkehel/YOLO/test/5914.jpg: 640x640 1 White Glass, 1 Metal, 127.9ms
+image 687/898 /cfs/earth/scratch/benkehel/YOLO/test/5918.jpg: 640x640 1 White Glass, 1 Metal, 128.6ms
+image 688/898 /cfs/earth/scratch/benkehel/YOLO/test/5923.jpg: 640x640 1 White Glass, 1 Metal, 131.4ms
+image 689/898 /cfs/earth/scratch/benkehel/YOLO/test/5929.jpg: 640x640 1 Hazardous Waste, 128.9ms
+image 690/898 /cfs/earth/scratch/benkehel/YOLO/test/5931.jpg: 640x640 1 Hazardous Waste, 128.1ms
+image 691/898 /cfs/earth/scratch/benkehel/YOLO/test/5956.jpg: 640x640 1 Hazardous Waste, 130.7ms
+image 692/898 /cfs/earth/scratch/benkehel/YOLO/test/5960.jpg: 640x640 1 Hazardous Waste, 126.6ms
+image 693/898 /cfs/earth/scratch/benkehel/YOLO/test/5962.jpg: 640x640 1 Hazardous Waste, 130.7ms
+image 694/898 /cfs/earth/scratch/benkehel/YOLO/test/5968.jpg: 640x640 1 Hazardous Waste, 127.2ms
+image 695/898 /cfs/earth/scratch/benkehel/YOLO/test/5971.jpg: 640x640 1 Hazardous Waste, 129.7ms
+image 696/898 /cfs/earth/scratch/benkehel/YOLO/test/5980.jpg: 640x640 1 Hazardous Waste, 129.2ms
+image 697/898 /cfs/earth/scratch/benkehel/YOLO/test/5992.jpg: 640x640 1 Hazardous Waste, 130.6ms
+image 698/898 /cfs/earth/scratch/benkehel/YOLO/test/5995.jpg: 640x640 1 Hazardous Waste, 132.8ms
+image 699/898 /cfs/earth/scratch/benkehel/YOLO/test/6004.jpg: 640x640 1 Hazardous Waste, 128.6ms
+image 700/898 /cfs/earth/scratch/benkehel/YOLO/test/6010.jpg: 640x640 1 Hazardous Waste, 127.0ms
+image 701/898 /cfs/earth/scratch/benkehel/YOLO/test/6017.jpg: 640x640 1 Hazardous Waste, 131.6ms
+image 702/898 /cfs/earth/scratch/benkehel/YOLO/test/6027.jpg: 640x640 1 Hazardous Waste, 135.3ms
+image 703/898 /cfs/earth/scratch/benkehel/YOLO/test/6039.jpg: 640x640 1 Hazardous Waste, 136.5ms
+image 704/898 /cfs/earth/scratch/benkehel/YOLO/test/6046.jpg: 640x640 1 Hazardous Waste, 127.6ms
+image 705/898 /cfs/earth/scratch/benkehel/YOLO/test/6047.jpg: 640x640 1 Hazardous Waste, 130.4ms
+image 706/898 /cfs/earth/scratch/benkehel/YOLO/test/6048.jpg: 640x640 2 Hazardous Wastes, 128.9ms
+image 707/898 /cfs/earth/scratch/benkehel/YOLO/test/6051.jpg: 640x640 1 Hazardous Waste, 127.5ms
+image 708/898 /cfs/earth/scratch/benkehel/YOLO/test/6063.jpg: 640x640 1 Hazardous Waste, 133.5ms
+image 709/898 /cfs/earth/scratch/benkehel/YOLO/test/6071.jpg: 640x640 1 Hazardous Waste, 129.0ms
+image 710/898 /cfs/earth/scratch/benkehel/YOLO/test/6072.jpg: 640x640 4 Hazardous Wastes, 128.4ms
+image 711/898 /cfs/earth/scratch/benkehel/YOLO/test/6074.jpg: 640x640 1 Hazardous Waste, 129.7ms
+image 712/898 /cfs/earth/scratch/benkehel/YOLO/test/6088.jpg: 640x640 2 Hazardous Wastes, 131.5ms
+image 713/898 /cfs/earth/scratch/benkehel/YOLO/test/6110.jpg: 640x640 1 Hazardous Waste, 131.5ms
+image 714/898 /cfs/earth/scratch/benkehel/YOLO/test/6118.jpg: 640x640 1 Hazardous Waste, 134.8ms
+image 715/898 /cfs/earth/scratch/benkehel/YOLO/test/6122.jpg: 640x640 1 Hazardous Waste, 135.6ms
+image 716/898 /cfs/earth/scratch/benkehel/YOLO/test/6124.jpg: 640x640 1 Hazardous Waste, 128.7ms
+image 717/898 /cfs/earth/scratch/benkehel/YOLO/test/6129.jpg: 640x640 1 Hazardous Waste, 128.5ms
+image 718/898 /cfs/earth/scratch/benkehel/YOLO/test/6145.jpg: 640x640 1 Hazardous Waste, 132.2ms
+image 719/898 /cfs/earth/scratch/benkehel/YOLO/test/6154.jpg: 640x640 1 Hazardous Waste, 129.8ms
+image 720/898 /cfs/earth/scratch/benkehel/YOLO/test/6156.jpg: 640x640 1 Hazardous Waste, 127.7ms
+image 721/898 /cfs/earth/scratch/benkehel/YOLO/test/6169.jpg: 640x640 3 Hazardous Wastes, 128.8ms
+image 722/898 /cfs/earth/scratch/benkehel/YOLO/test/6179.jpg: 640x640 1 Hazardous Waste, 125.5ms
+image 723/898 /cfs/earth/scratch/benkehel/YOLO/test/6188.jpg: 640x640 1 Hazardous Waste, 128.2ms
+image 724/898 /cfs/earth/scratch/benkehel/YOLO/test/6189.jpg: 640x640 1 Hazardous Waste, 130.4ms
+image 725/898 /cfs/earth/scratch/benkehel/YOLO/test/6205.jpg: 640x640 1 Aluminium, 3 Plastics, 131.1ms
+image 726/898 /cfs/earth/scratch/benkehel/YOLO/test/6238.jpg: 640x640 1 Aluminium, 1 Plastic, 135.2ms
+image 727/898 /cfs/earth/scratch/benkehel/YOLO/test/6246.jpg: 640x640 1 Aluminium, 1 Plastic, 130.7ms
+image 728/898 /cfs/earth/scratch/benkehel/YOLO/test/6264.jpg: 640x640 2 Aluminiums, 1 Plastic, 131.0ms
+image 729/898 /cfs/earth/scratch/benkehel/YOLO/test/6268.jpg: 640x640 2 Aluminiums, 1 Plastic, 131.2ms
+image 730/898 /cfs/earth/scratch/benkehel/YOLO/test/6285.jpg: 640x640 1 Aluminium, 1 Plastic, 134.6ms
+image 731/898 /cfs/earth/scratch/benkehel/YOLO/test/6288.jpg: 640x640 1 Aluminium, 1 Plastic, 130.7ms
+image 732/898 /cfs/earth/scratch/benkehel/YOLO/test/6292.jpg: 640x640 1 Aluminium, 1 Plastic, 133.5ms
+image 733/898 /cfs/earth/scratch/benkehel/YOLO/test/6293.jpg: 640x640 3 Aluminiums, 1 Plastic, 129.3ms
+image 734/898 /cfs/earth/scratch/benkehel/YOLO/test/6296.jpg: 640x640 1 Aluminium, 3 Plastics, 127.4ms
+image 735/898 /cfs/earth/scratch/benkehel/YOLO/test/6307.jpg: 640x640 1 Aluminium, 1 Plastic, 129.2ms
+image 736/898 /cfs/earth/scratch/benkehel/YOLO/test/6320.jpg: 640x640 1 Aluminium, 1 Plastic, 133.1ms
+image 737/898 /cfs/earth/scratch/benkehel/YOLO/test/6325.jpg: 640x640 1 Aluminium, 3 Plastics, 130.5ms
+image 738/898 /cfs/earth/scratch/benkehel/YOLO/test/6329.jpg: 640x640 1 Plastic, 1 Composite Carton, 134.0ms
+image 739/898 /cfs/earth/scratch/benkehel/YOLO/test/6335.jpg: 640x640 1 PET, 1 Aluminium, 1 Plastic, 131.8ms
+image 740/898 /cfs/earth/scratch/benkehel/YOLO/test/6347.jpg: 640x640 1 Aluminium, 1 Plastic, 128.0ms
+image 741/898 /cfs/earth/scratch/benkehel/YOLO/test/6348.jpg: 640x640 1 Aluminium, 1 Plastic, 131.3ms
+image 742/898 /cfs/earth/scratch/benkehel/YOLO/test/6351.jpg: 640x640 1 Aluminium, 1 Plastic, 131.6ms
+image 743/898 /cfs/earth/scratch/benkehel/YOLO/test/6361.jpg: 640x640 2 Plastics, 129.8ms
+image 744/898 /cfs/earth/scratch/benkehel/YOLO/test/6363.jpg: 640x640 1 Aluminium, 1 Plastic, 123.2ms
+image 745/898 /cfs/earth/scratch/benkehel/YOLO/test/6367.jpg: 640x640 1 Aluminium, 1 Plastic, 127.9ms
+image 746/898 /cfs/earth/scratch/benkehel/YOLO/test/6373.jpg: 640x640 1 Aluminium, 1 Plastic, 131.2ms
+image 747/898 /cfs/earth/scratch/benkehel/YOLO/test/6374.jpg: 640x640 1 Aluminium, 1 Plastic, 133.0ms
+image 748/898 /cfs/earth/scratch/benkehel/YOLO/test/6375.jpg: 640x640 1 Aluminium, 1 Plastic, 128.3ms
+image 749/898 /cfs/earth/scratch/benkehel/YOLO/test/6377.jpg: 640x640 1 Aluminium, 1 Plastic, 132.6ms
+image 750/898 /cfs/earth/scratch/benkehel/YOLO/test/6379.jpg: 640x640 1 Aluminium, 1 Plastic, 128.0ms
+image 751/898 /cfs/earth/scratch/benkehel/YOLO/test/6381.jpg: 640x640 1 Aluminium, 1 Plastic, 128.8ms
+image 752/898 /cfs/earth/scratch/benkehel/YOLO/test/6382.jpg: 640x640 1 Aluminium, 1 Plastic, 127.1ms
+image 753/898 /cfs/earth/scratch/benkehel/YOLO/test/6388.jpg: 640x640 1 Aluminium, 1 Plastic, 129.3ms
+image 754/898 /cfs/earth/scratch/benkehel/YOLO/test/6391.jpg: 640x640 1 Aluminium, 1 Plastic, 128.4ms
+image 755/898 /cfs/earth/scratch/benkehel/YOLO/test/6399.jpg: 640x640 1 Plastic, 131.6ms
+image 756/898 /cfs/earth/scratch/benkehel/YOLO/test/6405.jpg: 640x640 1 Plastic, 129.4ms
+image 757/898 /cfs/earth/scratch/benkehel/YOLO/test/6409.jpg: 640x640 1 Plastic, 134.4ms
+image 758/898 /cfs/earth/scratch/benkehel/YOLO/test/6417.jpg: 640x640 1 Plastic, 127.4ms
+image 759/898 /cfs/earth/scratch/benkehel/YOLO/test/6423.jpg: 640x640 1 Plastic, 131.4ms
+image 760/898 /cfs/earth/scratch/benkehel/YOLO/test/6424.jpg: 640x640 1 White Glass, 2 Metals, 1 Plastic, 133.5ms
+image 761/898 /cfs/earth/scratch/benkehel/YOLO/test/6435.jpg: 640x640 1 Residual waste, 129.3ms
+image 762/898 /cfs/earth/scratch/benkehel/YOLO/test/6439.jpg: 640x640 1 Residual waste, 126.7ms
+image 763/898 /cfs/earth/scratch/benkehel/YOLO/test/6446.jpg: 640x640 1 Residual waste, 133.1ms
+image 764/898 /cfs/earth/scratch/benkehel/YOLO/test/6463.jpg: 640x640 1 Residual waste, 128.4ms
+image 765/898 /cfs/earth/scratch/benkehel/YOLO/test/6467.jpg: 640x640 1 Residual waste, 129.8ms
+image 766/898 /cfs/earth/scratch/benkehel/YOLO/test/6471.jpg: 640x640 1 Residual waste, 124.1ms
+image 767/898 /cfs/earth/scratch/benkehel/YOLO/test/6476.jpg: 640x640 1 Residual waste, 129.8ms
+image 768/898 /cfs/earth/scratch/benkehel/YOLO/test/6477.jpg: 640x640 2 Cardboards, 126.7ms
+image 769/898 /cfs/earth/scratch/benkehel/YOLO/test/6478.jpg: 640x640 1 Residual waste, 130.5ms
+image 770/898 /cfs/earth/scratch/benkehel/YOLO/test/6490.jpg: 640x640 1 Composite Carton, 126.9ms
+image 771/898 /cfs/earth/scratch/benkehel/YOLO/test/6492.jpg: 640x640 1 Composite Carton, 128.1ms
+image 772/898 /cfs/earth/scratch/benkehel/YOLO/test/6493.jpg: 640x640 1 Composite Carton, 128.0ms
+image 773/898 /cfs/earth/scratch/benkehel/YOLO/test/6505.jpg: 640x640 1 Composite Carton, 128.1ms
+image 774/898 /cfs/earth/scratch/benkehel/YOLO/test/6510.jpg: 640x640 1 Composite Carton, 130.7ms
+image 775/898 /cfs/earth/scratch/benkehel/YOLO/test/6512.jpg: 640x640 1 Composite Carton, 130.3ms
+image 776/898 /cfs/earth/scratch/benkehel/YOLO/test/6513.jpg: 640x640 1 Composite Carton, 130.1ms
+image 777/898 /cfs/earth/scratch/benkehel/YOLO/test/6520.jpg: 640x640 1 Composite Carton, 131.3ms
+image 778/898 /cfs/earth/scratch/benkehel/YOLO/test/6521.jpg: 640x640 1 Composite Carton, 128.1ms
+image 779/898 /cfs/earth/scratch/benkehel/YOLO/test/6524.jpg: 640x640 1 Composite Carton, 135.6ms
+image 780/898 /cfs/earth/scratch/benkehel/YOLO/test/6537.jpg: 640x640 1 Organic waste, 127.9ms
+image 781/898 /cfs/earth/scratch/benkehel/YOLO/test/6541.jpg: 640x640 1 Residual waste, 131.0ms
+image 782/898 /cfs/earth/scratch/benkehel/YOLO/test/6547.jpg: 640x640 1 Organic waste, 127.8ms
+image 783/898 /cfs/earth/scratch/benkehel/YOLO/test/6550.jpg: 640x640 1 Organic waste, 129.7ms
+image 784/898 /cfs/earth/scratch/benkehel/YOLO/test/6560.jpg: 640x640 1 Brown Glass, 129.4ms
+image 785/898 /cfs/earth/scratch/benkehel/YOLO/test/6565.jpg: 640x640 1 Brown Glass, 131.2ms
+image 786/898 /cfs/earth/scratch/benkehel/YOLO/test/6577.jpg: 640x640 1 Brown Glass, 126.3ms
+image 787/898 /cfs/earth/scratch/benkehel/YOLO/test/6584.jpg: 640x640 1 Brown Glass, 130.2ms
+image 788/898 /cfs/earth/scratch/benkehel/YOLO/test/6586.jpg: 640x640 1 Brown Glass, 134.6ms
+image 789/898 /cfs/earth/scratch/benkehel/YOLO/test/6590.jpg: 640x640 1 Brown Glass, 129.5ms
+image 790/898 /cfs/earth/scratch/benkehel/YOLO/test/6597.jpg: 640x640 1 Brown Glass, 126.6ms
+image 791/898 /cfs/earth/scratch/benkehel/YOLO/test/6603.jpg: 640x640 1 Brown Glass, 131.2ms
+image 792/898 /cfs/earth/scratch/benkehel/YOLO/test/6608.jpg: 640x640 1 Brown Glass, 132.7ms
+image 793/898 /cfs/earth/scratch/benkehel/YOLO/test/6611.jpg: 640x640 1 Brown Glass, 130.0ms
+image 794/898 /cfs/earth/scratch/benkehel/YOLO/test/6616.jpg: 640x640 1 Brown Glass, 127.5ms
+image 795/898 /cfs/earth/scratch/benkehel/YOLO/test/6629.jpg: 640x640 1 Brown Glass, 130.2ms
+image 796/898 /cfs/earth/scratch/benkehel/YOLO/test/6630.jpg: 640x640 1 Brown Glass, 132.6ms
+image 797/898 /cfs/earth/scratch/benkehel/YOLO/test/6638.jpg: 640x640 1 Brown Glass, 128.5ms
+image 798/898 /cfs/earth/scratch/benkehel/YOLO/test/6648.jpg: 640x640 1 Brown Glass, 139.3ms
+image 799/898 /cfs/earth/scratch/benkehel/YOLO/test/6651.jpg: 640x640 1 Brown Glass, 134.5ms
+image 800/898 /cfs/earth/scratch/benkehel/YOLO/test/6662.jpg: 640x640 1 Brown Glass, 128.3ms
+image 801/898 /cfs/earth/scratch/benkehel/YOLO/test/6672.jpg: 640x640 1 Aluminium, 130.0ms
+image 802/898 /cfs/earth/scratch/benkehel/YOLO/test/6681.jpg: 640x640 1 Aluminium, 123.9ms
+image 803/898 /cfs/earth/scratch/benkehel/YOLO/test/6685.jpg: 640x640 1 Aluminium, 129.5ms
+image 804/898 /cfs/earth/scratch/benkehel/YOLO/test/6693.jpg: 640x640 3 Aluminiums, 126.2ms
+image 805/898 /cfs/earth/scratch/benkehel/YOLO/test/6702.jpg: 640x640 1 Aluminium, 128.6ms
+image 806/898 /cfs/earth/scratch/benkehel/YOLO/test/6705.jpg: 640x640 1 Plastic, 135.0ms
+image 807/898 /cfs/earth/scratch/benkehel/YOLO/test/6728.jpg: 640x640 1 Green Glass, 133.3ms
+image 808/898 /cfs/earth/scratch/benkehel/YOLO/test/6737.jpg: 640x640 1 Green Glass, 127.2ms
+image 809/898 /cfs/earth/scratch/benkehel/YOLO/test/6743.jpg: 640x640 1 Green Glass, 131.4ms
+image 810/898 /cfs/earth/scratch/benkehel/YOLO/test/6745.jpg: 640x640 2 Green Glasss, 121.8ms
+image 811/898 /cfs/earth/scratch/benkehel/YOLO/test/6746.jpg: 640x640 1 Green Glass, 131.7ms
+image 812/898 /cfs/earth/scratch/benkehel/YOLO/test/6760.jpg: 640x640 1 Green Glass, 128.0ms
+image 813/898 /cfs/earth/scratch/benkehel/YOLO/test/6763.jpg: 640x640 1 Green Glass, 129.6ms
+image 814/898 /cfs/earth/scratch/benkehel/YOLO/test/6778.jpg: 640x640 1 Green Glass, 129.3ms
+image 815/898 /cfs/earth/scratch/benkehel/YOLO/test/6782.jpg: 640x640 1 Green Glass, 2 Residual wastes, 130.6ms
+image 816/898 /cfs/earth/scratch/benkehel/YOLO/test/6789.jpg: 640x640 1 Green Glass, 129.5ms
+image 817/898 /cfs/earth/scratch/benkehel/YOLO/test/6791.jpg: 640x640 1 Green Glass, 131.2ms
+image 818/898 /cfs/earth/scratch/benkehel/YOLO/test/6800.jpg: 640x640 1 Green Glass, 126.6ms
+image 819/898 /cfs/earth/scratch/benkehel/YOLO/test/6804.jpg: 640x640 1 Green Glass, 127.8ms
+image 820/898 /cfs/earth/scratch/benkehel/YOLO/test/6806.jpg: 640x640 1 Brown Glass, 1 Green Glass, 134.6ms
+image 821/898 /cfs/earth/scratch/benkehel/YOLO/test/6807.jpg: 640x640 1 Green Glass, 128.2ms
+image 822/898 /cfs/earth/scratch/benkehel/YOLO/test/6809.jpg: 640x640 1 Green Glass, 126.2ms
+image 823/898 /cfs/earth/scratch/benkehel/YOLO/test/6812.jpg: 640x640 1 Brown Glass, 130.6ms
+image 824/898 /cfs/earth/scratch/benkehel/YOLO/test/6815.jpg: 640x640 1 Green Glass, 126.8ms
+image 825/898 /cfs/earth/scratch/benkehel/YOLO/test/6816.jpg: 640x640 1 Green Glass, 131.5ms
+image 826/898 /cfs/earth/scratch/benkehel/YOLO/test/6837.jpg: 640x640 1 Green Glass, 131.9ms
+image 827/898 /cfs/earth/scratch/benkehel/YOLO/test/6843.jpg: 640x640 1 Brown Glass, 132.6ms
+image 828/898 /cfs/earth/scratch/benkehel/YOLO/test/6846.jpg: 640x640 1 Green Glass, 123.0ms
+image 829/898 /cfs/earth/scratch/benkehel/YOLO/test/6852.jpg: 640x640 1 Green Glass, 130.1ms
+image 830/898 /cfs/earth/scratch/benkehel/YOLO/test/6868.jpg: 640x640 1 White Glass, 126.2ms
+image 831/898 /cfs/earth/scratch/benkehel/YOLO/test/6870.jpg: 640x640 1 White Glass, 130.0ms
+image 832/898 /cfs/earth/scratch/benkehel/YOLO/test/6877.jpg: 640x640 1 White Glass, 128.1ms
+image 833/898 /cfs/earth/scratch/benkehel/YOLO/test/6885.jpg: 640x640 1 White Glass, 131.2ms
+image 834/898 /cfs/earth/scratch/benkehel/YOLO/test/6893.jpg: 640x640 1 White Glass, 126.9ms
+image 835/898 /cfs/earth/scratch/benkehel/YOLO/test/6901.jpg: 640x640 1 White Glass, 129.7ms
+image 836/898 /cfs/earth/scratch/benkehel/YOLO/test/6902.jpg: 640x640 1 Plastic, 133.4ms
+image 837/898 /cfs/earth/scratch/benkehel/YOLO/test/6903.jpg: 640x640 1 White Glass, 130.0ms
+image 838/898 /cfs/earth/scratch/benkehel/YOLO/test/6909.jpg: 640x640 1 White Glass, 127.5ms
+image 839/898 /cfs/earth/scratch/benkehel/YOLO/test/6923.jpg: 640x640 1 White Glass, 130.6ms
+image 840/898 /cfs/earth/scratch/benkehel/YOLO/test/6928.jpg: 640x640 1 White Glass, 126.8ms
+image 841/898 /cfs/earth/scratch/benkehel/YOLO/test/6937.jpg: 640x640 1 White Glass, 1 Metal, 129.7ms
+image 842/898 /cfs/earth/scratch/benkehel/YOLO/test/6939.jpg: 640x640 1 White Glass, 1 Metal, 129.1ms
+image 843/898 /cfs/earth/scratch/benkehel/YOLO/test/6946.jpg: 640x640 1 White Glass, 131.0ms
+image 844/898 /cfs/earth/scratch/benkehel/YOLO/test/6953.jpg: 640x640 1 White Glass, 1 Metal, 127.1ms
+image 845/898 /cfs/earth/scratch/benkehel/YOLO/test/6955.jpg: 640x640 1 White Glass, 1 Metal, 131.6ms
+image 846/898 /cfs/earth/scratch/benkehel/YOLO/test/6956.jpg: 640x640 1 White Glass, 1 Metal, 134.8ms
+image 847/898 /cfs/earth/scratch/benkehel/YOLO/test/6963.jpg: 640x640 1 White Glass, 1 Metal, 130.7ms
+image 848/898 /cfs/earth/scratch/benkehel/YOLO/test/6973.jpg: 640x640 1 White Glass, 1 Metal, 133.0ms
+image 849/898 /cfs/earth/scratch/benkehel/YOLO/test/6979.jpg: 640x640 1 White Glass, 2 Metals, 129.1ms
+image 850/898 /cfs/earth/scratch/benkehel/YOLO/test/6980.jpg: 640x640 1 White Glass, 1 Metal, 130.0ms
+image 851/898 /cfs/earth/scratch/benkehel/YOLO/test/6981.jpg: 640x640 1 White Glass, 1 Metal, 130.7ms
+image 852/898 /cfs/earth/scratch/benkehel/YOLO/test/6986.jpg: 640x640 1 White Glass, 1 Metal, 1 Rigid plastic container, 127.1ms
+image 853/898 /cfs/earth/scratch/benkehel/YOLO/test/6997.jpg: 640x640 1 White Glass, 1 Metal, 130.6ms
+image 854/898 /cfs/earth/scratch/benkehel/YOLO/test/7006.jpg: 640x640 1 White Glass, 1 Metal, 126.5ms
+image 855/898 /cfs/earth/scratch/benkehel/YOLO/test/7014.jpg: 640x640 1 White Glass, 1 Metal, 129.3ms
+image 856/898 /cfs/earth/scratch/benkehel/YOLO/test/7019.jpg: 640x640 1 White Glass, 1 Plastic, 126.0ms
+image 857/898 /cfs/earth/scratch/benkehel/YOLO/test/7024.jpg: 640x640 1 White Glass, 1 Metal, 128.9ms
+image 858/898 /cfs/earth/scratch/benkehel/YOLO/test/7030.jpg: 640x640 1 White Glass, 1 Metal, 126.3ms
+image 859/898 /cfs/earth/scratch/benkehel/YOLO/test/7036.jpg: 640x640 1 White Glass, 1 Metal, 132.6ms
+image 860/898 /cfs/earth/scratch/benkehel/YOLO/test/7046.jpg: 640x640 1 White Glass, 1 Metal, 126.3ms
+image 861/898 /cfs/earth/scratch/benkehel/YOLO/test/7050.jpg: 640x640 1 White Glass, 1 Metal, 128.6ms
+image 862/898 /cfs/earth/scratch/benkehel/YOLO/test/7055.jpg: 640x640 1 White Glass, 1 Metal, 127.6ms
+image 863/898 /cfs/earth/scratch/benkehel/YOLO/test/7063.jpg: 640x640 1 White Glass, 1 Metal, 129.2ms
+image 864/898 /cfs/earth/scratch/benkehel/YOLO/test/7068.jpg: 640x640 1 White Glass, 1 Metal, 127.7ms
+image 865/898 /cfs/earth/scratch/benkehel/YOLO/test/7070.jpg: 640x640 1 White Glass, 1 Metal, 128.4ms
+image 866/898 /cfs/earth/scratch/benkehel/YOLO/test/7078.jpg: 640x640 1 White Glass, 1 Metal, 127.3ms
+image 867/898 /cfs/earth/scratch/benkehel/YOLO/test/7090.jpg: 640x640 1 PET, 130.0ms
+image 868/898 /cfs/earth/scratch/benkehel/YOLO/test/7102.jpg: 640x640 1 PET, 128.1ms
+image 869/898 /cfs/earth/scratch/benkehel/YOLO/test/7103.jpg: 640x640 1 PET, 133.4ms
+image 870/898 /cfs/earth/scratch/benkehel/YOLO/test/7107.jpg: 640x640 1 PET, 133.4ms
+image 871/898 /cfs/earth/scratch/benkehel/YOLO/test/7116.jpg: 640x640 1 PET, 127.4ms
+image 872/898 /cfs/earth/scratch/benkehel/YOLO/test/7120.jpg: 640x640 1 PET, 134.4ms
+image 873/898 /cfs/earth/scratch/benkehel/YOLO/test/7127.jpg: 640x640 1 PET, 135.0ms
+image 874/898 /cfs/earth/scratch/benkehel/YOLO/test/7131.jpg: 640x640 1 PET, 128.5ms
+image 875/898 /cfs/earth/scratch/benkehel/YOLO/test/7136.jpg: 640x640 1 PET, 127.7ms
+image 876/898 /cfs/earth/scratch/benkehel/YOLO/test/7138.jpg: 640x640 1 Rigid plastic container, 132.4ms
+image 877/898 /cfs/earth/scratch/benkehel/YOLO/test/7142.jpg: 640x640 1 Rigid plastic container, 1 Plastic, 132.4ms
+image 878/898 /cfs/earth/scratch/benkehel/YOLO/test/7144.jpg: 640x640 1 Rigid plastic container, 132.5ms
+image 879/898 /cfs/earth/scratch/benkehel/YOLO/test/7149.jpg: 640x640 1 Rigid plastic container, 129.3ms
+image 880/898 /cfs/earth/scratch/benkehel/YOLO/test/7153.jpg: 640x640 1 Rigid plastic container, 132.6ms
+image 881/898 /cfs/earth/scratch/benkehel/YOLO/test/7169.jpg: 640x640 1 Rigid plastic container, 131.7ms
+image 882/898 /cfs/earth/scratch/benkehel/YOLO/test/7170.jpg: 640x640 1 Rigid plastic container, 132.1ms
+image 883/898 /cfs/earth/scratch/benkehel/YOLO/test/7174.jpg: 640x640 1 Rigid plastic container, 123.8ms
+image 884/898 /cfs/earth/scratch/benkehel/YOLO/test/7179.jpg: 640x640 1 Rigid plastic container, 124.1ms
+image 885/898 /cfs/earth/scratch/benkehel/YOLO/test/7180.jpg: 640x640 1 Rigid plastic container, 130.1ms
+image 886/898 /cfs/earth/scratch/benkehel/YOLO/test/7183.jpg: 640x640 1 Rigid plastic container, 130.0ms
+image 887/898 /cfs/earth/scratch/benkehel/YOLO/test/7184.jpg: 640x640 1 Rigid plastic container, 128.1ms
+image 888/898 /cfs/earth/scratch/benkehel/YOLO/test/7190.jpg: 640x640 1 Hazardous Waste, 122.7ms
+image 889/898 /cfs/earth/scratch/benkehel/YOLO/test/7193.jpg: 640x640 1 Hazardous Waste, 131.3ms
+image 890/898 /cfs/earth/scratch/benkehel/YOLO/test/7200.jpg: 640x640 1 Hazardous Waste, 128.2ms
+image 891/898 /cfs/earth/scratch/benkehel/YOLO/test/7204.jpg: 640x640 1 Hazardous Waste, 130.5ms
+image 892/898 /cfs/earth/scratch/benkehel/YOLO/test/7207.jpg: 640x640 1 Hazardous Waste, 129.6ms
+image 893/898 /cfs/earth/scratch/benkehel/YOLO/test/7208.jpg: 640x640 1 Hazardous Waste, 130.1ms
+image 894/898 /cfs/earth/scratch/benkehel/YOLO/test/7213.jpg: 640x640 1 Hazardous Waste, 127.9ms
+image 895/898 /cfs/earth/scratch/benkehel/YOLO/test/7216.jpg: 640x640 1 Hazardous Waste, 130.1ms
+image 896/898 /cfs/earth/scratch/benkehel/YOLO/test/7217.jpg: 640x640 1 Hazardous Waste, 127.3ms
+image 897/898 /cfs/earth/scratch/benkehel/YOLO/test/7220.jpg: 640x640 1 Hazardous Waste, 131.5ms
+image 898/898 /cfs/earth/scratch/benkehel/YOLO/test/7229.jpg: 640x640 1 Hazardous Waste, 127.5ms
+Speed: 2.0ms preprocess, 130.5ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+Results saved to [1m/cfs/earth/scratch/benkehel/YOLO/runs/test_inference2[0m
+898 labels saved to /cfs/earth/scratch/benkehel/YOLO/runs/test_inference2/labels
+💡 Learn more at https://docs.ultralytics.com/modes/predict
+Ultralytics 8.3.159 🚀 Python-3.10.18 torch-2.7.1+cu126 CPU (Intel Xeon Gold 6142 2.60GHz)
+Model summary (fused): 92 layers, 25,847,866 parameters, 0 gradients, 78.7 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.1±0.0 ms, read: 61.2±20.7 MB/s, size: 30.8 KB)
+[34m[1mval: [0mNew cache created: /cfs/earth/scratch/benkehel/YOLO/test.cache
+                   all        898       1090      0.962      0.937      0.973      0.936
+                   PET         50         50      0.936       0.96      0.983      0.963
+           Brown Glass         52         52      0.916      0.981      0.974      0.943
+           Green Glass         54         59      0.966      0.915      0.983      0.922
+           White Glass        113        113      0.985      0.929      0.992      0.973
+                 Metal        108        108          1      0.896      0.967      0.926
+             Aluminium        112        167      0.975      0.918      0.969      0.911
+             Cardboard         76         76      0.965      0.961      0.976      0.951
+                 Paper         82         82      0.935          1      0.986       0.97
+Rigid plastic container         54         54          1      0.901      0.971      0.956
+               Plastic        113        115      0.934      0.887      0.949      0.896
+         Organic waste         48         52      0.915      0.832      0.915      0.826
+        Residual waste         50         51      0.941      0.939      0.972       0.92
+       Hazardous Waste         52         59      0.998          1      0.995      0.979
+      Composite Carton         52         52      0.996          1      0.995      0.972
+Speed: 0.5ms preprocess, 112.9ms inference, 0.0ms loss, 0.4ms postprocess per image
+Results saved to [1mruns/detect/val2[0m
+💡 Learn more at https://docs.ultralytics.com/modes/val

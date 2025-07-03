@@ -1,0 +1,177 @@
+--- Trial 1 ---
+
+Hamming Loss: 0.01098901098901099
+
+Classification Report:
+
+                         precision    recall  f1-score   support
+
+              aluminium       0.91      0.89      0.90        75
+            brown glass       0.88      1.00      0.94        38
+              cardboard       0.84      0.99      0.91        81
+       composite carton       0.87      0.53      0.66        38
+            green glass       1.00      0.97      0.99        38
+        hazardous waste       1.00      0.42      0.59        38
+                  metal       0.98      0.98      0.98        93
+          organic waste       1.00      1.00      1.00        50
+                  paper       0.99      0.99      0.99        84
+                    pet       0.98      0.98      0.98        43
+                plastic       0.90      0.90      0.90        98
+         residual waste       1.00      1.00      1.00        38
+rigid plastic container       1.00      0.82      0.90        38
+            white glass       0.99      1.00      0.99        77
+
+              micro avg       0.94      0.91      0.93       829
+              macro avg       0.95      0.89      0.91       829
+           weighted avg       0.95      0.91      0.92       829
+            samples avg       0.91      0.91      0.91       829
+
+[[[672   7]
+  [  8  67]]
+
+ [[711   5]
+  [  0  38]]
+
+ [[658  15]
+  [  1  80]]
+
+ [[713   3]
+  [ 18  20]]
+
+ [[716   0]
+  [  1  37]]
+
+ [[716   0]
+  [ 22  16]]
+
+ [[659   2]
+  [  2  91]]
+
+ [[704   0]
+  [  0  50]]
+
+ [[669   1]
+  [  1  83]]
+
+ [[710   1]
+  [  1  42]]
+
+ [[646  10]
+  [ 10  88]]
+
+ [[716   0]
+  [  0  38]]
+
+ [[716   0]
+  [  7  31]]
+
+ [[676   1]
+  [  0  77]]]
+
+Missed Predictions incl. NaNs:
+                  Label  Missed Predictions (False Negatives) (incl. NaNs):  NaNs
+        hazardous waste                                                  22    16
+       composite carton                                                  18     1
+                plastic                                                  10     5
+              aluminium                                                   8     4
+rigid plastic container                                                   7     1
+                  metal                                                   2     0
+              cardboard                                                   1     0
+            green glass                                                   1     1
+                  paper                                                   1     0
+                    pet                                                   1     1
+            brown glass                                                   0     0
+          organic waste                                                   0     0
+         residual waste                                                   0     0
+            white glass                                                   0     0
+
+Total NaNs (pred == []): 26
+
+
+--- Trial 9 ---
+Hamming Loss: 0.013736263736263736
+
+Classification Report:
+
+                         precision    recall  f1-score   support
+
+              aluminium       0.79      0.89      0.84        75
+            brown glass       0.97      1.00      0.99        38
+              cardboard       0.81      0.98      0.88        81
+       composite carton       0.68      0.50      0.58        38
+            green glass       1.00      0.97      0.99        38
+        hazardous waste       0.95      0.47      0.63        38
+                  metal       0.99      0.98      0.98        93
+          organic waste       1.00      1.00      1.00        50
+                  paper       0.93      0.99      0.96        84
+                    pet       0.98      0.98      0.98        43
+                plastic       0.87      0.89      0.88        98
+         residual waste       1.00      1.00      1.00        38
+rigid plastic container       1.00      0.76      0.87        38
+            white glass       0.99      0.99      0.99        77
+
+              micro avg       0.92      0.91      0.91       829
+              macro avg       0.93      0.89      0.90       829
+           weighted avg       0.92      0.91      0.91       829
+            samples avg       0.90      0.91      0.90       829
+
+[[[661  18]
+  [  8  67]]
+
+ [[715   1]
+  [  0  38]]
+
+ [[654  19]
+  [  2  79]]
+
+ [[707   9]
+  [ 19  19]]
+
+ [[716   0]
+  [  1  37]]
+
+ [[715   1]
+  [ 20  18]]
+
+ [[660   1]
+  [  2  91]]
+
+ [[704   0]
+  [  0  50]]
+
+ [[664   6]
+  [  1  83]]
+
+ [[710   1]
+  [  1  42]]
+
+ [[643  13]
+  [ 11  87]]
+
+ [[716   0]
+  [  0  38]]
+
+ [[716   0]
+  [  9  29]]
+
+ [[676   1]
+  [  1  76]]]
+
+Missed Predictions incl. NaNs:
+                  Label  Missed Predictions (False Negatives) (incl. NaNs):  NaNs
+        hazardous waste                                                  20     8
+       composite carton                                                  19     0
+                plastic                                                  11     0
+rigid plastic container                                                   9     5
+              aluminium                                                   8     1
+              cardboard                                                   2     0
+                  metal                                                   2     1
+            green glass                                                   1     1
+                  paper                                                   1     0
+                    pet                                                   1     0
+            white glass                                                   1     1
+            brown glass                                                   0     0
+          organic waste                                                   0     0
+         residual waste                                                   0     0
+
+Total NaNs (pred == []): 17

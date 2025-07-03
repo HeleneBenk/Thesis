@@ -1,0 +1,756 @@
+image_id;true_labels;predicted_labels
+0019.jpg;aluminium|plastic;aluminium|plastic
+0041.jpg;aluminium|plastic;aluminium|plastic
+0008.jpg;aluminium|plastic;aluminium|plastic
+0275.jpg;aluminium|plastic;aluminium|plastic
+0090.jpg;aluminium|plastic;aluminium|plastic
+0213.jpg;aluminium|plastic;aluminium|plastic
+5299.jpg;aluminium|plastic;plastic
+0242.jpg;aluminium|plastic;aluminium|plastic
+0226.jpg;aluminium|plastic;aluminium|plastic
+0238.jpg;aluminium|plastic;aluminium|plastic
+5283.jpg;aluminium|plastic;composite carton
+0283.jpg;aluminium|plastic;aluminium|plastic
+0243.jpg;aluminium|plastic;aluminium|plastic
+0279.jpg;aluminium|plastic;aluminium|plastic
+0049.jpg;aluminium|plastic;aluminium|plastic
+0058.jpg;aluminium|plastic;aluminium|plastic
+0246.jpg;aluminium|plastic;aluminium|plastic
+0066.jpg;aluminium|plastic;aluminium|plastic
+0011.jpg;aluminium|plastic;aluminium|plastic
+0251.jpg;aluminium|plastic;aluminium|plastic
+0247.jpg;aluminium|plastic;aluminium|plastic
+0163.jpg;aluminium|plastic;aluminium|plastic
+0289.jpg;aluminium|plastic;aluminium|plastic
+0099.jpg;aluminium|plastic;aluminium|plastic
+0508.jpg;cardboard;cardboard
+0333.jpg;cardboard;cardboard
+0340.jpg;cardboard;cardboard
+0630.jpg;cardboard;cardboard
+0353.jpg;cardboard;cardboard
+0328.jpg;cardboard;cardboard
+0020.jpg;cardboard;cardboard
+0198.jpg;cardboard;cardboard
+0496.jpg;cardboard;cardboard
+0321.jpg;cardboard;cardboard
+0119.jpg;cardboard;cardboard
+1622.jpg;cardboard;cardboard
+0327.jpg;cardboard;cardboard
+0084.jpg;cardboard;cardboard
+0690.jpg;cardboard;cardboard
+0646.jpg;cardboard;cardboard
+0077.jpg;cardboard;cardboard
+0672.jpg;cardboard;cardboard
+0332.jpg;cardboard;cardboard
+0492.jpg;cardboard;cardboard
+0518.jpg;cardboard;cardboard
+0390.jpg;cardboard;cardboard
+0236.jpg;cardboard;cardboard
+0474.jpg;cardboard;cardboard
+0689.jpg;cardboard;cardboard
+0624.jpg;cardboard;cardboard
+0366.jpg;cardboard;cardboard
+0440.jpg;cardboard;cardboard
+0308.jpg;cardboard;cardboard
+0357.jpg;cardboard;cardboard
+0159.jpg;cardboard;cardboard
+0610.jpg;cardboard;cardboard
+0529.jpg;cardboard;cardboard
+0070.jpg;cardboard;cardboard
+0691.jpg;cardboard;cardboard
+0463.jpg;cardboard;cardboard
+0444.jpg;cardboard;cardboard
+0446.jpg;cardboard;cardboard
+0445.jpg;cardboard;cardboard
+0135.jpg;cardboard;cardboard
+0557.jpg;cardboard;cardboard
+0326.jpg;cardboard;cardboard
+0552.jpg;cardboard;cardboard
+0433.jpg;cardboard;cardboard
+0682.jpg;cardboard;cardboard
+0137.jpg;cardboard;cardboard
+0375.jpg;cardboard;cardboard
+0651.jpg;cardboard;cardboard
+0519.jpg;cardboard;cardboard
+0397.jpg;cardboard;cardboard
+0032.jpg;cardboard;cardboard
+0614.jpg;cardboard;cardboard
+0442.jpg;cardboard;cardboard
+0611.jpg;cardboard;cardboard
+0658.jpg;cardboard;cardboard
+0669.jpg;cardboard;cardboard
+0504.jpg;cardboard;cardboard
+0176.jpg;cardboard;cardboard
+0598.jpg;cardboard;cardboard
+0197.jpg;cardboard;cardboard
+0165.jpg;cardboard;cardboard
+0573.jpg;cardboard;cardboard
+2151.jpg;cardboard;paper
+0574.jpg;cardboard;cardboard
+0339.jpg;cardboard;cardboard
+0629.jpg;cardboard;cardboard
+0330.jpg;cardboard;cardboard
+0599.jpg;cardboard;cardboard
+0526.jpg;cardboard;cardboard
+0641.jpg;cardboard;cardboard
+0129.jpg;cardboard;cardboard
+0544.jpg;cardboard;cardboard
+0395.jpg;cardboard;cardboard
+0548.jpg;cardboard;cardboard
+0479.jpg;cardboard;cardboard
+2170.jpg;cardboard;cardboard
+0127.jpg;cardboard;cardboard
+0462.jpg;cardboard;cardboard
+0473.jpg;cardboard;cardboard
+2150.jpg;cardboard;paper
+0609.jpg;cardboard;cardboard
+1389.jpg;metal;metal
+1617.jpg;metal;metal
+1598.jpg;metal;metal
+1426.jpg;metal;metal
+1398.jpg;metal;metal
+1277.jpg;metal;metal
+1525.jpg;metal;metal
+1403.jpg;metal;metal
+1559.jpg;metal;metal
+1606.jpg;metal;metal
+1549.jpg;metal;metal
+1335.jpg;metal;metal
+1338.jpg;metal;metal
+1422.jpg;metal;metal
+1536.jpg;metal;metal
+1361.jpg;metal;metal
+1311.jpg;metal;metal
+1230.jpg;metal;metal
+1251.jpg;metal;metal
+1601.jpg;metal;metal
+1353.jpg;metal;metal
+1390.jpg;metal;metal
+1548.jpg;metal;metal|white glass
+1360.jpg;metal;metal
+1458.jpg;metal;metal
+1407.jpg;metal;metal
+1503.jpg;metal;metal
+0155.jpg;metal;metal
+1417.jpg;metal;metal
+1468.jpg;metal;metal
+1363.jpg;metal;metal
+1510.jpg;metal;metal
+1404.jpg;metal;metal
+1434.jpg;metal;
+1341.jpg;metal;metal
+1472.jpg;metal;metal
+5199.jpg;metal;aluminium|plastic
+1529.jpg;metal;metal
+1447.jpg;metal;metal
+1506.jpg;metal;metal
+1224.jpg;metal;metal
+1315.jpg;metal;metal
+1542.jpg;metal;metal
+1505.jpg;metal;metal
+1592.jpg;metal;metal
+1547.jpg;metal;metal
+1540.jpg;metal;metal
+1233.jpg;metal;metal
+1526.jpg;metal;metal
+1453.jpg;metal;metal
+1502.jpg;metal;metal
+1310.jpg;metal;metal
+1368.jpg;metal;metal
+1402.jpg;metal;metal
+1397.jpg;metal;metal
+2374.jpg;plastic;plastic
+2386.jpg;plastic;plastic
+5262.jpg;plastic;composite carton
+3445.jpg;plastic;plastic
+4335.jpg;plastic;plastic
+5167.jpg;plastic;plastic
+5168.jpg;plastic;aluminium|plastic
+5259.jpg;plastic;composite carton
+2268.jpg;plastic;plastic|paper
+2610.jpg;plastic;plastic
+4168.jpg;plastic;plastic
+5211.jpg;plastic;aluminium|plastic
+2438.jpg;plastic;plastic
+2611.jpg;plastic;plastic
+2344.jpg;plastic;plastic
+2335.jpg;plastic;plastic
+2372.jpg;plastic;plastic
+2329.jpg;plastic;plastic
+2478.jpg;plastic;pet
+5264.jpg;plastic;composite carton
+3752.jpg;plastic;plastic
+4255.jpg;plastic;plastic
+0014.jpg;plastic;plastic
+2220.jpg;plastic;plastic
+5239.jpg;plastic;plastic
+2510.jpg;plastic;plastic
+2301.jpg;plastic;plastic
+2410.jpg;plastic;plastic
+2513.jpg;plastic;plastic
+0288.jpg;plastic;plastic
+0286.jpg;plastic;plastic
+5194.jpg;plastic;composite carton
+5236.jpg;plastic;aluminium|plastic
+3449.jpg;plastic;plastic
+2481.jpg;plastic;plastic
+2661.jpg;plastic;plastic
+3836.jpg;plastic;plastic
+3444.jpg;plastic;plastic
+5178.jpg;plastic;cardboard
+2487.jpg;plastic;plastic
+2427.jpg;plastic;plastic
+2406.jpg;plastic;plastic
+3547.jpg;plastic;plastic
+2589.jpg;plastic;plastic
+4342.jpg;plastic;plastic
+3748.jpg;plastic;plastic
+2378.jpg;plastic;plastic
+2535.jpg;plastic;plastic
+2390.jpg;plastic;plastic
+2590.jpg;plastic;plastic
+3447.jpg;plastic;plastic
+2468.jpg;plastic;plastic
+5246.jpg;plastic;aluminium|plastic
+4326.jpg;plastic;plastic
+0232.jpg;plastic;plastic
+5325.jpg;plastic;cardboard|paper
+3835.jpg;plastic;plastic
+2554.jpg;plastic;plastic
+2635.jpg;plastic;plastic
+0091.jpg;plastic;plastic
+2532.jpg;plastic;plastic
+4644.jpg;residual waste;residual waste
+4620.jpg;residual waste;residual waste
+4706.jpg;residual waste;residual waste
+4502.jpg;residual waste;residual waste
+4460.jpg;residual waste;residual waste
+4555.jpg;residual waste;residual waste
+4506.jpg;residual waste;residual waste
+4485.jpg;residual waste;residual waste
+4652.jpg;residual waste;residual waste
+3051.jpg;residual waste;residual waste
+4582.jpg;residual waste;residual waste
+4415.jpg;residual waste;residual waste
+4551.jpg;residual waste;residual waste
+4417.jpg;residual waste;residual waste
+4471.jpg;residual waste;residual waste
+4500.jpg;residual waste;residual waste
+4601.jpg;residual waste;residual waste
+4580.jpg;residual waste;residual waste
+3124.jpg;residual waste;residual waste
+4576.jpg;residual waste;residual waste
+4607.jpg;residual waste;residual waste
+3401.jpg;residual waste;residual waste
+4473.jpg;residual waste;residual waste
+4476.jpg;residual waste;residual waste
+4389.jpg;residual waste;residual waste
+4831.jpg;residual waste;residual waste
+4651.jpg;residual waste;residual waste
+4565.jpg;residual waste;residual waste
+4700.jpg;residual waste;residual waste
+4787.jpg;residual waste;residual waste
+3391.jpg;residual waste;residual waste
+0274.jpg;residual waste;residual waste
+4821.jpg;residual waste;residual waste
+0133.jpg;residual waste;residual waste
+4707.jpg;residual waste;residual waste
+4467.jpg;residual waste;residual waste
+0016.jpg;residual waste;residual waste
+4969.jpg;composite carton;composite carton
+5030.jpg;composite carton;composite carton
+5005.jpg;composite carton;composite carton
+5113.jpg;composite carton;cardboard
+5132.jpg;composite carton;cardboard
+5295.jpg;composite carton;composite carton
+5157.jpg;composite carton;cardboard
+5072.jpg;composite carton;cardboard
+5143.jpg;composite carton;aluminium
+5124.jpg;composite carton;cardboard
+5025.jpg;composite carton;composite carton
+5092.jpg;composite carton;cardboard
+5006.jpg;composite carton;composite carton
+5052.jpg;composite carton;cardboard
+5041.jpg;composite carton;composite carton
+5055.jpg;composite carton;cardboard
+5008.jpg;composite carton;composite carton
+5023.jpg;composite carton;composite carton
+5258.jpg;composite carton;plastic
+4990.jpg;composite carton;composite carton
+5035.jpg;composite carton;composite carton
+5127.jpg;composite carton;cardboard
+5128.jpg;composite carton;cardboard
+5024.jpg;composite carton;composite carton
+5297.jpg;composite carton;composite carton
+5067.jpg;composite carton;cardboard
+2838.jpg;organic waste;organic waste
+2891.jpg;organic waste;organic waste
+2743.jpg;organic waste;organic waste
+2820.jpg;organic waste;organic waste
+3021.jpg;organic waste;organic waste
+2993.jpg;organic waste;organic waste
+2783.jpg;organic waste;organic waste
+2890.jpg;organic waste;organic waste
+2940.jpg;organic waste;organic waste
+2977.jpg;organic waste;organic waste
+2721.jpg;organic waste;organic waste
+2956.jpg;organic waste;organic waste
+2773.jpg;organic waste;organic waste
+2876.jpg;organic waste;organic waste
+2731.jpg;organic waste;organic waste
+2997.jpg;organic waste;organic waste
+2909.jpg;organic waste;organic waste
+2835.jpg;organic waste;organic waste
+3022.jpg;organic waste;organic waste
+2742.jpg;organic waste;organic waste
+2796.jpg;organic waste;organic waste
+2706.jpg;organic waste;organic waste
+2954.jpg;organic waste;organic waste
+3011.jpg;organic waste;organic waste
+3000.jpg;organic waste;organic waste
+2726.jpg;organic waste;organic waste
+2894.jpg;organic waste;organic waste
+2932.jpg;organic waste;organic waste
+2885.jpg;organic waste;organic waste
+3008.jpg;organic waste;organic waste
+2843.jpg;organic waste;organic waste
+2704.jpg;organic waste;organic waste
+2945.jpg;organic waste;organic waste
+2960.jpg;organic waste;organic waste
+2994.jpg;organic waste;organic waste
+3005.jpg;organic waste;organic waste
+2807.jpg;organic waste;organic waste
+2707.jpg;organic waste;organic waste
+2952.jpg;organic waste;organic waste
+2884.jpg;organic waste;organic waste
+2957.jpg;organic waste;organic waste
+2846.jpg;organic waste;organic waste
+2804.jpg;organic waste;organic waste
+2937.jpg;organic waste;organic waste
+2725.jpg;organic waste;organic waste
+2703.jpg;organic waste;organic waste
+2836.jpg;organic waste;organic waste
+2738.jpg;organic waste;organic waste
+2795.jpg;organic waste;organic waste
+2941.jpg;organic waste;organic waste
+0901.jpg;brown glass;brown glass
+0863.jpg;brown glass;brown glass
+0888.jpg;brown glass;brown glass
+1068.jpg;brown glass;brown glass
+0965.jpg;brown glass;brown glass
+3334.jpg;brown glass;brown glass
+0970.jpg;brown glass;brown glass
+1118.jpg;brown glass;brown glass
+1121.jpg;brown glass;brown glass
+3025.jpg;brown glass;brown glass
+1161.jpg;brown glass;brown glass
+1093.jpg;brown glass;brown glass
+0880.jpg;brown glass;brown glass
+0899.jpg;brown glass;brown glass
+1063.jpg;brown glass;brown glass
+0902.jpg;brown glass;brown glass
+1023.jpg;brown glass;brown glass
+3060.jpg;brown glass;brown glass
+0949.jpg;brown glass;brown glass
+1130.jpg;brown glass;brown glass
+0865.jpg;brown glass;brown glass
+0710.jpg;brown glass;brown glass
+4881.jpg;aluminium;aluminium
+4863.jpg;aluminium;aluminium
+4843.jpg;aluminium;aluminium
+4903.jpg;aluminium;aluminium
+1534.jpg;aluminium;aluminium
+4912.jpg;aluminium;aluminium
+5054.jpg;aluminium;aluminium
+4882.jpg;aluminium;aluminium
+4905.jpg;aluminium;aluminium
+4900.jpg;aluminium;aluminium
+1380.jpg;aluminium;aluminium
+4848.jpg;aluminium;aluminium
+1448.jpg;aluminium;aluminium
+4861.jpg;aluminium;aluminium
+1231.jpg;aluminium;
+1484.jpg;aluminium;aluminium
+4902.jpg;aluminium;aluminium
+4841.jpg;aluminium;aluminium
+4846.jpg;aluminium;aluminium
+0206.jpg;aluminium;cardboard
+1387.jpg;aluminium;aluminium
+4879.jpg;aluminium;aluminium
+1288.jpg;aluminium;aluminium
+1386.jpg;aluminium;aluminium
+4896.jpg;aluminium;aluminium
+1596.jpg;aluminium;aluminium
+1493.jpg;aluminium;aluminium
+1820.jpg;paper;paper
+2159.jpg;paper;paper
+1645.jpg;paper;paper
+1895.jpg;paper;paper
+2098.jpg;paper;paper
+1938.jpg;paper;paper
+2125.jpg;paper;paper
+2037.jpg;paper;paper
+2213.jpg;paper;paper
+1773.jpg;paper;paper
+1724.jpg;paper;paper
+1864.jpg;paper;paper
+2182.jpg;paper;paper
+1846.jpg;paper;paper
+1767.jpg;paper;paper
+1689.jpg;paper;paper
+1951.jpg;paper;paper
+2108.jpg;paper;paper
+1873.jpg;paper;paper
+2081.jpg;paper;paper
+1990.jpg;paper;paper
+2049.jpg;paper;paper
+1986.jpg;paper;paper
+2012.jpg;paper;paper
+1943.jpg;paper;paper
+1917.jpg;paper;paper
+1927.jpg;paper;paper
+1675.jpg;paper;paper
+1973.jpg;paper;paper
+2116.jpg;paper;paper
+1643.jpg;paper;paper
+2134.jpg;paper;paper
+1946.jpg;paper;paper
+1931.jpg;paper;paper
+1947.jpg;paper;paper
+2149.jpg;paper;paper
+2017.jpg;paper;paper
+2172.jpg;paper;paper
+1755.jpg;paper;paper
+2110.jpg;paper;paper
+1977.jpg;paper;paper
+1692.jpg;paper;paper
+0263.jpg;paper;plastic
+1723.jpg;paper;paper
+2085.jpg;paper;paper
+1697.jpg;paper;paper
+1649.jpg;paper;paper
+2001.jpg;paper;paper
+1976.jpg;paper;paper
+1739.jpg;paper;paper
+0241.jpg;paper;paper
+2076.jpg;paper;paper
+2003.jpg;paper;paper
+2132.jpg;paper;paper
+1742.jpg;paper;paper
+2153.jpg;paper;paper
+1654.jpg;paper;paper
+2025.jpg;paper;paper
+1858.jpg;paper;paper
+1900.jpg;paper;paper
+2004.jpg;paper;paper
+1915.jpg;paper;paper
+1866.jpg;paper;paper
+1814.jpg;paper;paper
+1737.jpg;paper;paper
+1912.jpg;paper;paper
+2204.jpg;paper;paper
+2047.jpg;paper;paper
+1690.jpg;paper;paper
+1888.jpg;paper;paper
+1752.jpg;paper;paper
+1965.jpg;paper;paper
+1925.jpg;paper;paper
+2173.jpg;paper;paper
+2087.jpg;paper;paper
+2058.jpg;paper;paper
+2111.jpg;paper;paper
+1865.jpg;paper;paper
+1975.jpg;paper;paper
+1791.jpg;paper;paper
+1798.jpg;paper;paper
+1882.jpg;paper;paper
+2118.jpg;paper;paper
+1750.jpg;paper;paper
+0874.jpg;green glass;green glass
+1080.jpg;green glass;green glass
+3285.jpg;green glass;green glass
+0739.jpg;green glass;green glass
+0852.jpg;green glass;green glass
+1192.jpg;green glass;green glass
+0971.jpg;green glass;green glass
+0722.jpg;green glass;green glass
+1105.jpg;green glass;green glass
+0780.jpg;green glass;green glass
+0732.jpg;green glass;green glass
+0759.jpg;green glass;green glass
+1193.jpg;green glass;green glass
+0869.jpg;green glass;green glass
+0954.jpg;green glass;green glass
+0856.jpg;green glass;green glass
+1145.jpg;green glass;green glass
+1069.jpg;green glass;green glass
+0945.jpg;white glass;white glass
+0964.jpg;white glass;white glass
+1166.jpg;white glass;white glass
+0947.jpg;white glass;white glass
+0892.jpg;white glass;white glass
+1102.jpg;white glass;white glass
+1199.jpg;white glass;white glass
+1154.jpg;white glass;white glass
+0936.jpg;white glass;white glass
+1153.jpg;white glass;white glass
+0834.jpg;white glass;white glass
+0973.jpg;white glass;white glass
+0718.jpg;white glass;white glass
+1022.jpg;white glass;white glass
+0938.jpg;white glass;
+1147.jpg;white glass;white glass
+1164.jpg;white glass;white glass
+0979.jpg;white glass;white glass
+0740.jpg;white glass;white glass
+0828.jpg;white glass;white glass
+0993.jpg;white glass;white glass
+0804.jpg;white glass;white glass
+0953.jpg;white glass;white glass
+0755.jpg;white glass;white glass
+1127.jpg;white glass;white glass
+1115.jpg;white glass;white glass
+0929.jpg;white glass;white glass
+1027.jpg;white glass;metal|white glass
+0753.jpg;white glass;white glass
+1142.jpg;white glass;white glass
+0855.jpg;white glass;white glass
+1152.jpg;white glass;white glass
+1032.jpg;white glass;white glass
+1016.jpg;white glass;white glass
+0942.jpg;white glass;white glass
+0968.jpg;white glass;white glass
+0876.jpg;white glass;white glass
+0846.jpg;white glass;white glass
+0774.jpg;white glass;white glass
+0790.jpg;metal|white glass;metal|white glass
+3337.jpg;metal|white glass;metal|white glass
+0787.jpg;metal|white glass;metal|white glass
+3126.jpg;metal|white glass;metal|white glass
+3343.jpg;metal|white glass;metal|white glass
+3197.jpg;metal|white glass;metal|white glass
+3336.jpg;metal|white glass;metal|white glass
+3425.jpg;metal|white glass;metal|white glass
+0813.jpg;metal|white glass;metal|white glass
+2504.jpg;pet;pet
+2256.jpg;pet;pet
+4241.jpg;pet;pet
+2517.jpg;pet;pet
+2583.jpg;pet;pet
+4216.jpg;pet;pet
+2641.jpg;pet;pet
+2245.jpg;pet;pet
+2443.jpg;pet;pet
+3898.jpg;pet;pet
+2359.jpg;pet;pet
+2328.jpg;pet;pet
+3876.jpg;pet;pet
+2403.jpg;pet;pet
+2309.jpg;pet;pet
+2668.jpg;pet;pet
+2373.jpg;pet;pet
+4245.jpg;pet;pet
+2663.jpg;pet;pet
+2495.jpg;pet;pet
+2258.jpg;pet;pet
+3942.jpg;pet;pet
+2594.jpg;pet;pet
+3943.jpg;pet;pet
+4063.jpg;pet;pet
+5251.jpg;pet;plastic
+2557.jpg;pet;pet
+2275.jpg;pet;pet
+4234.jpg;pet;pet
+2502.jpg;pet;pet
+2528.jpg;pet;pet
+2466.jpg;pet;pet
+3919.jpg;pet;pet
+2477.jpg;pet;pet
+3810.jpg;pet;pet
+4209.jpg;pet;pet
+2489.jpg;pet;pet
+2255.jpg;pet;pet
+3699.jpg;pet;pet
+2227.jpg;pet;pet
+3902.jpg;pet;pet
+2542.jpg;pet;pet
+3880.jpg;pet;pet
+2290.jpg;rigid plastic container;rigid plastic container
+2230.jpg;rigid plastic container;hazardous waste
+5225.jpg;rigid plastic container;composite carton
+3790.jpg;rigid plastic container;rigid plastic container
+3733.jpg;rigid plastic container;rigid plastic container
+5228.jpg;rigid plastic container;brown glass
+5288.jpg;rigid plastic container;
+3565.jpg;rigid plastic container;rigid plastic container
+5282.jpg;rigid plastic container;
+2347.jpg;rigid plastic container;rigid plastic container
+3782.jpg;rigid plastic container;rigid plastic container
+3564.jpg;rigid plastic container;rigid plastic container
+2221.jpg;rigid plastic container;rigid plastic container
+3657.jpg;rigid plastic container;rigid plastic container
+2498.jpg;rigid plastic container;rigid plastic container
+2401.jpg;rigid plastic container;rigid plastic container
+3957.jpg;rigid plastic container;rigid plastic container
+2665.jpg;rigid plastic container;rigid plastic container
+2287.jpg;rigid plastic container;rigid plastic container
+3643.jpg;rigid plastic container;rigid plastic container
+2675.jpg;rigid plastic container;rigid plastic container
+3793.jpg;rigid plastic container;rigid plastic container
+2281.jpg;rigid plastic container;rigid plastic container
+4070.jpg;rigid plastic container;rigid plastic container
+3661.jpg;rigid plastic container;rigid plastic container
+3668.jpg;rigid plastic container;rigid plastic container
+4186.jpg;rigid plastic container;
+2269.jpg;rigid plastic container;rigid plastic container
+4154.jpg;rigid plastic container;rigid plastic container
+4232.jpg;rigid plastic container;rigid plastic container
+5223.jpg;rigid plastic container;cardboard
+2292.jpg;rigid plastic container;rigid plastic container
+2683.jpg;rigid plastic container;rigid plastic container
+4949.jpg;hazardous waste;hazardous waste
+5101.jpg;hazardous waste;hazardous waste
+5310.jpg;hazardous waste;aluminium
+5324.jpg;hazardous waste;
+4964.jpg;hazardous waste;hazardous waste
+5314.jpg;hazardous waste;
+5302.jpg;hazardous waste;
+4954.jpg;hazardous waste;hazardous waste
+4942.jpg;hazardous waste;hazardous waste
+5308.jpg;hazardous waste;
+4937.jpg;hazardous waste;hazardous waste
+6920.jpg;residual waste;residual waste
+6921.jpg;rigid plastic container;rigid plastic container
+6922.jpg;rigid plastic container;
+6923.jpg;rigid plastic container;rigid plastic container
+6924.jpg;rigid plastic container;
+6925.jpg;rigid plastic container;rigid plastic container
+6926.jpg;aluminium;aluminium
+6927.jpg;aluminium;aluminium
+6928.jpg;aluminium;aluminium
+6929.jpg;aluminium;aluminium
+6930.jpg;aluminium;aluminium
+6931.jpg;aluminium;aluminium
+6932.jpg;aluminium;aluminium
+6933.jpg;aluminium;aluminium
+6934.jpg;aluminium;aluminium
+6935.jpg;aluminium;aluminium
+6936.jpg;aluminium;aluminium
+6937.jpg;composite carton;composite carton
+6938.jpg;composite carton;composite carton
+6939.jpg;composite carton;composite carton
+6940.jpg;composite carton;cardboard
+6941.jpg;composite carton;composite carton
+6942.jpg;composite carton;paper
+6943.jpg;composite carton;cardboard
+6944.jpg;composite carton;composite carton
+6945.jpg;composite carton;paper
+6946.jpg;composite carton;cardboard
+6947.jpg;composite carton;cardboard
+6948.jpg;composite carton;composite carton
+6949.jpg;aluminium|plastic;aluminium|plastic
+6950.jpg;aluminium|plastic;composite carton
+6951.jpg;aluminium|plastic;aluminium|plastic
+6952.jpg;aluminium|plastic;composite carton
+6953.jpg;aluminium|plastic;aluminium|plastic
+6954.jpg;aluminium|plastic;composite carton
+6955.jpg;aluminium|plastic;aluminium|plastic
+6956.jpg;aluminium|plastic;aluminium|plastic
+6957.jpg;aluminium|plastic;aluminium|plastic
+6958.jpg;aluminium|plastic;aluminium|plastic
+6959.jpg;aluminium|plastic;aluminium|plastic
+6960.jpg;aluminium|plastic;plastic
+6961.jpg;aluminium|plastic;aluminium|plastic
+6962.jpg;aluminium|plastic;aluminium|plastic
+6963.jpg;brown glass;brown glass
+6964.jpg;brown glass;brown glass
+6965.jpg;brown glass;brown glass
+6966.jpg;brown glass;brown glass
+6967.jpg;brown glass;brown glass
+6968.jpg;brown glass;brown glass
+6969.jpg;brown glass;brown glass
+6970.jpg;brown glass;brown glass
+6971.jpg;brown glass;brown glass
+6972.jpg;brown glass;brown glass
+6973.jpg;brown glass;brown glass
+6974.jpg;brown glass;brown glass
+6975.jpg;brown glass;brown glass
+6976.jpg;brown glass;brown glass
+6977.jpg;brown glass;brown glass
+6978.jpg;brown glass;brown glass
+6979.jpg;green glass;green glass
+6980.jpg;green glass;green glass
+6981.jpg;green glass;green glass
+6982.jpg;green glass;green glass
+6983.jpg;green glass;green glass
+6984.jpg;green glass;green glass
+6985.jpg;green glass;green glass
+6986.jpg;green glass;green glass
+6987.jpg;green glass;green glass
+6988.jpg;green glass;green glass
+6989.jpg;green glass;
+6990.jpg;green glass;green glass
+6991.jpg;green glass;green glass
+6992.jpg;green glass;green glass
+6993.jpg;green glass;green glass
+6994.jpg;green glass;green glass
+6995.jpg;green glass;green glass
+6996.jpg;green glass;green glass
+6997.jpg;green glass;green glass
+6998.jpg;green glass;green glass
+6999.jpg;hazardous waste;aluminium|plastic
+7000.jpg;hazardous waste;hazardous waste
+7001.jpg;hazardous waste;hazardous waste
+7002.jpg;hazardous waste;aluminium|plastic
+7003.jpg;hazardous waste;
+7004.jpg;hazardous waste;hazardous waste
+7005.jpg;hazardous waste;aluminium
+7006.jpg;hazardous waste;aluminium|plastic
+7007.jpg;hazardous waste;
+7008.jpg;hazardous waste;aluminium|plastic
+7009.jpg;hazardous waste;hazardous waste
+7010.jpg;hazardous waste;aluminium|plastic
+7011.jpg;hazardous waste;hazardous waste
+7012.jpg;hazardous waste;hazardous waste
+7013.jpg;hazardous waste;aluminium|plastic
+7014.jpg;hazardous waste;aluminium|plastic
+7015.jpg;hazardous waste;aluminium
+7016.jpg;hazardous waste;hazardous waste
+7017.jpg;hazardous waste;hazardous waste
+7018.jpg;hazardous waste;aluminium|plastic
+7019.jpg;hazardous waste;hazardous waste
+7020.jpg;hazardous waste;hazardous waste
+7021.jpg;hazardous waste;hazardous waste
+7022.jpg;hazardous waste;
+7023.jpg;hazardous waste;
+7024.jpg;hazardous waste;hazardous waste
+7025.jpg;hazardous waste;aluminium|plastic
+7026.jpg;metal|white glass;metal|white glass
+7027.jpg;metal|white glass;metal|white glass
+7028.jpg;metal|white glass;metal|white glass
+7029.jpg;metal|white glass;metal|white glass
+7030.jpg;metal|white glass;metal|white glass
+7031.jpg;metal|white glass;metal|white glass
+7032.jpg;metal|white glass;metal|white glass
+7033.jpg;metal|white glass;metal|white glass
+7034.jpg;metal|white glass;metal|white glass
+7035.jpg;metal|white glass;metal|white glass
+7036.jpg;metal|white glass;metal|white glass
+7037.jpg;metal|white glass;metal|white glass
+7038.jpg;metal|white glass;metal|white glass
+7039.jpg;metal|white glass;metal|white glass
+7040.jpg;metal|white glass;metal|white glass
+7041.jpg;metal|white glass;metal|white glass
+7042.jpg;metal|white glass;metal|white glass
+7043.jpg;metal|white glass;metal|white glass
+7044.jpg;metal|white glass;metal|white glass
+7045.jpg;metal|white glass;metal|white glass
+7046.jpg;metal|white glass;metal|white glass
+7047.jpg;metal|white glass;metal|white glass
+7048.jpg;metal|white glass;metal|white glass
+7049.jpg;metal|white glass;metal|white glass
+7050.jpg;metal|white glass;metal|white glass
+7051.jpg;metal|white glass;metal|white glass
+7052.jpg;metal|white glass;metal|white glass
+7053.jpg;metal|white glass;metal|white glass
+7054.jpg;metal|white glass;metal|white glass

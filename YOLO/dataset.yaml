@@ -1,0 +1,21 @@
+path: /cfs/earth/scratch/benkehel/YOLO
+
+train: train
+val: val
+test: test
+
+names:
+  0: PET
+  1: Brown Glass
+  2: Green Glass
+  3: White Glass
+  4: Metal
+  5: Aluminium
+  6: Cardboard
+  7: Paper
+  8: Rigid plastic container
+  9: Plastic
+  10: Organic waste
+  11: Residual waste
+  12: Hazardous Waste
+  13: Composite Carton

@@ -1,0 +1,756 @@
+image_id;true_labels;predicted_labels
+0019.jpg;yellow bin|blue bin;yellow bin|blue bin
+0041.jpg;yellow bin|blue bin;yellow bin|blue bin
+0008.jpg;yellow bin|blue bin;yellow bin|blue bin
+0275.jpg;yellow bin|blue bin;yellow bin|blue bin
+0090.jpg;yellow bin|blue bin;yellow bin|blue bin
+0213.jpg;yellow bin|blue bin;yellow bin|blue bin
+5299.jpg;yellow bin|blue bin;yellow bin
+0242.jpg;yellow bin|blue bin;yellow bin|blue bin
+0226.jpg;yellow bin|blue bin;yellow bin|blue bin
+0238.jpg;yellow bin|blue bin;yellow bin|blue bin
+5283.jpg;yellow bin|blue bin;yellow bin
+0283.jpg;yellow bin|blue bin;yellow bin|blue bin
+0243.jpg;yellow bin|blue bin;yellow bin|blue bin
+0279.jpg;yellow bin|blue bin;yellow bin|blue bin
+0049.jpg;yellow bin|blue bin;yellow bin|blue bin
+0058.jpg;yellow bin|blue bin;yellow bin|blue bin
+0246.jpg;yellow bin|blue bin;yellow bin|blue bin
+0066.jpg;yellow bin|blue bin;yellow bin|blue bin
+0011.jpg;yellow bin|blue bin;yellow bin|blue bin
+0251.jpg;yellow bin|blue bin;yellow bin|blue bin
+0247.jpg;yellow bin|blue bin;yellow bin|blue bin
+0163.jpg;yellow bin|blue bin;yellow bin|blue bin
+0289.jpg;yellow bin|blue bin;yellow bin|blue bin
+0099.jpg;yellow bin|blue bin;yellow bin|blue bin
+0508.jpg;cardboard collection;cardboard collection
+0333.jpg;cardboard collection;cardboard collection
+0340.jpg;cardboard collection;cardboard collection
+0630.jpg;cardboard collection;cardboard collection
+0353.jpg;cardboard collection;cardboard collection
+0328.jpg;cardboard collection;cardboard collection
+0020.jpg;cardboard collection;cardboard collection
+0198.jpg;cardboard collection;cardboard collection
+0496.jpg;cardboard collection;cardboard collection
+0321.jpg;cardboard collection;cardboard collection
+0119.jpg;cardboard collection;cardboard collection
+1622.jpg;cardboard collection;cardboard collection
+0327.jpg;cardboard collection;cardboard collection
+0084.jpg;cardboard collection;cardboard collection
+0690.jpg;cardboard collection;cardboard collection
+0646.jpg;cardboard collection;cardboard collection
+0077.jpg;cardboard collection;cardboard collection
+0672.jpg;cardboard collection;cardboard collection
+0332.jpg;cardboard collection;cardboard collection
+0492.jpg;cardboard collection;cardboard collection
+0518.jpg;cardboard collection;cardboard collection
+0390.jpg;cardboard collection;cardboard collection
+0236.jpg;cardboard collection;cardboard collection
+0474.jpg;cardboard collection;cardboard collection
+0689.jpg;cardboard collection;cardboard collection
+0624.jpg;cardboard collection;cardboard collection
+0366.jpg;cardboard collection;cardboard collection
+0440.jpg;cardboard collection;cardboard collection
+0308.jpg;cardboard collection;cardboard collection
+0357.jpg;cardboard collection;cardboard collection
+0159.jpg;cardboard collection;cardboard collection
+0610.jpg;cardboard collection;cardboard collection
+0529.jpg;cardboard collection;cardboard collection
+0070.jpg;cardboard collection;cardboard collection
+0691.jpg;cardboard collection;cardboard collection
+0463.jpg;cardboard collection;cardboard collection
+0444.jpg;cardboard collection;cardboard collection
+0446.jpg;cardboard collection;cardboard collection
+0445.jpg;cardboard collection;cardboard collection
+0135.jpg;cardboard collection;cardboard collection
+0557.jpg;cardboard collection;cardboard collection
+0326.jpg;cardboard collection;cardboard collection
+0552.jpg;cardboard collection;cardboard collection
+0433.jpg;cardboard collection;cardboard collection
+0682.jpg;cardboard collection;cardboard collection
+0137.jpg;cardboard collection;cardboard collection
+0375.jpg;cardboard collection;cardboard collection
+0651.jpg;cardboard collection;cardboard collection
+0519.jpg;cardboard collection;cardboard collection
+0397.jpg;cardboard collection;cardboard collection
+0032.jpg;cardboard collection;cardboard collection
+0614.jpg;cardboard collection;cardboard collection
+0442.jpg;cardboard collection;cardboard collection
+0611.jpg;cardboard collection;cardboard collection
+0658.jpg;cardboard collection;cardboard collection
+0669.jpg;cardboard collection;cardboard collection
+0504.jpg;cardboard collection;cardboard collection
+0176.jpg;cardboard collection;cardboard collection
+0598.jpg;cardboard collection;cardboard collection
+0197.jpg;cardboard collection;cardboard collection
+0165.jpg;cardboard collection;cardboard collection
+0573.jpg;cardboard collection;cardboard collection
+2151.jpg;cardboard collection;paper collection
+0574.jpg;cardboard collection;cardboard collection
+0339.jpg;cardboard collection;cardboard collection
+0629.jpg;cardboard collection;cardboard collection
+0330.jpg;cardboard collection;cardboard collection
+0599.jpg;cardboard collection;cardboard collection
+0526.jpg;cardboard collection;cardboard collection
+0641.jpg;cardboard collection;cardboard collection
+0129.jpg;cardboard collection;cardboard collection
+0544.jpg;cardboard collection;cardboard collection
+0395.jpg;cardboard collection;cardboard collection
+0548.jpg;cardboard collection;cardboard collection
+0479.jpg;cardboard collection;cardboard collection
+2170.jpg;cardboard collection;cardboard collection
+0127.jpg;cardboard collection;cardboard collection
+0462.jpg;cardboard collection;cardboard collection
+0473.jpg;cardboard collection;cardboard collection
+2150.jpg;cardboard collection;cardboard collection
+0609.jpg;cardboard collection;cardboard collection
+1389.jpg;blue bin;blue bin
+1617.jpg;blue bin;blue bin
+1598.jpg;blue bin;blue bin
+1426.jpg;blue bin;blue bin
+1398.jpg;blue bin;blue bin
+1277.jpg;blue bin;blue bin
+1525.jpg;blue bin;blue bin
+1403.jpg;blue bin;blue bin
+1559.jpg;blue bin;blue bin
+1606.jpg;blue bin;blue bin
+1549.jpg;blue bin;blue bin
+1335.jpg;blue bin;blue bin
+1338.jpg;blue bin;blue bin
+1422.jpg;blue bin;blue bin
+1536.jpg;blue bin;blue bin
+1361.jpg;blue bin;blue bin
+1311.jpg;blue bin;blue bin
+1230.jpg;blue bin;blue bin
+1251.jpg;blue bin;blue bin
+1601.jpg;blue bin;blue bin
+1353.jpg;blue bin;blue bin
+1390.jpg;blue bin;blue bin
+1548.jpg;blue bin;blue bin|green glass collection point
+1360.jpg;blue bin;blue bin
+1458.jpg;blue bin;blue bin
+1407.jpg;blue bin;blue bin
+1503.jpg;blue bin;blue bin
+0155.jpg;blue bin;blue bin
+1417.jpg;blue bin;blue bin
+1468.jpg;blue bin;blue bin
+1363.jpg;blue bin;blue bin
+1510.jpg;blue bin;blue bin
+1404.jpg;blue bin;blue bin
+1434.jpg;blue bin;brown glass collection point
+1341.jpg;blue bin;blue bin
+1472.jpg;blue bin;blue bin
+5199.jpg;blue bin;yellow bin|blue bin
+1529.jpg;blue bin;blue bin
+1447.jpg;blue bin;blue bin
+1506.jpg;blue bin;blue bin
+1224.jpg;blue bin;blue bin
+1315.jpg;blue bin;blue bin
+1542.jpg;blue bin;blue bin
+1505.jpg;blue bin;blue bin
+1592.jpg;blue bin;blue bin
+1547.jpg;blue bin;blue bin
+1540.jpg;blue bin;blue bin
+1233.jpg;blue bin;blue bin
+1526.jpg;blue bin;blue bin
+1453.jpg;blue bin;blue bin
+1502.jpg;blue bin;blue bin
+1310.jpg;blue bin;blue bin
+1368.jpg;blue bin;blue bin
+1402.jpg;blue bin;blue bin
+1397.jpg;blue bin;blue bin
+2374.jpg;yellow bin;yellow bin
+2386.jpg;yellow bin;yellow bin
+5262.jpg;yellow bin;yellow bin
+3445.jpg;yellow bin;general household waste
+4335.jpg;yellow bin;yellow bin
+5167.jpg;yellow bin;yellow bin
+5168.jpg;yellow bin;yellow bin
+5259.jpg;yellow bin;yellow bin
+2268.jpg;yellow bin;yellow bin
+2610.jpg;yellow bin;yellow bin
+4168.jpg;yellow bin;yellow bin
+5211.jpg;yellow bin;yellow bin|blue bin
+2438.jpg;yellow bin;yellow bin
+2611.jpg;yellow bin;yellow bin
+2344.jpg;yellow bin;yellow bin
+2335.jpg;yellow bin;yellow bin
+2372.jpg;yellow bin;yellow bin
+2329.jpg;yellow bin;yellow bin
+2478.jpg;yellow bin;pet collection point
+5264.jpg;yellow bin;yellow bin
+3752.jpg;yellow bin;yellow bin
+4255.jpg;yellow bin;yellow bin
+0014.jpg;yellow bin;yellow bin
+2220.jpg;yellow bin;yellow bin
+5239.jpg;yellow bin;yellow bin|blue bin
+2510.jpg;yellow bin;yellow bin
+2301.jpg;yellow bin;yellow bin
+2410.jpg;yellow bin;yellow bin
+2513.jpg;yellow bin;yellow bin
+0288.jpg;yellow bin;yellow bin
+0286.jpg;yellow bin;yellow bin
+5194.jpg;yellow bin;yellow bin
+5236.jpg;yellow bin;yellow bin|blue bin
+3449.jpg;yellow bin;yellow bin
+2481.jpg;yellow bin;yellow bin
+2661.jpg;yellow bin;yellow bin
+3836.jpg;yellow bin;yellow bin
+3444.jpg;yellow bin;yellow bin
+5178.jpg;yellow bin;cardboard collection
+2487.jpg;yellow bin;yellow bin
+2427.jpg;yellow bin;yellow bin
+2406.jpg;yellow bin;yellow bin
+3547.jpg;yellow bin;yellow bin
+2589.jpg;yellow bin;yellow bin
+4342.jpg;yellow bin;yellow bin
+3748.jpg;yellow bin;yellow bin
+2378.jpg;yellow bin;yellow bin
+2535.jpg;yellow bin;yellow bin
+2390.jpg;yellow bin;yellow bin
+2590.jpg;yellow bin;yellow bin
+3447.jpg;yellow bin;yellow bin
+2468.jpg;yellow bin;yellow bin
+5246.jpg;yellow bin;yellow bin|blue bin
+4326.jpg;yellow bin;yellow bin
+0232.jpg;yellow bin;yellow bin
+5325.jpg;yellow bin;yellow bin
+3835.jpg;yellow bin;yellow bin
+2554.jpg;yellow bin;yellow bin
+2635.jpg;yellow bin;yellow bin
+0091.jpg;yellow bin;yellow bin
+2532.jpg;yellow bin;yellow bin
+4644.jpg;general household waste;general household waste
+4620.jpg;general household waste;general household waste
+4706.jpg;general household waste;general household waste
+4502.jpg;general household waste;general household waste
+4460.jpg;general household waste;general household waste
+4555.jpg;general household waste;general household waste
+4506.jpg;general household waste;general household waste
+4485.jpg;general household waste;general household waste
+4652.jpg;general household waste;general household waste
+3051.jpg;general household waste;general household waste
+4582.jpg;general household waste;general household waste
+4415.jpg;general household waste;general household waste
+4551.jpg;general household waste;general household waste
+4417.jpg;general household waste;general household waste
+4471.jpg;general household waste;general household waste
+4500.jpg;general household waste;general household waste
+4601.jpg;general household waste;general household waste
+4580.jpg;general household waste;general household waste
+3124.jpg;general household waste;general household waste
+4576.jpg;general household waste;general household waste
+4607.jpg;general household waste;general household waste
+3401.jpg;general household waste;general household waste
+4473.jpg;general household waste;general household waste
+4476.jpg;general household waste;general household waste
+4389.jpg;general household waste;general household waste
+4831.jpg;general household waste;general household waste
+4651.jpg;general household waste;general household waste
+4565.jpg;general household waste;general household waste
+4700.jpg;general household waste;general household waste
+4787.jpg;general household waste;general household waste
+3391.jpg;general household waste;general household waste
+0274.jpg;general household waste;general household waste
+4821.jpg;general household waste;general household waste
+0133.jpg;general household waste;general household waste
+4707.jpg;general household waste;general household waste
+4467.jpg;general household waste;general household waste
+0016.jpg;general household waste;general household waste
+4969.jpg;yellow bin;yellow bin
+5030.jpg;yellow bin;yellow bin
+5005.jpg;yellow bin;yellow bin
+5113.jpg;yellow bin;blue bin|cardboard collection
+5132.jpg;yellow bin;cardboard collection
+5295.jpg;yellow bin;yellow bin
+5157.jpg;yellow bin;cardboard collection
+5072.jpg;yellow bin;cardboard collection
+5143.jpg;yellow bin;yellow bin|blue bin
+5124.jpg;yellow bin;yellow bin
+5025.jpg;yellow bin;yellow bin
+5092.jpg;yellow bin;cardboard collection
+5006.jpg;yellow bin;yellow bin
+5052.jpg;yellow bin;
+5041.jpg;yellow bin;yellow bin
+5055.jpg;yellow bin;cardboard collection
+5008.jpg;yellow bin;yellow bin
+5023.jpg;yellow bin;yellow bin
+5258.jpg;yellow bin;yellow bin|blue bin
+4990.jpg;yellow bin;yellow bin
+5035.jpg;yellow bin;yellow bin
+5127.jpg;yellow bin;cardboard collection
+5128.jpg;yellow bin;cardboard collection
+5024.jpg;yellow bin;yellow bin
+5297.jpg;yellow bin;yellow bin
+5067.jpg;yellow bin;cardboard collection
+2838.jpg;organic waste bin;organic waste bin
+2891.jpg;organic waste bin;organic waste bin
+2743.jpg;organic waste bin;organic waste bin
+2820.jpg;organic waste bin;organic waste bin
+3021.jpg;organic waste bin;organic waste bin
+2993.jpg;organic waste bin;organic waste bin
+2783.jpg;organic waste bin;organic waste bin
+2890.jpg;organic waste bin;organic waste bin
+2940.jpg;organic waste bin;organic waste bin
+2977.jpg;organic waste bin;organic waste bin
+2721.jpg;organic waste bin;organic waste bin
+2956.jpg;organic waste bin;organic waste bin
+2773.jpg;organic waste bin;organic waste bin
+2876.jpg;organic waste bin;organic waste bin
+2731.jpg;organic waste bin;organic waste bin
+2997.jpg;organic waste bin;organic waste bin
+2909.jpg;organic waste bin;organic waste bin
+2835.jpg;organic waste bin;organic waste bin
+3022.jpg;organic waste bin;organic waste bin
+2742.jpg;organic waste bin;organic waste bin
+2796.jpg;organic waste bin;organic waste bin
+2706.jpg;organic waste bin;organic waste bin
+2954.jpg;organic waste bin;organic waste bin
+3011.jpg;organic waste bin;organic waste bin
+3000.jpg;organic waste bin;organic waste bin
+2726.jpg;organic waste bin;organic waste bin
+2894.jpg;organic waste bin;organic waste bin
+2932.jpg;organic waste bin;organic waste bin
+2885.jpg;organic waste bin;organic waste bin
+3008.jpg;organic waste bin;organic waste bin
+2843.jpg;organic waste bin;organic waste bin
+2704.jpg;organic waste bin;organic waste bin
+2945.jpg;organic waste bin;organic waste bin
+2960.jpg;organic waste bin;organic waste bin
+2994.jpg;organic waste bin;organic waste bin
+3005.jpg;organic waste bin;organic waste bin
+2807.jpg;organic waste bin;organic waste bin
+2707.jpg;organic waste bin;organic waste bin
+2952.jpg;organic waste bin;organic waste bin
+2884.jpg;organic waste bin;organic waste bin
+2957.jpg;organic waste bin;organic waste bin
+2846.jpg;organic waste bin;organic waste bin
+2804.jpg;organic waste bin;organic waste bin
+2937.jpg;organic waste bin;organic waste bin
+2725.jpg;organic waste bin;organic waste bin
+2703.jpg;organic waste bin;organic waste bin
+2836.jpg;organic waste bin;organic waste bin
+2738.jpg;organic waste bin;organic waste bin
+2795.jpg;organic waste bin;organic waste bin
+2941.jpg;organic waste bin;organic waste bin
+0901.jpg;brown glass collection point;brown glass collection point
+0863.jpg;brown glass collection point;brown glass collection point
+0888.jpg;brown glass collection point;brown glass collection point
+1068.jpg;brown glass collection point;brown glass collection point
+0965.jpg;brown glass collection point;brown glass collection point
+3334.jpg;brown glass collection point;brown glass collection point
+0970.jpg;brown glass collection point;brown glass collection point
+1118.jpg;brown glass collection point;brown glass collection point
+1121.jpg;brown glass collection point;brown glass collection point
+3025.jpg;brown glass collection point;brown glass collection point
+1161.jpg;brown glass collection point;brown glass collection point
+1093.jpg;brown glass collection point;brown glass collection point
+0880.jpg;brown glass collection point;brown glass collection point
+0899.jpg;brown glass collection point;brown glass collection point
+1063.jpg;brown glass collection point;brown glass collection point
+0902.jpg;brown glass collection point;brown glass collection point
+1023.jpg;brown glass collection point;brown glass collection point
+3060.jpg;brown glass collection point;brown glass collection point
+0949.jpg;brown glass collection point;brown glass collection point
+1130.jpg;brown glass collection point;brown glass collection point
+0865.jpg;brown glass collection point;brown glass collection point
+0710.jpg;brown glass collection point;brown glass collection point
+4881.jpg;blue bin;blue bin
+4863.jpg;blue bin;blue bin
+4843.jpg;blue bin;blue bin
+4903.jpg;blue bin;blue bin
+1534.jpg;blue bin;blue bin
+4912.jpg;blue bin;blue bin
+5054.jpg;blue bin;blue bin
+4882.jpg;blue bin;blue bin
+4905.jpg;blue bin;blue bin
+4900.jpg;blue bin;blue bin
+1380.jpg;blue bin;blue bin
+4848.jpg;blue bin;blue bin
+1448.jpg;blue bin;blue bin
+4861.jpg;blue bin;blue bin
+1231.jpg;blue bin;blue bin
+1484.jpg;blue bin;blue bin
+4902.jpg;blue bin;blue bin
+4841.jpg;blue bin;blue bin
+4846.jpg;blue bin;blue bin
+0206.jpg;blue bin;cardboard collection
+1387.jpg;blue bin;blue bin
+4879.jpg;blue bin;blue bin
+1288.jpg;blue bin;blue bin
+1386.jpg;blue bin;blue bin
+4896.jpg;blue bin;blue bin
+1596.jpg;blue bin;blue bin
+1493.jpg;blue bin;blue bin
+1820.jpg;paper collection;paper collection
+2159.jpg;paper collection;paper collection
+1645.jpg;paper collection;paper collection
+1895.jpg;paper collection;paper collection
+2098.jpg;paper collection;paper collection
+1938.jpg;paper collection;paper collection
+2125.jpg;paper collection;paper collection
+2037.jpg;paper collection;paper collection
+2213.jpg;paper collection;paper collection
+1773.jpg;paper collection;paper collection
+1724.jpg;paper collection;paper collection
+1864.jpg;paper collection;paper collection
+2182.jpg;paper collection;paper collection
+1846.jpg;paper collection;paper collection
+1767.jpg;paper collection;paper collection
+1689.jpg;paper collection;paper collection
+1951.jpg;paper collection;paper collection
+2108.jpg;paper collection;paper collection
+1873.jpg;paper collection;paper collection
+2081.jpg;paper collection;paper collection
+1990.jpg;paper collection;paper collection
+2049.jpg;paper collection;paper collection
+1986.jpg;paper collection;paper collection
+2012.jpg;paper collection;paper collection
+1943.jpg;paper collection;paper collection
+1917.jpg;paper collection;paper collection
+1927.jpg;paper collection;paper collection
+1675.jpg;paper collection;paper collection
+1973.jpg;paper collection;paper collection
+2116.jpg;paper collection;paper collection
+1643.jpg;paper collection;paper collection
+2134.jpg;paper collection;paper collection
+1946.jpg;paper collection;paper collection
+1931.jpg;paper collection;paper collection
+1947.jpg;paper collection;paper collection
+2149.jpg;paper collection;paper collection
+2017.jpg;paper collection;paper collection
+2172.jpg;paper collection;paper collection
+1755.jpg;paper collection;paper collection
+2110.jpg;paper collection;paper collection
+1977.jpg;paper collection;paper collection
+1692.jpg;paper collection;paper collection
+0263.jpg;paper collection;paper collection
+1723.jpg;paper collection;paper collection
+2085.jpg;paper collection;paper collection
+1697.jpg;paper collection;paper collection
+1649.jpg;paper collection;paper collection
+2001.jpg;paper collection;paper collection
+1976.jpg;paper collection;paper collection
+1739.jpg;paper collection;paper collection
+0241.jpg;paper collection;paper collection
+2076.jpg;paper collection;paper collection
+2003.jpg;paper collection;paper collection
+2132.jpg;paper collection;paper collection
+1742.jpg;paper collection;paper collection
+2153.jpg;paper collection;paper collection
+1654.jpg;paper collection;paper collection
+2025.jpg;paper collection;paper collection
+1858.jpg;paper collection;paper collection
+1900.jpg;paper collection;paper collection
+2004.jpg;paper collection;paper collection
+1915.jpg;paper collection;paper collection
+1866.jpg;paper collection;paper collection
+1814.jpg;paper collection;paper collection
+1737.jpg;paper collection;paper collection
+1912.jpg;paper collection;paper collection
+2204.jpg;paper collection;paper collection
+2047.jpg;paper collection;paper collection
+1690.jpg;paper collection;paper collection
+1888.jpg;paper collection;paper collection
+1752.jpg;paper collection;paper collection
+1965.jpg;paper collection;paper collection
+1925.jpg;paper collection;paper collection
+2173.jpg;paper collection;paper collection
+2087.jpg;paper collection;paper collection
+2058.jpg;paper collection;paper collection
+2111.jpg;paper collection;paper collection
+1865.jpg;paper collection;paper collection
+1975.jpg;paper collection;paper collection
+1791.jpg;paper collection;paper collection
+1798.jpg;paper collection;paper collection
+1882.jpg;paper collection;paper collection
+2118.jpg;paper collection;paper collection
+1750.jpg;paper collection;paper collection
+0874.jpg;green glass collection point;green glass collection point
+1080.jpg;green glass collection point;green glass collection point
+3285.jpg;green glass collection point;green glass collection point
+0739.jpg;green glass collection point;green glass collection point
+0852.jpg;green glass collection point;green glass collection point
+1192.jpg;green glass collection point;green glass collection point
+0971.jpg;green glass collection point;green glass collection point
+0722.jpg;green glass collection point;green glass collection point
+1105.jpg;green glass collection point;green glass collection point
+0780.jpg;green glass collection point;green glass collection point
+0732.jpg;green glass collection point;green glass collection point
+0759.jpg;green glass collection point;green glass collection point
+1193.jpg;green glass collection point;green glass collection point
+0869.jpg;green glass collection point;green glass collection point
+0954.jpg;green glass collection point;green glass collection point
+0856.jpg;green glass collection point;green glass collection point
+1145.jpg;green glass collection point;green glass collection point
+1069.jpg;green glass collection point;green glass collection point
+0945.jpg;white glass collection point;white glass collection point
+0964.jpg;white glass collection point;white glass collection point
+1166.jpg;white glass collection point;white glass collection point
+0947.jpg;white glass collection point;white glass collection point
+0892.jpg;white glass collection point;white glass collection point
+1102.jpg;white glass collection point;white glass collection point
+1199.jpg;white glass collection point;white glass collection point
+1154.jpg;white glass collection point;white glass collection point
+0936.jpg;white glass collection point;white glass collection point
+1153.jpg;white glass collection point;white glass collection point
+0834.jpg;white glass collection point;white glass collection point
+0973.jpg;white glass collection point;white glass collection point
+0718.jpg;white glass collection point;white glass collection point
+1022.jpg;white glass collection point;white glass collection point
+0938.jpg;white glass collection point;white glass collection point
+1147.jpg;white glass collection point;white glass collection point
+1164.jpg;white glass collection point;white glass collection point
+0979.jpg;white glass collection point;white glass collection point
+0740.jpg;white glass collection point;white glass collection point
+0828.jpg;white glass collection point;white glass collection point
+0993.jpg;white glass collection point;white glass collection point
+0804.jpg;white glass collection point;white glass collection point
+0953.jpg;white glass collection point;white glass collection point
+0755.jpg;white glass collection point;white glass collection point
+1127.jpg;white glass collection point;white glass collection point
+1115.jpg;white glass collection point;white glass collection point
+0929.jpg;white glass collection point;white glass collection point
+1027.jpg;white glass collection point;white glass collection point
+0753.jpg;white glass collection point;white glass collection point
+1142.jpg;white glass collection point;white glass collection point
+0855.jpg;white glass collection point;white glass collection point
+1152.jpg;white glass collection point;white glass collection point
+1032.jpg;white glass collection point;white glass collection point
+1016.jpg;white glass collection point;white glass collection point
+0942.jpg;white glass collection point;white glass collection point
+0968.jpg;white glass collection point;white glass collection point
+0876.jpg;white glass collection point;white glass collection point
+0846.jpg;white glass collection point;white glass collection point
+0774.jpg;white glass collection point;white glass collection point
+0790.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+3337.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+0787.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+3126.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+3343.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+3197.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+3336.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+3425.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+0813.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+2504.jpg;pet collection point;pet collection point
+2256.jpg;pet collection point;pet collection point
+4241.jpg;pet collection point;pet collection point
+2517.jpg;pet collection point;pet collection point
+2583.jpg;pet collection point;pet collection point
+4216.jpg;pet collection point;pet collection point
+2641.jpg;pet collection point;pet collection point
+2245.jpg;pet collection point;pet collection point
+2443.jpg;pet collection point;pet collection point
+3898.jpg;pet collection point;pet collection point
+2359.jpg;pet collection point;pet collection point
+2328.jpg;pet collection point;pet collection point
+3876.jpg;pet collection point;pet collection point
+2403.jpg;pet collection point;pet collection point
+2309.jpg;pet collection point;pet collection point
+2668.jpg;pet collection point;pet collection point
+2373.jpg;pet collection point;pet collection point
+4245.jpg;pet collection point;pet collection point
+2663.jpg;pet collection point;pet collection point
+2495.jpg;pet collection point;pet collection point
+2258.jpg;pet collection point;pet collection point
+3942.jpg;pet collection point;pet collection point
+2594.jpg;pet collection point;pet collection point
+3943.jpg;pet collection point;pet collection point
+4063.jpg;pet collection point;pet collection point
+5251.jpg;pet collection point;yellow bin|blue bin
+2557.jpg;pet collection point;pet collection point
+2275.jpg;pet collection point;pet collection point
+4234.jpg;pet collection point;pet collection point
+2502.jpg;pet collection point;pet collection point
+2528.jpg;pet collection point;pet collection point
+2466.jpg;pet collection point;pet collection point
+3919.jpg;pet collection point;pet collection point
+2477.jpg;pet collection point;pet collection point
+3810.jpg;pet collection point;pet collection point
+4209.jpg;pet collection point;pet collection point
+2489.jpg;pet collection point;pet collection point
+2255.jpg;pet collection point;pet collection point
+3699.jpg;pet collection point;pet collection point
+2227.jpg;pet collection point;pet collection point
+3902.jpg;pet collection point;pet collection point
+2542.jpg;pet collection point;pet collection point
+3880.jpg;pet collection point;pet collection point
+2290.jpg;yellow bin;yellow bin
+2230.jpg;yellow bin;blue bin
+5225.jpg;yellow bin;yellow bin
+3790.jpg;yellow bin;yellow bin
+3733.jpg;yellow bin;yellow bin
+5228.jpg;yellow bin;yellow bin
+5288.jpg;yellow bin;yellow bin
+3565.jpg;yellow bin;yellow bin
+5282.jpg;yellow bin;yellow bin
+2347.jpg;yellow bin;yellow bin
+3782.jpg;yellow bin;yellow bin
+3564.jpg;yellow bin;yellow bin
+2221.jpg;yellow bin;yellow bin
+3657.jpg;yellow bin;yellow bin
+2498.jpg;yellow bin;yellow bin
+2401.jpg;yellow bin;yellow bin
+3957.jpg;yellow bin;yellow bin
+2665.jpg;yellow bin;yellow bin
+2287.jpg;yellow bin;yellow bin
+3643.jpg;yellow bin;yellow bin
+2675.jpg;yellow bin;yellow bin
+3793.jpg;yellow bin;yellow bin
+2281.jpg;yellow bin;yellow bin
+4070.jpg;yellow bin;yellow bin
+3661.jpg;yellow bin;yellow bin
+3668.jpg;yellow bin;yellow bin
+4186.jpg;yellow bin;brown glass collection point
+2269.jpg;yellow bin;yellow bin
+4154.jpg;yellow bin;yellow bin
+4232.jpg;yellow bin;yellow bin
+5223.jpg;yellow bin;yellow bin
+2292.jpg;yellow bin;yellow bin
+2683.jpg;yellow bin;yellow bin
+4949.jpg;battery collection point;battery collection point
+5101.jpg;battery collection point;battery collection point
+5310.jpg;battery collection point;yellow bin|blue bin
+5324.jpg;battery collection point;yellow bin
+4964.jpg;battery collection point;battery collection point
+5314.jpg;battery collection point;yellow bin
+5302.jpg;battery collection point;yellow bin|battery collection point
+4954.jpg;battery collection point;battery collection point
+4942.jpg;battery collection point;battery collection point
+5308.jpg;battery collection point;yellow bin
+4937.jpg;battery collection point;battery collection point
+6920.jpg;general household waste;general household waste
+6921.jpg;yellow bin;yellow bin
+6922.jpg;yellow bin;yellow bin|brown glass collection point
+6923.jpg;yellow bin;yellow bin
+6924.jpg;yellow bin;yellow bin|blue bin
+6925.jpg;yellow bin;yellow bin
+6926.jpg;blue bin;blue bin
+6927.jpg;blue bin;blue bin
+6928.jpg;blue bin;blue bin
+6929.jpg;blue bin;blue bin
+6930.jpg;blue bin;blue bin
+6931.jpg;blue bin;blue bin
+6932.jpg;blue bin;blue bin
+6933.jpg;blue bin;blue bin
+6934.jpg;blue bin;blue bin
+6935.jpg;blue bin;blue bin
+6936.jpg;blue bin;blue bin
+6937.jpg;yellow bin;yellow bin
+6938.jpg;yellow bin;yellow bin
+6939.jpg;yellow bin;yellow bin
+6940.jpg;yellow bin;cardboard collection
+6941.jpg;yellow bin;yellow bin
+6942.jpg;yellow bin;cardboard collection
+6943.jpg;yellow bin;paper collection
+6944.jpg;yellow bin;yellow bin
+6945.jpg;yellow bin;cardboard collection
+6946.jpg;yellow bin;yellow bin
+6947.jpg;yellow bin;cardboard collection
+6948.jpg;yellow bin;yellow bin
+6949.jpg;yellow bin|blue bin;yellow bin|blue bin
+6950.jpg;yellow bin|blue bin;yellow bin
+6951.jpg;yellow bin|blue bin;yellow bin|blue bin
+6952.jpg;yellow bin|blue bin;yellow bin
+6953.jpg;yellow bin|blue bin;yellow bin|blue bin
+6954.jpg;yellow bin|blue bin;yellow bin
+6955.jpg;yellow bin|blue bin;yellow bin|blue bin
+6956.jpg;yellow bin|blue bin;yellow bin|blue bin
+6957.jpg;yellow bin|blue bin;yellow bin|blue bin
+6958.jpg;yellow bin|blue bin;yellow bin|blue bin
+6959.jpg;yellow bin|blue bin;yellow bin|blue bin
+6960.jpg;yellow bin|blue bin;yellow bin
+6961.jpg;yellow bin|blue bin;yellow bin|blue bin
+6962.jpg;yellow bin|blue bin;yellow bin|blue bin
+6963.jpg;brown glass collection point;brown glass collection point
+6964.jpg;brown glass collection point;brown glass collection point
+6965.jpg;brown glass collection point;brown glass collection point
+6966.jpg;brown glass collection point;brown glass collection point
+6967.jpg;brown glass collection point;brown glass collection point
+6968.jpg;brown glass collection point;brown glass collection point
+6969.jpg;brown glass collection point;brown glass collection point
+6970.jpg;brown glass collection point;brown glass collection point
+6971.jpg;brown glass collection point;brown glass collection point
+6972.jpg;brown glass collection point;brown glass collection point
+6973.jpg;brown glass collection point;brown glass collection point
+6974.jpg;brown glass collection point;brown glass collection point
+6975.jpg;brown glass collection point;brown glass collection point
+6976.jpg;brown glass collection point;brown glass collection point
+6977.jpg;brown glass collection point;brown glass collection point
+6978.jpg;brown glass collection point;brown glass collection point
+6979.jpg;green glass collection point;green glass collection point
+6980.jpg;green glass collection point;green glass collection point
+6981.jpg;green glass collection point;green glass collection point
+6982.jpg;green glass collection point;green glass collection point
+6983.jpg;green glass collection point;green glass collection point
+6984.jpg;green glass collection point;green glass collection point
+6985.jpg;green glass collection point;green glass collection point
+6986.jpg;green glass collection point;green glass collection point
+6987.jpg;green glass collection point;green glass collection point
+6988.jpg;green glass collection point;green glass collection point
+6989.jpg;green glass collection point;white glass collection point
+6990.jpg;green glass collection point;green glass collection point
+6991.jpg;green glass collection point;green glass collection point
+6992.jpg;green glass collection point;green glass collection point
+6993.jpg;green glass collection point;green glass collection point
+6994.jpg;green glass collection point;green glass collection point
+6995.jpg;green glass collection point;green glass collection point
+6996.jpg;green glass collection point;green glass collection point
+6997.jpg;green glass collection point;green glass collection point
+6998.jpg;green glass collection point;brown glass collection point|green glass collection point
+6999.jpg;battery collection point;yellow bin
+7000.jpg;battery collection point;battery collection point
+7001.jpg;battery collection point;battery collection point
+7002.jpg;battery collection point;yellow bin
+7003.jpg;battery collection point;yellow bin
+7004.jpg;battery collection point;battery collection point
+7005.jpg;battery collection point;yellow bin
+7006.jpg;battery collection point;yellow bin|organic waste bin
+7007.jpg;battery collection point;yellow bin|battery collection point
+7008.jpg;battery collection point;yellow bin
+7009.jpg;battery collection point;battery collection point
+7010.jpg;battery collection point;yellow bin
+7011.jpg;battery collection point;battery collection point
+7012.jpg;battery collection point;blue bin|white glass collection point
+7013.jpg;battery collection point;yellow bin
+7014.jpg;battery collection point;yellow bin
+7015.jpg;battery collection point;yellow bin|organic waste bin
+7016.jpg;battery collection point;battery collection point
+7017.jpg;battery collection point;battery collection point
+7018.jpg;battery collection point;yellow bin
+7019.jpg;battery collection point;battery collection point
+7020.jpg;battery collection point;battery collection point
+7021.jpg;battery collection point;battery collection point
+7022.jpg;battery collection point;yellow bin
+7023.jpg;battery collection point;yellow bin
+7024.jpg;battery collection point;yellow bin|blue bin
+7025.jpg;battery collection point;yellow bin
+7026.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7027.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7028.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7029.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7030.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7031.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7032.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7033.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7034.jpg;blue bin|white glass collection point;blue bin|brown glass collection point|white glass collection point
+7035.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7036.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7037.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7038.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7039.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7040.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7041.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7042.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7043.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7044.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7045.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7046.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7047.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7048.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7049.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7050.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7051.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7052.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7053.jpg;blue bin|white glass collection point;blue bin|white glass collection point
+7054.jpg;blue bin|white glass collection point;blue bin|white glass collection point

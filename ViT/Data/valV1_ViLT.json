@@ -1,0 +1,7789 @@
+[
+  {
+    "image": "0520.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "2268.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5432.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "6816.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0484.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "2501.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "2895.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "1221.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1371.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2970.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "5007.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5155.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "6959.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1560.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "4616.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "0873.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "5985.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "0716.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "4875.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5440.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1744.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "2939.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "3745.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2993.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "3206.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "5057.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "2119.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "6755.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "5526.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "6787.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "5231.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "7114.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "0419.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "0558.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "1107.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0983.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "3098.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "5415.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "3445.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2023.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "7208.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "1515.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1604.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2935.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "5600.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "1505.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "7119.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "1961.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "5841.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0195.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "4988.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "1197.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "6720.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6352.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "3917.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "0670.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "5413.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "5753.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "1788.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "6957.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5475.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2977.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "6920.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1171.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0665.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "6669.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2622.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "3649.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "4404.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "2490.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "1249.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "4255.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "3831.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5918.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2108.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "6392.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5736.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "3054.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "6222.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5049.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "3019.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "5309.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6477.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "4712.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "5012.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "0225.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "7013.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2105.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "6832.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0965.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "5866.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2932.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "1359.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1369.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6530.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "7200.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "5111.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "6594.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "4871.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6539.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "6171.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "4166.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5234.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "1875.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "6414.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5904.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5838.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "3932.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "2021.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "5488.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0377.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "1241.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "3224.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "4606.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "6577.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0832.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1246.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5556.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1633.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "2299.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2562.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "0744.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0472.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "5431.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2898.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "0561.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "6142.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "3269.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0435.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "0425.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "5165.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2763.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "5532.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1914.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "0213.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6684.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1231.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2399.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "1166.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1080.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "6682.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2846.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "1253.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "7070.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "7045.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0305.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2132.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "0445.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "5241.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2251.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "7100.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "1782.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "6725.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2333.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "3645.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5222.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "6712.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2203.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "1318.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5551.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "4888.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "4216.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "1682.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "1643.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "6002.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "2737.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "6318.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0084.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "2773.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "6234.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2774.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "2995.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "5861.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "3027.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0258.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "3512.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5863.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1301.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5026.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "1613.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6220.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1510.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1614.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5235.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2915.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "2731.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "7187.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "1593.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2564.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "0733.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1389.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2148.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "5882.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5020.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5073.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "4656.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "3148.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "0909.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1447.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2052.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "0156.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "1517.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6072.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "1002.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2546.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "1901.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "6037.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "2154.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "6270.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0827.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0648.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "5757.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2261.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "7048.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5401.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "5680.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5016.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "4898.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2076.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "1859.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "2990.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "1591.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0303.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "3023.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "0006.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5636.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "6217.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1765.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "0122.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "2073.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "6373.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6696.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6332.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "4703.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "2901.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "0027.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1931.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "0076.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6359.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6886.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "3923.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2984.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "2087.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "4794.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "5318.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2214.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "6176.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "5960.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "6507.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2769.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "6887.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0868.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1985.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "5193.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5761.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "1457.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "3832.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5803.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1847.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "1407.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2450.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2590.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "0284.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "5376.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0092.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0787.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0370.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "5974.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "0530.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "5884.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0866.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "3535.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "6083.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "6793.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0137.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "5387.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "3092.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "5292.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "7081.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0411.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "7029.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2216.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "6585.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0680.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "6028.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "4740.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "2449.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "4238.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "5684.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "4582.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "5792.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5872.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1299.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5689.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2662.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "5979.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "6166.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "2950.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "6182.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "0842.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0175.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "4413.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "1789.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "4729.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "1777.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "4707.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "0311.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "0671.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "6925.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "3876.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "2520.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "4642.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "4617.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "0758.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2543.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "0474.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "1045.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2615.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2644.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "4236.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "6081.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "0255.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1930.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "5294.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "3642.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "1183.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1160.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2563.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "2117.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "1712.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "2496.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "6189.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "5588.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "0384.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "6380.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1989.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "5365.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5635.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2841.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "0904.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1385.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5017.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2481.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2628.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "1006.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "3080.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6817.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "6036.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "2497.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "5950.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "0795.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0448.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "5340.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0915.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1508.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0783.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2472.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2524.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "6655.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "6214.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5575.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "0442.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "2973.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "6511.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "3296.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "6985.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0049.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0460.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "5454.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "6631.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "6900.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0989.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "4538.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "1256.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6804.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1565.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "3967.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "2325.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "6133.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "2529.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "4848.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1691.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "5674.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5091.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1700.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "0634.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "3898.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "5987.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "5000.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5976.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "6375.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2269.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "4186.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "4746.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "2135.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "4795.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "3205.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "6430.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5005.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5423.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0810.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1008.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "5435.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1283.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6733.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1220.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1617.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6676.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1946.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "6172.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "0914.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "4745.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "0517.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "2114.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "1310.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2457.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "4384.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "6661.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2271.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "3332.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "5722.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "1771.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "0779.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "6708.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2070.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "1835.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "6194.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2048.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "0358.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "3742.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "6702.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "3926.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "6719.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "3025.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "5828.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6973.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6262.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "3594.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "1068.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2650.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "3126.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0173.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "5744.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "1513.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6470.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "0454.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "3039.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2130.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "2902.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "1530.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5173.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2197.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "1568.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2828.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "0361.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "3793.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "0428.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "1102.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0185.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1810.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "2981.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "6134.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "6343.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2169.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "1122.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2324.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "0891.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0858.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0279.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1439.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6775.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2465.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "6177.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "4920.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6018.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "5642.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "1058.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2257.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "4955.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "5003.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5699.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "4805.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "6795.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "6154.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "6197.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0559.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "6849.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2705.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "2395.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "1943.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "0096.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "6928.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "4605.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "6526.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "7216.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "3258.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2063.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "2963.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "2196.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "2555.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "0855.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1217.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6958.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5338.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "7207.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "6399.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5980.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "5144.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "0961.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "4245.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "6413.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "7000.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0287.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "0574.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "4452.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "6184.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "0191.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0819.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0497.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "6827.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2571.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2585.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "0121.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "5191.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "0839.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1367.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2483.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "0643.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "2697.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "3750.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "6790.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1570.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "1379.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0510.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "5695.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "0152.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "3656.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "1201.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "3880.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "1094.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "3511.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5394.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0932.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2370.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2484.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2478.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "3125.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2081.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "1990.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "1681.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "5104.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "5323.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "3855.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "6978.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "4983.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "5555.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "green glass, green glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0332.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "5054.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "6100.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "hazardous waste, battery collection point"
+      }
+    ]
+  },
+  {
+    "image": "5653.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2392.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2706.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "5585.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "composite carton, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "0632.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "1084.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "5297.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2805.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "2670.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "1679.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "0065.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "0608.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "6230.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "4170.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "0651.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "1341.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2159.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "0059.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0136.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "6233.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, aluminium, yellow bin, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "4653.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "residual waste, general household waste"
+      }
+    ]
+  },
+  {
+    "image": "7177.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "rigid plastic container, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "1070.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2079.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "1347.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "aluminium, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "0862.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "0582.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "cardboard, cardboard collection"
+      }
+    ]
+  },
+  {
+    "image": "1090.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, white glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "2712.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "organic waste, organic waste bin"
+      }
+    ]
+  },
+  {
+    "image": "3114.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "7004.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5383.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "5830.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "white glass, metal, white glass collection point, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "5455.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "brown glass, brown glass collection point"
+      }
+    ]
+  },
+  {
+    "image": "1627.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  },
+  {
+    "image": "6426.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "1589.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "metal, blue bin"
+      }
+    ]
+  },
+  {
+    "image": "2579.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "plastic, yellow bin"
+      }
+    ]
+  },
+  {
+    "image": "2434.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "PET, PET collection point"
+      }
+    ]
+  },
+  {
+    "image": "2047.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> What type of waste is this item and how should it be disposed of?"
+      },
+      {
+        "from": "gpt",
+        "value": "paper, paper collection"
+      }
+    ]
+  }
+]

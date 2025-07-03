@@ -1,0 +1,14 @@
+PET
+Brown Glass
+Green Glass
+White Glass
+Metal
+Aluminium
+Cardboard
+Paper
+Rigid plastic container
+Plastic
+Organic waste
+Residual waste
+Hazardous Waste
+Composite Carton

@@ -1,0 +1,147 @@
+--- Trial 16 ---
+
+Hamming Loss: 0.01278032312515071
+
+Classification Report:
+
+                              precision    recall  f1-score   support
+
+    battery collection point       1.00      0.47      0.64        38
+                    blue bin       0.94      0.95      0.95       168
+brown glass collection point       0.95      1.00      0.97        38
+        cardboard collection       0.92      0.99      0.95        81
+     general household waste       1.00      1.00      1.00        38
+green glass collection point       0.97      0.97      0.97        38
+           organic waste bin       1.00      0.98      0.99        50
+            paper collection       0.90      0.99      0.94        84
+        pet collection point       0.96      1.00      0.98        43
+white glass collection point       0.95      1.00      0.97        77
+                  yellow bin       0.88      0.90      0.89       174
+
+                   micro avg       0.93      0.94      0.94       829
+                   macro avg       0.95      0.93      0.93       829
+                weighted avg       0.94      0.94      0.93       829
+                 samples avg       0.93      0.94      0.93       829
+
+[[[716   0]
+  [ 20  18]]
+
+ [[576  10]
+  [  8 160]]
+
+ [[714   2]
+  [  0  38]]
+
+ [[666   7]
+  [  1  80]]
+
+ [[716   0]
+  [  0  38]]
+
+ [[715   1]
+  [  1  37]]
+
+ [[704   0]
+  [  1  49]]
+
+ [[661   9]
+  [  1  83]]
+
+ [[709   2]
+  [  0  43]]
+
+ [[673   4]
+  [  0  77]]
+
+ [[559  21]
+  [ 18 156]]]
+
+Missed Predictions incl. NaNs:
+                       Label  Missed Predictions (False Negatives) (incl. NaNs):  NaNs
+    battery collection point                                                  20     8
+                  yellow bin                                                  18     2
+                    blue bin                                                   8     0
+        cardboard collection                                                   1     0
+green glass collection point                                                   1     0
+           organic waste bin                                                   1     0
+            paper collection                                                   1     0
+brown glass collection point                                                   0     0
+     general household waste                                                   0     0
+        pet collection point                                                   0     0
+white glass collection point                                                   0     0
+
+Total NaNs (pred == []): 10
+
+
+--- Trial 23 ---
+Hamming Loss: 0.014588859416445624
+
+Classification Report:
+
+                              precision    recall  f1-score   support
+
+    battery collection point       0.94      0.45      0.61        38
+                    blue bin       0.92      0.95      0.94       168
+brown glass collection point       0.93      1.00      0.96        38
+        cardboard collection       0.87      0.99      0.92        81
+     general household waste       0.93      1.00      0.96        38
+green glass collection point       1.00      0.97      0.99        38
+           organic waste bin       1.00      1.00      1.00        50
+            paper collection       0.97      0.99      0.98        84
+        pet collection point       0.98      0.98      0.98        43
+white glass collection point       0.97      0.99      0.98        77
+                  yellow bin       0.84      0.89      0.86       174
+
+                   micro avg       0.92      0.93      0.93       829
+                   macro avg       0.94      0.93      0.93       829
+                weighted avg       0.92      0.93      0.92       829
+                 samples avg       0.93      0.93      0.93       829
+
+[[[715   1]
+  [ 21  17]]
+
+ [[573  13]
+  [  8 160]]
+
+ [[713   3]
+  [  0  38]]
+
+ [[661  12]
+  [  1  80]]
+
+ [[713   3]
+  [  0  38]]
+
+ [[716   0]
+  [  1  37]]
+
+ [[704   0]
+  [  0  50]]
+
+ [[667   3]
+  [  1  83]]
+
+ [[710   1]
+  [  1  42]]
+
+ [[675   2]
+  [  1  76]]
+
+ [[551  29]
+  [ 20 154]]]
+
+Missed Predictions incl. NaNs:
+                       Label  Missed Predictions (False Negatives) (incl. NaNs):  NaNs
+    battery collection point                                                  21     0
+                  yellow bin                                                  20     1
+                    blue bin                                                   8     0
+        cardboard collection                                                   1     0
+green glass collection point                                                   1     0
+            paper collection                                                   1     0
+        pet collection point                                                   1     0
+white glass collection point                                                   1     0
+brown glass collection point                                                   0     0
+     general household waste                                                   0     0
+           organic waste bin                                                   0     0
+
+Total NaNs (pred == []): 1
