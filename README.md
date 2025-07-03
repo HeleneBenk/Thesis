@@ -3,7 +3,7 @@
 This repository contains the code, evaluation results and dataset for my Master's Thesis:
 
 **Don’t waste Compute: Efficient AI Models for Waste Management**  
-Goal: To evaluate the effectiveness of multimodal transformer models in recognizing and classifying waste items for improved recycling recommendations in a household setting.
+Goal: To evaluate the effectiveness of different models in recognizing and classifying waste items for improved recycling recommendations in a household setting.
 
 ---
 
